@@ -1,13 +1,11 @@
 proxies:
-- auth: dongtaiwang.com
-  client-fingerprint: chrome
-  name: 2|🇷🇺1 |  4.2MB/s
-  password: dongtaiwang.com
-  port: 51224
-  server: 46.17.41.189
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇷🇺俄罗斯 01 | 1x RU
+  password: 32640554-946b-41c0-bec9-9a9b0f591886
+  port: 31511
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - name: 14|RU_speednode_0071
   network: ws
   port: 80
