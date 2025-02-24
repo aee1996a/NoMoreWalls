@@ -1,31 +1,40 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 01 | 1x KR
-  password: b20bca51-fc75-4a5c-a5a9-5e72c8683926
+  password: b38bfb72-5096-45d1-83e8-0870b9b1460e
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 02 | 1x KR
-  password: b20bca51-fc75-4a5c-a5a9-5e72c8683926
+  password: b38bfb72-5096-45d1-83e8-0870b9b1460e
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 2|🇰🇷1 |  2.2MB/s
-  password: fd85b7f4-3cba-392a-bb81-4b4d5789007a
-  port: 45168
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z263.hongkongnode.top
-  type: trojan
-  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 12,13|韩国|@ripaojiedian
+  network: ws
+  port: '22223'
+  server: free-kr.faforex.eu.org
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 34b92487-a7b5-400a-b42f-40f53377aaab
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 18.143.149.127
+  server: 54.254.236.133
   tfo: false
   type: ss

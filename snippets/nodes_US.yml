@@ -1,40 +1,67 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: b20bca51-fc75-4a5c-a5a9-5e72c8683926
+  password: b38bfb72-5096-45d1-83e8-0870b9b1460e
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: b20bca51-fc75-4a5c-a5a9-5e72c8683926
+  password: b38bfb72-5096-45d1-83e8-0870b9b1460e
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 03 | 1x US Washington
-  password: b20bca51-fc75-4a5c-a5a9-5e72c8683926
+  password: b38bfb72-5096-45d1-83e8-0870b9b1460e
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 12,13|美国|@ripaojiedian
-  network: tcp
-  password: '!!str 3747000103274291200'
-  port: 443
-  server: polished-ox.treefrog761.one
-  skip-cert-verify: false
-  sni: polished-ox.treefrog761.one
+- cipher: aes-256-cfb
+  name: 2|🇺🇸5 |  14.4MB/s
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 154.223.20.79
+  type: ss
+  udp: true
+- name: 2|🇺🇸9 |  3.8MB/s
+  password: fd85b7f4-3cba-392a-bb81-4b4d5789007a
+  port: 22741
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: dufu.hongkongnode.top
   type: trojan
-- client-fingerprint: chrome
-  name: 12,13|美国2|@ripaojiedian
-  network: tcp
-  password: '!!str 3747000103274291200'
+  udp: true
+- cipher: aes-256-cfb
+  name: 2|🇺🇸10 |  2.6MB/s
+  password: amazonskr05
   port: 443
-  server: fluent-bat.treefrog761.one
-  skip-cert-verify: false
-  sni: fluent-bat.treefrog761.one
-  type: trojan
+  server: 18.237.113.248
+  type: ss
+- cipher: aes-256-cfb
+  delay: 382
+  name: 2|🇺🇸13 |  1.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.143.165.183
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 12|🇺🇸 美国|@ripaojiedian
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 23.154.136.148
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 12|🇺🇸 美国2|@ripaojiedian
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 23.154.136.106
+  tfo: false
+  type: ss
