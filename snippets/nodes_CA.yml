@@ -1,1 +1,24 @@
-proxies: []
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇨🇦加拿大 01 | 1x CA
+  password: f1d78951-b880-4491-8022-185989dba406
+  port: 31441
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 2|🇨🇦1 |  5.8MB/s
+  password: c4e04a71-f597-37e5-b07a-0fcd048a2f84
+  port: 20295
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z295.hongkongnode.top
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 2,12|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 47.128.150.63
+  tfo: false
+  type: ss
