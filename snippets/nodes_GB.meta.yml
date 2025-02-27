@@ -1,11 +1,13 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: 08f67450-f724-4d8f-86f5-a29b5aed25f2
-  port: 31271
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
+- auth: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
+  client-fingerprint: chrome
+  name: 2|🇬🇧1 |  1.5MB/s
+  password: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
+  port: 8899
+  server: dg3.su8.lol
+  skip-cert-verify: false
+  sni: dg3.su8.lol
+  type: hysteria2
 - name: 14|GB_speednode_0009
   network: ws
   port: 443
