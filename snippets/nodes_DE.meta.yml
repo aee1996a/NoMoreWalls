@@ -1,11 +1,13 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪德国 01 | 1x DE
-  password: e6439d48-bcf7-41cd-9e20-1978b83fab5a
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
+- auth: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
+  client-fingerprint: chrome
+  name: 2|🇩🇪1 |  2.0MB/s
+  password: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
+  port: 8899
+  server: fl.su8.lol
+  skip-cert-verify: false
+  sni: fl.su8.lol
+  type: hysteria2
 - name: 10|(@VmessProtocol)برای خرید و ات...
   password: 0e57e0a8-939e-478d-8513-63b70e961e21
   port: 443
@@ -110,14 +112,6 @@ proxies:
   server: bx1.su8.lol
   skip-cert-verify: false
   sni: bx1.su8.lol
-  tls: false
-  type: hysteria2
-- name: 10|Mtn-@V2ray_Raha-11
-  password: dongtaiwang.com
-  port: 13861
-  server: 195.154.33.70
-  skip-cert-verify: true
-  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: '10|(@VmessProtocol)برای خرید و ات... #12'
