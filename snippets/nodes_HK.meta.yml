@@ -1,38 +1,47 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港 02 | 1x HK
-  password: 3a4e3229-caee-45de-a865-2519a9e4ba84
+  password: 04bea27d-4d87-4410-b1eb-a28221dba9a1
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 3a4e3229-caee-45de-a865-2519a9e4ba84
+  password: 04bea27d-4d87-4410-b1eb-a28221dba9a1
   port: 36145
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 1|🇭🇰1 |  2.2MB/s
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 84.17.53.160
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰香港 02 | 1x HK
-  password: c9abc625-cce4-446f-aeb6-464e415ec5e4
+  name: 1|🇭🇰香港 02 | 1x HK
+  password: 4e7286d6-4bee-412b-9d12-a272fc0dce75
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰香港家宽 03 | 1x HK
-  password: c9abc625-cce4-446f-aeb6-464e415ec5e4
+  name: 1|🇭🇰香港家宽 03 | 1x HK
+  password: 4e7286d6-4bee-412b-9d12-a272fc0dce75
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- name: 2|🇭🇰1 |  6.3MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: hkre1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: hkre1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- cipher: aes-256-cfb
+  name: 2|🇭🇰2 |  5.2MB/s
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 84.17.53.160
+  type: ss
 - name: 11|香港🇭🇰 HY2
   password: e20abb22a245edb0
   port: 8443
@@ -107,24 +116,28 @@ proxies:
   server: hk02.x.quickcht3.club
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 12|🇭🇰 香港9|@ripaojiedian
-  port: 48889
-  server: gy.youaremygod.top
+- client-fingerprint: chrome
+  name: 12|🇭🇰 香港10|@ripaojiedian
+  password: Vad3.123a%2529asd1234-asdasd.asdazzS.123
+  port: 443
+  server: 43.154.83.213
   skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: c130cb36-c93f-4be7-9228-a7a97d43885a
+  sni: xx.tc.hk.go.107421.xyz
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 13|香港9|@ripaojiedian
   network: tcp
-  port: '48889'
-  server: gy.youaremygod.top
+  port: '42120'
+  server: 183.236.51.38
   servername: ''
   tls: false
   type: vmess
-  uuid: c130cb36-c93f-4be7-9228-a7a97d43885a
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 13|香港10|@ripaojiedian
+  network: tcp
+  password: Vad3.123a%29asd1234-asdasd.asdazzS.123
+  port: 443
+  server: 43.154.83.213
+  sni: xx.tc.hk.go.107421.xyz
+  type: trojan
