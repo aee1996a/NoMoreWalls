@@ -1,43 +1,12 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 01 | 1x HK
-  password: 87a80f35-79bc-43f2-8f0f-1da51361850e
-  port: 31141
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: 87a80f35-79bc-43f2-8f0f-1da51361850e
+  password: e7ff62ba-6126-4e19-986f-dee3ea060a8c
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港 01 | 1x HK
-  password: 4f034bf4-a9e4-4050-bda1-ac5151194571
-  port: 36141
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 4f034bf4-a9e4-4050-bda1-ac5151194571
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇬🇧1 |  4.4MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 84858fa.vpnhat.t.me:73643
-    mode: tls
-  port: 2377
-  server: 84858fa.e1.gladns.com
-  type: ss
-- name: 14|GB_speednode_0009
+- name: 13|GB_speednode_0009
   network: ws
   port: 443
   server: 31.22.116.38
