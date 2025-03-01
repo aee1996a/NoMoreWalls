@@ -1,27 +1,6 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: e7ff62ba-6126-4e19-986f-dee3ea060a8c
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: e7ff62ba-6126-4e19-986f-dee3ea060a8c
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 03 | 1x US Washington
-  password: e7ff62ba-6126-4e19-986f-dee3ea060a8c
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - client-fingerprint: chrome
-  name: 1|🇺🇸1 |  5.1MB/s
+  name: 0|🇺🇸1 |  5.8MB/s
   network: ws
   port: 80
   server: join.E-L-i-V-2-R-A-Y.fastly80-3.hosting-ip.com
@@ -33,12 +12,47 @@ proxies:
     headers:
       Host: Join--E-L-i-V-2-R-A-Y.net
     path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  client-fingerprint: chrome
+  down: 55 Mbps
+  name: 0|🇺🇸2 |  6.0MB/s
+  port: 17549
+  server: 208.87.243.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 11 Mbps
+- name: 0|🇺🇸3 |  5.5MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: usgp2-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: usgp2-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- client-fingerprint: chrome
+  name: 0|🇺🇸4 |  3.2MB/s
+  network: ws
+  port: 2095
+  server: 156.238.18.163
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redw.pooriam.ir
+    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
 - alterId: 2
   cipher: auto
-  name: 1|🇺🇸2 |  4.9MB/s
+  name: 0|🇺🇸5 |  2.4MB/s
   network: ws
-  port: 23615
-  server: 15.mamamajd.site
+  port: 23617
+  server: 17.mamamajd.site
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -46,37 +60,12 @@ proxies:
   uuid: 91a7ddba-3af8-3797-b75a-20e9d9d9ca47
   ws-opts:
     headers:
-      Host: 15.mamamajd.site
+      Host: 17.mamamajd.site
     path: /
-- name: 1|🇺🇸3 |  6.3MB/s
-  password: 3d0d39a7-7d0c-3e2c-a96e-74128b9db265
-  port: 20278
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z278.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 1|🇺🇸4 |  5.7MB/s
-  password: 3d0d39a7-7d0c-3e2c-a96e-74128b9db265
-  port: 20303
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z303.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 1|🇺🇸5 |  6.2MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jp104-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: jp104-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 1|🇺🇸6 |  3.2MB/s
+- name: 0|🇺🇸6 |  5.1MB/s
   network: ws
   port: 443
-  server: www.wto.org
+  server: www.4chan.org
   servername: s5.ylkszy.eu.org
   skip-cert-verify: true
   tls: true
@@ -87,6 +76,35 @@ proxies:
     headers:
       Host: s5.ylkszy.eu.org
     path: /?ed=2560
+- name: 0|🇺🇸7 |  5.2MB/s
+  password: ea333f6c-3fe0-3a59-b23e-5383fb48fc73
+  port: 20307
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z307.hongkongnode.top
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 01 | 1x US Los Angeles
+  password: cd227bee-40fb-4032-86a8-5842fe2508c7
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: cd227bee-40fb-4032-86a8-5842fe2508c7
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 03 | 1x US Washington
+  password: cd227bee-40fb-4032-86a8-5842fe2508c7
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - name: 10|🇺🇸美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
   password: iMqY3uG_5pgEj3hCfyHB-0vB
   port: 443
@@ -385,3 +403,24 @@ proxies:
     headers:
       Host: usb.sevco.me
     path: /bing
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸 美国 01 | 1x US Los Angeles
+  password: e9a0753a-36fe-4b76-8e35-bb5ed4026099
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: e9a0753a-36fe-4b76-8e35-bb5ed4026099
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸 美国 03 | 1x US Washington
+  password: e9a0753a-36fe-4b76-8e35-bb5ed4026099
+  port: 36215
+  server: free.2weradf.xyz
+  type: ss
+  udp: true

@@ -1,8 +1,43 @@
 proxies:
+- cipher: rc4-md5
+  name: 0|🇬🇧1 |  5.1MB/s
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 146.70.61.18
+  type: ss
+- name: 0|🇬🇧2 |  5.6MB/s
+  password: ea333f6c-3fe0-3a59-b23e-5383fb48fc73
+  port: 25238
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z267.hongkongnode.top
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: e7ff62ba-6126-4e19-986f-dee3ea060a8c
+  name: 1|🇭🇰香港 01 | 1x HK
+  password: cd227bee-40fb-4032-86a8-5842fe2508c7
+  port: 31141
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇬🇧英国家宽 01 | 1x UK
+  password: cd227bee-40fb-4032-86a8-5842fe2508c7
   port: 31271
   server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰 香港 01 | 1x HK
+  password: e9a0753a-36fe-4b76-8e35-bb5ed4026099
+  port: 36141
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇬🇧 英国住宅IP 01 | 1x UK
+  password: e9a0753a-36fe-4b76-8e35-bb5ed4026099
+  port: 36271
+  server: free.2weradf.xyz
   type: ss
   udp: true
