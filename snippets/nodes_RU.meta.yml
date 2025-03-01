@@ -1,27 +1,18 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇷🇺 俄罗斯 01 | 1x RU
-  password: 04bea27d-4d87-4410-b1eb-a28221dba9a1
-  port: 36511
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇷🇺俄罗斯 01 | 1x RU
-  password: 4e7286d6-4bee-412b-9d12-a272fc0dce75
+  name: 0|🇷🇺俄罗斯 01 | 1x RU
+  password: 0d6e5ed2-f3c4-4351-a1cf-e45273e74605
   port: 31511
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- auth: dongtaiwang.com
-  client-fingerprint: chrome
-  name: 2|🇷🇺1 |  1.9MB/s
-  password: dongtaiwang.com
-  port: 51224
-  server: 46.17.41.189
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇷🇺 俄罗斯 01 | 1x RU
+  password: 21da1e6a-c4fb-4b6c-87f9-403c52760544
+  port: 36511
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - name: 14|RU_speednode_0046
   network: ws
   port: 80
