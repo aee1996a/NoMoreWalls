@@ -1,48 +1,55 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: e2a42240-f4b6-4614-a780-fe10ca32bfac
+  password: 8502ff45-9486-48ff-a40d-ef5f916642bd
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: e2a42240-f4b6-4614-a780-fe10ca32bfac
+  password: 8502ff45-9486-48ff-a40d-ef5f916642bd
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: e2a42240-f4b6-4614-a780-fe10ca32bfac
+  password: 8502ff45-9486-48ff-a40d-ef5f916642bd
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: 5d521afe-d431-44a0-b765-d8cfd67e87e3
+  password: 68b4faba-ebc9-4f70-a171-0439406b2a32
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 5d521afe-d431-44a0-b765-d8cfd67e87e3
+  password: 68b4faba-ebc9-4f70-a171-0439406b2a32
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国 03 | 1x US Washington
-  password: 5d521afe-d431-44a0-b765-d8cfd67e87e3
+  password: 68b4faba-ebc9-4f70-a171-0439406b2a32
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 2|🇺🇸8 |  1.3MB/s
+- name: 2,11|🇺🇸美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
+  password: iMqY3uG_5pgEj3hCfyHB-0vB
+  port: 443
+  server: 143.198.235.49
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: hysteria2
+- name: 2|🇺🇸2 |  3.6MB/s
   network: ws
   port: 80
   server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
@@ -55,53 +62,24 @@ proxies:
       Host: Join--E-L-i-V-2-R-A-Y.net
     path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸2 |  3.5MB/s
-  password: 27628cd4-2cae-4de6-aa22-d76d7fb3ba63
-  port: 36411
-  server: free.2weradf.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸3 |  4.2MB/s
-  password: 27628cd4-2cae-4de6-aa22-d76d7fb3ba63
+  name: 2|🇺🇸3 |  2.5MB/s
+  password: 56bdcee6-d0a4-4dde-9fa3-9652c6251d8d
   port: 36371
   server: free.2weradf.xyz
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸4 |  2.0MB/s
-  password: 27628cd4-2cae-4de6-aa22-d76d7fb3ba63
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-- name: 2|🇺🇸5 |  4.1MB/s
-  obfs: salamander
-  obfs-password: VpnHubMarKeT
-  password: dbe172973c29534833c6fae3d706d9e7
-  port: 443
-  server: 91.217.119.51
-  skip-cert-verify: true
-  sni: www.bing.com
-  tfo: false
-  type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸6 |  6.4MB/s
-  password: 27628cd4-2cae-4de6-aa22-d76d7fb3ba63
-  port: 36641
-  server: free.2weradf.xyz
-  type: ss
-- name: 2|🇺🇸7 |  2.8MB/s
-  password: myszy28811
-  port: 28811
-  server: pipi.myddns.me
-  type: socks5
-  udp: true
-  username: myszy
-- name: 11|🇺🇸美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
-  password: iMqY3uG_5pgEj3hCfyHB-0vB
-  port: 443
-  server: 143.198.235.49
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  name: 2|🇺🇸4 |  5.6MB/s
+  network: ws
+  port: 2095
+  server: 156.238.18.163
+  skip-cert-verify: false
   tls: false
-  type: hysteria2
+  type: vless
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redw.pooriam.ir
+    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
