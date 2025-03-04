@@ -1,51 +1,95 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 8502ff45-9486-48ff-a40d-ef5f916642bd
-  port: 36211
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 8502ff45-9486-48ff-a40d-ef5f916642bd
-  port: 36213
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: 8502ff45-9486-48ff-a40d-ef5f916642bd
-  port: 36215
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: 68b4faba-ebc9-4f70-a171-0439406b2a32
+  password: bf76e2c0-145b-4910-b277-1f16f4a301da
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 68b4faba-ebc9-4f70-a171-0439406b2a32
+  password: bf76e2c0-145b-4910-b277-1f16f4a301da
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国 03 | 1x US Washington
-  password: 68b4faba-ebc9-4f70-a171-0439406b2a32
+  password: bf76e2c0-145b-4910-b277-1f16f4a301da
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 1625
+  h2-opts: {}
+  http-opts: {}
+  name: 2|🇺🇸3 |  7.5MB/s
+  network: ws
+  port: 443
+  server: us16.998998.best
+  servername: server9-3.998877.best
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9accf73f-7372-4403-b31e-0f83d86feb98
+  ws-opts:
+    headers:
+      HOST: server9-3.998877.best
+    path: /rksdnuhgteb?ed=2560
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  delay: 854
+  name: 2|🇺🇸6 |  1.7MB/s
+  network: ws
+  port: 443
+  server: 104.18.24.41
+  servername: server9-3.998877.best
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9accf73f-7372-4403-b31e-0f83d86feb98
+  ws-opts:
+    headers:
+      Host: server9-3.998877.best
+    path: /rksdnuhgteb?ed=2560
+- name: 2|🇺🇸7 |  5.8MB/s
+  network: ws
+  password: Pooria
+  port: 443
+  server: 104.17.148.22
+  skip-cert-verify: false
+  sni: 301.pOORiAm.ir
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 301.pOORiAm.ir
+    path: /trPyOrWMfkHd15oxiI?ed=1520
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  delay: 2048
+  name: 2|🇺🇸10 |  8.9MB/s
+  network: ws
+  port: 443
+  server: 104.18.29.104
+  servername: serverus1-1.998877.best
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9accf73f-7372-4403-b31e-0f83d86feb98
+  ws-opts:
+    headers:
+      Host: serverus1-1.998877.best
+    path: /e56yglr4i8j7nk?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸3 |  2.5MB/s
-  password: 56bdcee6-d0a4-4dde-9fa3-9652c6251d8d
-  port: 36371
-  server: free.2weradf.xyz
+  name: 2|🇺🇸12 |  1.5MB/s
+  password: 1b998e5e-9f5f-47dd-872d-044ca389ace3
+  port: 8388
+  server: shadow-de01.gproxy.gratis
   type: ss
 - alterId: 0
   cipher: auto
