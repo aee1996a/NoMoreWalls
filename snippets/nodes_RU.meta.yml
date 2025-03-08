@@ -1,7 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇷🇺 俄罗斯 01 | 1x RU
-  password: e0ae73dc-81ce-4a62-9d2a-967a9da8b23e
+  name: 0|🇷🇺 俄罗斯 01 | 1x RU
+  password: b12d025f-5bc4-4307-9aee-257546e40909
   port: 36511
   server: free.2weradf.xyz
   type: ss
@@ -50,7 +50,7 @@ proxies:
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
 - cipher: chacha20-ietf-poly1305
   name: 14|🇷🇺俄罗斯 01 | 1x RU
-  password: 0c9802a9-c832-4ca8-906d-0976ec900dda
+  password: e6d19cd6-7354-4459-b7a2-a58e62a291dd
   port: 31511
   server: free.2apzhfa.xyz
   type: ss
