@@ -1,29 +1,22 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪 德国 01 | 1x DE
-  password: b12d025f-5bc4-4307-9aee-257546e40909
+  name: 0|🇩🇪德国 01 | 1x DE
+  password: 2c11b380-93e2-4c76-812a-1ce3196ddc2b
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪 德国 01 | 1x DE
+  password: 98a41241-dacc-4eef-8495-28819383fe54
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  ip-version: dual
-  name: 1|🇩🇪2 |  5.3MB/s
-  network: ws
-  port: 80
-  server: www.aetv.com
-  type: vmess
-  udp: true
-  uuid: 7dc78582-88a8-4b4c-9e3e-50831d672766
-  ws-opts:
-    headers:
-      Host: amd.al
-    path: /XESALISTHEBEST?ed=2048
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
-  name: 11,12|德国|@ripaojiedian
+  name: 12,13|德国|@ripaojiedian
   network: ws
   port: '80'
   server: zula.ir
@@ -37,10 +30,3 @@ proxies:
     headers:
       Host: dry-disk-dfc0.hq0sr5ebxpj60vbz.workers.dev
     path: /ausgt02.bestforxray.buzz/linkws
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇩🇪德国 01 | 1x DE
-  password: e6d19cd6-7354-4459-b7a2-a58e62a291dd
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
