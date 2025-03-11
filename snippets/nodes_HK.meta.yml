@@ -1,30 +1,39 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 02 | 1x HK
-  password: b72c2c5b-94a2-4cfe-a0ff-c5b67431bd31
-  port: 31143
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港家宽 03 | 1x HK
-  password: b72c2c5b-94a2-4cfe-a0ff-c5b67431bd31
-  port: 31145
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港 02 | 1x HK
-  password: 10e40475-9492-403e-b17c-db5189f762cb
+  name: 0|🇭🇰 香港 02 | 1x HK
+  password: 13a87832-8471-4496-81db-25288e7c1b9d
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 10e40475-9492-403e-b17c-db5189f762cb
+  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
+  password: 13a87832-8471-4496-81db-25288e7c1b9d
   port: 36145
   server: free.2weradf.xyz
+  type: ss
+  udp: true
+- name: 1|🇭🇰1 |  5.7MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: hkre1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: hkre1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰香港 02 | 1x HK
+  password: 9d27be87-e83c-465c-bf31-a44e5d16129e
+  port: 31143
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰香港家宽 03 | 1x HK
+  password: 9d27be87-e83c-465c-bf31-a44e5d16129e
+  port: 31145
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - name: 11|香港🇭🇰 HY2
