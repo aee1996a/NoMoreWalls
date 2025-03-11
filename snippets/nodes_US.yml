@@ -1,47 +1,26 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: adbda395-5eaa-407c-980e-5446ba6c7df1
+  password: f4152c07-0f67-4a91-9653-22cb5eb7193f
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: adbda395-5eaa-407c-980e-5446ba6c7df1
+  password: f4152c07-0f67-4a91-9653-22cb5eb7193f
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: adbda395-5eaa-407c-980e-5446ba6c7df1
+  password: f4152c07-0f67-4a91-9653-22cb5eb7193f
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: eafd727e-8f1b-469a-b026-588ffe0ef234
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: eafd727e-8f1b-469a-b026-588ffe0ef234
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 03 | 1x US Washington
-  password: eafd727e-8f1b-469a-b026-588ffe0ef234
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- name: 2|🇺🇸1 |  5.8MB/s
+- name: 1|🇺🇸1 |  5.8MB/s
   password: 6a1c8963-8a85-383c-a9f5-7ee2035547b4
   port: 20307
   server: gy.58n.net
@@ -51,13 +30,13 @@ proxies:
   udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 2|🇺🇸2 |  5.2MB/s
+  name: 1|🇺🇸2 |  5.2MB/s
   password: amazonskr05
   port: 443
   server: 54.202.63.169
   type: ss
   udp: true
-- name: 2|🇺🇸5 |  6.0MB/s
+- name: 1|🇺🇸5 |  6.0MB/s
   password: 6a1c8963-8a85-383c-a9f5-7ee2035547b4
   port: 22741
   server: gy.58n.net
@@ -65,7 +44,7 @@ proxies:
   sni: dufu.hongkongnode.top
   type: trojan
   udp: true
-- name: 2|🇺🇸8 |  5.7MB/s
+- name: 1|🇺🇸8 |  5.7MB/s
   password: 6a1c8963-8a85-383c-a9f5-7ee2035547b4
   port: 20304
   server: gy.58n.net
@@ -73,11 +52,32 @@ proxies:
   sni: z304.hongkongnode.top
   type: trojan
   udp: true
-- name: 2|🇺🇸9 |  6.4MB/s
+- name: 1|🇺🇸9 |  6.4MB/s
   password: 6a1c8963-8a85-383c-a9f5-7ee2035547b4
   port: 20278
   server: gy.58n.net
   skip-cert-verify: true
   sni: z278.hongkongnode.top
   type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国 01 | 1x US Los Angeles
+  password: 4a0b37d9-d6ad-44a6-a9b2-95e43edf43a0
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 4a0b37d9-d6ad-44a6-a9b2-95e43edf43a0
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国 03 | 1x US Washington
+  password: 4a0b37d9-d6ad-44a6-a9b2-95e43edf43a0
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
