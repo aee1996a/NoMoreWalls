@@ -1,24 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪 德国 01 | 1x DE
-  password: 13a87832-8471-4496-81db-25288e7c1b9d
+  password: 164af1c6-8d0d-4dd0-92e3-3e3fa569dccb
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 1|🇩🇪1 |  5.5MB/s
-  obfs: salamander
-  obfs_password: PlNYjSECZNqpSCX9
-  password: 264136cf-2212-4668-ad6e-6807e7de04c6
-  port: 40000
-  server: onevpshosting-5.solook.uk
-  skip-cert-verify: true
-  sni: onevpshosting-5.solook.uk
-  type: hysteria2
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪德国 01 | 1x DE
-  password: 9d27be87-e83c-465c-bf31-a44e5d16129e
+  name: 1|🇩🇪德国 01 | 1x DE
+  password: 0a057dc5-7c5c-4a85-bcbd-6aec62b73648
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
@@ -89,3 +79,11 @@ proxies:
   sni: sanyuandian-nl.sanguayun.com
   tls: false
   type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 12|🇩🇪 德国|@ripaojiedian
+  password: eath1eicieSh_!MMyb~4HT,}bC@ohpheiRaighier0shohd
+  port: 8388
+  server: 91.107.219.5
+  tfo: false
+  type: ss
