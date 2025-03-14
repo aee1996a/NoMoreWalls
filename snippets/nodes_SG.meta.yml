@@ -1,42 +1,48 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: 01a86b3b-f899-475e-b436-6439a69ba386
+  name: 0|🇸🇬1 |  5.8MB/s
+  password: 62ab8f03-a247-40f6-ae28-f7e397139480
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 01 | 1x SG
+  password: 174da5cc-832a-49ff-a881-0889da3603ef
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: 01a86b3b-f899-475e-b436-6439a69ba386
+  name: 1|🇸🇬 新加坡 02 | 1x SG
+  password: 174da5cc-832a-49ff-a881-0889da3603ef
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: 01a86b3b-f899-475e-b436-6439a69ba386
+  name: 1|🇸🇬 新加坡 03 | 1x SG
+  password: 174da5cc-832a-49ff-a881-0889da3603ef
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 01 | 1x SG
-  password: 43636740-22b0-47f2-b8ec-79bb7d7fcfd9
+  name: 2|🇸🇬新加坡 01 | 1x SG
+  password: 87f64aef-feba-4c3f-92a9-4d87b5d9c23d
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 02 | 1x SG
-  password: 43636740-22b0-47f2-b8ec-79bb7d7fcfd9
+  name: 2|🇸🇬新加坡 02 | 1x SG
+  password: 87f64aef-feba-4c3f-92a9-4d87b5d9c23d
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 03 | 1x SG
-  password: 43636740-22b0-47f2-b8ec-79bb7d7fcfd9
+  name: 2|🇸🇬新加坡 03 | 1x SG
+  password: 87f64aef-feba-4c3f-92a9-4d87b5d9c23d
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
@@ -67,6 +73,18 @@ proxies:
   type: hysteria2
 - cipher: rc4-md5
   client-fingerprint: chrome
+  name: 12|🇸🇬 新加坡|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
+    mode: http
+  port: 8722
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- cipher: rc4-md5
+  client-fingerprint: chrome
   name: 12|🇸🇬 新加坡2|@ripaojiedian
   password: efanccyun
   plugin: obfs
@@ -82,6 +100,6 @@ proxies:
   name: 12|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.169.255.43
+  server: 47.128.154.164
   tfo: false
   type: ss
