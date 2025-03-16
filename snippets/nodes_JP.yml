@@ -1,42 +1,56 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 01 | 1x JP
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36111
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 02 | 1x JP
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36113
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 03 | 1x JP
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36115
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 1|🇯🇵1 |  6.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.230.168.61
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵日本 01 | 1x JP
+  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
+  port: 31111
+  server: free.2apzhfa.xyz
   type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵日本 02 | 1x JP
+  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
+  port: 31113
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵日本 03 | 1x JP
+  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
+  port: 31115
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 1|🇯🇵2 |  3.8MB/s
+  name: 2|🇯🇵1 |  5.0MB/s
   password: amazonskr05
   port: 443
   server: 54.199.239.230
   type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本|@ripaojiedian
+  name: 12|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -48,7 +62,7 @@ proxies:
   type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本2|@ripaojiedian
+  name: 12|🇯🇵 日本2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -60,7 +74,7 @@ proxies:
   type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本3|@ripaojiedian
+  name: 12|🇯🇵 日本3|@ripaojiedian
   password: 2c8cfc48-c211-4973-bc95-9d532ac42c35
   port: 12016
   server: mdss-jp.04z3susick.download
@@ -68,7 +82,7 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本特殊|@ripaojiedian
+  name: 12|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 3.34.253.95

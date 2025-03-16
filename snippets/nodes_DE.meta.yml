@@ -1,45 +1,34 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪 德国 01 | 1x DE
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
-- alterId: 2
-  cipher: auto
-  name: 1|🇩🇪1 |  2.4MB/s
-  network: ws
-  port: 23616
-  server: 16.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪德国 01 | 1x DE
+  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
-  uuid: 393af9f9-e083-3f10-be91-fdc2c0aba60f
-  ws-opts:
-    headers:
-      Host: 16.mamamajd.site
-    path: /
-- cipher: rc4-md5
-  delay: 1394
-  name: 1|🇩🇪2 |  3.8MB/s
-  obfs: plain
-  obfs-param: ''
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  protocol: origin
-  protocol-param: ''
-  server: 193.108.119.230
-  type: ssr
-- name: 9|(@VmessProtocol)برای خرید و ات...
+- name: 2|🇩🇪1 |  3.9MB/s
+  password: 88925c12-4222-4ed3-84bd-6bfac300360f
+  port: 8443
+  server: dg1.gywanglug.xyz
+  skip-cert-verify: false
+  sni: dg1.gywanglug.xyz
+  tfo: false
+  type: hysteria2
+- name: 10|(@VmessProtocol)برای خرید و ات...
   password: 15261735-2168-42f8-b3ad-91ec82a58b5a
   port: 21050
   server: yiyuankuailian-jp.jiumaojiu.org
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 9|🇩🇪 @VPNHubMaRKeT   @VpnHubMarK...
+- name: 10|🇩🇪 @VPNHubMaRKeT   @VpnHubMarK...
   obfs: salamander
   obfs-password: '@VPNHubMaRKeT'
   password: '@VPNHubMaRKeT'
@@ -49,7 +38,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '9|Channel id: @shokhmiplus 🇩🇪'
+- name: '10|Channel id: @shokhmiplus 🇩🇪'
   obfs: salamander
   obfs-password: hsdirhrrkskdhebdjdj
   password: MICPT1LLn6
@@ -58,7 +47,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
+- name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
   obfs: salamander
   obfs-password: tel:@VPNHubMaRKeT
   password: VPNHubMaRKeT

@@ -1,34 +1,33 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港 01 | 1x HK
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
-- alterId: 2
-  cipher: auto
-  name: 1|🇬🇧1 |  3.5MB/s
-  network: ws
-  port: 23605
-  server: 5.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰香港 01 | 1x HK
+  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
+  port: 31141
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
-  uuid: 393af9f9-e083-3f10-be91-fdc2c0aba60f
-  ws-opts:
-    headers:
-      Host: 5.mamamajd.site
-    path: /
-- name: 10|Hysteria 🇬🇧 @v2meowcf
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇬🇧英国家宽 01 | 1x UK
+  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 11|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
   server: 178.236.237.84
@@ -38,13 +37,13 @@ proxies:
   type: hysteria2
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇬🇧 英国|@ripaojiedian
+  name: 12|🇬🇧 英国|@ripaojiedian
   password: 99eedf8e9170c8a4
   port: 48977
   server: 57.128.190.214
   tfo: false
   type: ss
-- name: 13|GB_speednode_0009
+- name: 14|GB_speednode_0009
   network: ws
   port: 443
   server: 31.22.116.38

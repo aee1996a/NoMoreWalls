@@ -1,395 +1,553 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港 01 | 1x HK
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港 02 | 1x HK
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港住宅IP 03 | 1x HK
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36145
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 01 | 1x TW
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 02 | 1x TW
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 03 | 1x TW
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36245
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 01 | 1x JP
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36111
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 02 | 1x JP
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36113
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 03 | 1x JP
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36115
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷 韩国 01 | 1x KR
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷 韩国 02 | 1x KR
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36313
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇵🇭 菲律宾 01 | 1x PH
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36341
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇲🇾马来西亚 01 | 1x MY
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36721
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇮🇳西班牙 01 | 1x ES
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36741
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇭泰国 01 | 1x TH
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36731
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇮🇳 印度 01 | 1x IN
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36371
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇦🇺 澳大利亚 01 | 1x AU
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36411
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇨🇦 加拿大 01 | 1x CA
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36441
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪 德国 01 | 1x DE
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇷🇺 俄罗斯 01 | 1x RU
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36511
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇷 土耳其 01 | 1x TR
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36571
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇦 乌克兰 01 | 1x UA
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36611
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇻🇳 越南 01 | 1x VN
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36641
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇧🇷 巴西 01 | 1x BR
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36671
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 1|🇯🇵1 |  6.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.230.168.61
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰香港 01 | 1x HK
+  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
+  port: 31141
+  server: free.2apzhfa.xyz
   type: ss
-- alterId: 2
-  cipher: auto
-  name: 1|🇸🇬1 |  1.8MB/s
-  network: ws
-  port: 23617
-  server: 17.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
   udp: true
-  uuid: 393af9f9-e083-3f10-be91-fdc2c0aba60f
-  ws-opts:
-    headers:
-      Host: 17.mamamajd.site
-    path: /
-- name: 1|🇸🇬2 |  5.1MB/s
-  network: ws
-  port: 443
-  server: 47.245.101.23
-  servername: sgb.bkn.asia
-  tls: true
-  type: vless
-  uuid: 183ebae2-4d43-4026-c7c4-c336b6cef2a2
-  ws-opts:
-    headers:
-      Host: sgb.bkn.asia
-    path: /bing
-- auth: a3661fb3-b0ab-4022-ba5c-7c0ef0e01db8
-  name: 1|🇫🇷1 |  4.9MB/s
-  password: a3661fb3-b0ab-4022-ba5c-7c0ef0e01db8
-  port: 37732
-  server: 207.180.248.7
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰香港 02 | 1x HK
+  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
+  port: 31143
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰香港家宽 03 | 1x HK
+  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
+  port: 31145
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 01 | 1x TW
+  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
+  port: 31241
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 02 | 1x TW
+  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
+  port: 31243
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 03 | 1x TW
+  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
+  port: 31245
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵日本 01 | 1x JP
+  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
+  port: 31111
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵日本 02 | 1x JP
+  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
+  port: 31113
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵日本 03 | 1x JP
+  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
+  port: 31115
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 01 | 1x SG
+  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 02 | 1x SG
+  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 03 | 1x SG
+  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷韩国 01 | 1x KR
+  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
+  port: 31311
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷韩国 02 | 1x KR
+  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
+  port: 31313
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇵🇭菲律宾 01 | 1x PH
+  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
+  port: 31341
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 01 | 1x US Los Angeles
+  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 03 | 1x US Washington
+  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇬🇧英国家宽 01 | 1x UK
+  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇭泰国01  | 1x TH
+  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
+  port: 31741
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇲🇾马来西亚01 | 1x MY
+  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
+  port: 31721
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇮🇳印度 01 | 1x IN
+  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
+  port: 31371
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇦🇺澳大利亚 01 | 1x AU
+  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
+  port: 31411
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇨🇦加拿大 01 | 1x CA
+  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
+  port: 31441
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪德国 01 | 1x DE
+  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇷🇺俄罗斯 01 | 1x RU
+  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
+  port: 31511
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇷土耳其 01 | 1x TR
+  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
+  port: 31571
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇦乌克兰 01 | 1x UA
+  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
+  port: 31611
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇻🇳越南 01 | 1x VN
+  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
+  port: 31641
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇧🇷巴西 01 | 1x BR
+  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
+  port: 31671
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 1|🌀1- |  6.0MB/s
+  name: 2|🇺🇸1 |  2.7MB/s
   password: amazonskr05
   port: 443
-  server: 52.197.235.237
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 1|🇭🇰1 |  2.4MB/s
-  port: 19901
-  server: xg.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: 278428b3-42bf-488f-812d-b997b842a11d
-- cipher: aes-256-cfb
-  name: 1|🇺🇸1 |  2.4MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.211.230.161
-  type: ss
-- cipher: aes-256-cfb
-  name: 1|🇯🇵2 |  3.8MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.199.239.230
+  server: 34.221.169.63
   type: ss
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 1000 Mbps
-  name: 1|🇺🇸2 |  1.7MB/s
-  port: 11512
-  server: 108.181.24.77
+  name: 2|🇺🇸2 |  5.4MB/s
+  port: 17549
+  server: 208.87.243.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 1000 Mbps
+- name: 2|🇭🇰1 |  6.0MB/s
+  network: ws
+  port: 443
+  server: 8.210.107.244
+  servername: hk.bkn.asia
+  tls: true
+  type: vless
+  uuid: ce2824eb-9bc1-4369-c574-8a769b203df9
+  ws-opts:
+    headers:
+      Host: hk.bkn.asia
+    path: /bing
+- fast-open: true
+  name: 2|🇷🇺1 |  4.7MB/s
+  password: dongtaiwang.com
+  port: 37481
+  server: 46.17.41.217
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
+- name: 2|🇳🇱1 |  4.8MB/s
+  password: 88925c12-4222-4ed3-84bd-6bfac300360f
+  port: 8443
+  server: hl1.gywanglug.xyz
+  skip-cert-verify: false
+  sni: hl1.gywanglug.xyz
+  tfo: false
+  type: hysteria2
+- name: 2|🇺🇸3 |  3.4MB/s
+  password: 88925c12-4222-4ed3-84bd-6bfac300360f
+  port: 8443
+  server: mg4.gywanglug.xyz
+  skip-cert-verify: false
+  sni: mg4.gywanglug.xyz
+  tfo: false
+  type: hysteria2
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000 Mbps
+  name: 2|🇷🇺2 |  2.4MB/s
+  port: 10469
+  server: 46.17.41.174
   skip-cert-verify: true
   sni: apple.com
   type: hysteria
   udp: true
-  up: 1000 Mbps
-- name: 1|🇸🇬3 |  3.2MB/s
+  up: 100 Mbps
+- name: 2|🇺🇸4 |  2.6MB/s
   network: ws
-  port: 443
-  server: 47.74.20.72
-  servername: sgb.bkn.asia
-  tls: true
-  type: vless
-  uuid: 183ebae2-4d43-4026-c7c4-c336b6cef2a2
-  ws-opts:
-    headers:
-      Host: sgb.bkn.asia
-    path: /bing
-- cipher: aes-256-cfb
-  name: 1|🇸🇬4 |  2.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 47.128.224.249
-  type: ss
-- cipher: aes-256-cfb
-  name: 1|🇺🇸3 |  1.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.184.74.88
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: 1|🇩🇪1 |  2.4MB/s
-  network: ws
-  port: 23616
-  server: 16.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 393af9f9-e083-3f10-be91-fdc2c0aba60f
-  ws-opts:
-    headers:
-      Host: 16.mamamajd.site
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 1|🇬🇧1 |  3.5MB/s
-  network: ws
-  port: 23605
-  server: 5.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 393af9f9-e083-3f10-be91-fdc2c0aba60f
-  ws-opts:
-    headers:
-      Host: 5.mamamajd.site
-    path: /
-- name: 1|🇸🇬5 |  5.3MB/s
-  network: ws
-  port: 443
-  server: 52.230.19.50
-  servername: sgc.bkn.asia
-  tls: true
-  type: vless
-  uuid: 9e264699-eb3f-4131-ba9e-a8d522f83ffd
-  ws-opts:
-    headers:
-      Host: sgc.bkn.asia
-    path: /bing
-- flow: xtls-rprx-vision
-  name: 1|🇫🇷2 |  1.0MB/s
-  network: tcp
-  port: 22234
-  reality-opts:
-    public-key: tVDaWxsy54q7yRNRdJ718Gyt2HDoh_3R2y_PX22hhjM
-    short-id: 95c93be9
-  server: 195.154.56.233
-  servername: www.yahoo.com
+  port: 2095
+  server: 156.238.18.48
   skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 22a54b72-9c39-4bb0-97d0-41bbaaca2a67
-- delay: 1461
-  name: 1|🇮🇳1 |  5.5MB/s
-  network: ws
-  port: 2086
-  server: 212.183.88.84
   tls: false
   type: vless
   uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
       Host: redw.pooriam.ir
-    path: /TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET/?ed=2048
-- name: 1,13|NL_speednode_0029
+    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
+- name: 2|🇺🇸5 |  4.9MB/s
+  network: ws
+  port: 2095
+  server: 156.238.18.28
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redw.pooriam.ir
+    path: /
+- name: 2|🇺🇸6 |  5.0MB/s
+  password: 88925c12-4222-4ed3-84bd-6bfac300360f
+  port: 8443
+  server: mg2.gywanglug.xyz
+  skip-cert-verify: false
+  sni: mg2.gywanglug.xyz
+  tfo: false
+  type: hysteria2
+- name: 2|🇧🇷1 |  2.1MB/s
+  network: ws
+  port: 2095
+  server: 156.238.18.163
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redw.pooriam.ir
+    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
+- name: 2|🇺🇸7 |  3.9MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: ustx004-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: ustx004-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: 2,14|NL_speednode_0029
   network: ws
   port: 2052
   server: 45.149.12.183
@@ -403,155 +561,41 @@ proxies:
     headers:
       Host: redw.pooriam.ir
     path: /TABRIZ.NET@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- name: 1|🇯🇵3 |  5.9MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jp104-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: jp104-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - fast-open: true
-  name: 1|🇷🇺1 |  1.6MB/s
+  name: 2|🇷🇺3 |  1.0MB/s
   password: dongtaiwang.com
   port: 18626
   server: 46.29.163.171
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦1 |  2.8MB/s
-  password: 620c5b5108120a72
-  port: 11201
-  server: 23.162.56.206
-  type: ss
-- name: 1|🇺🇸5 |  4.9MB/s
-  network: ws
-  port: 443
-  server: 31.22.116.18
-  servername: usc.xzncr.asia
-  tls: true
-  type: vless
-  uuid: 704222bd-7eff-4307-ae26-d6a5ab79817a
-  ws-opts:
-    headers:
-      Host: usc.xzncr.asia
-    path: /bing
+- name: 2|🇩🇪1 |  3.9MB/s
+  password: 88925c12-4222-4ed3-84bd-6bfac300360f
+  port: 8443
+  server: dg1.gywanglug.xyz
+  skip-cert-verify: false
+  sni: dg1.gywanglug.xyz
+  tfo: false
+  type: hysteria2
 - cipher: aes-256-cfb
-  name: 1|🌀2- |  5.0MB/s
+  name: 2|🇯🇵1 |  5.0MB/s
   password: amazonskr05
   port: 443
-  server: 34.221.169.63
+  server: 54.199.239.230
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 1|🇷🇺2 |  1.7MB/s
+- name: 2|🇺🇸8 |  2.8MB/s
   network: ws
-  port: 22008
-  server: 46.17.43.122
-  tls: false
-  type: vmess
-  uuid: cfd7baa6-c313-4582-8efc-57e4f3e88ee8
-  ws-opts:
-    headers: {}
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|🌀3-CN |  1.1MB/s
-  network: ws
-  port: 21011
-  server: 212.192.13.110
-  tls: false
-  type: vmess
-  uuid: 4cee31c5-ccd6-4e04-af05-846b3e727139
-  ws-opts:
-    headers: {}
-    path: /
-- delay: 2847
-  name: 1|🌀4-SE |  5.8MB/s
-  network: ws
-  port: 8880
-  server: 195.85.59.155
+  port: 80
+  server: 104.17.148.22
+  servername: redw.pooriam.ir
   tls: false
   type: vless
-  uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
-      Host: photographipictureai.ir
-    path: /Telegram
-- name: 1|🇭🇰2 |  5.7MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: hkre1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: hkre1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- fast-open: true
-  name: 1|🇷🇺3 |  4.5MB/s
-  password: dongtaiwang.com
-  port: 37481
-  server: 46.17.41.217
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- cipher: rc4-md5
-  delay: 1394
-  name: 1|🇩🇪2 |  3.8MB/s
-  obfs: plain
-  obfs-param: ''
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  protocol: origin
-  protocol-param: ''
-  server: 193.108.119.230
-  type: ssr
-- cipher: aes-256-cfb
-  name: 1|🌀5-SK |  4.6MB/s
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 156.146.40.194
-  type: ss
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 1|🇫🇷3 |  4.8MB/s
-  port: 44557
-  server: 195.154.200.178
-  servername: apple.com
-  skip-cert-verify: true
-  type: hysteria
-  up: 1000 Mbps
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 1|🇷🇺4 |  3.1MB/s
-  port: 10469
-  server: 46.17.41.174
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 100 Mbps
-- name: 1|🇭🇰3 |  5.4MB/s
-  network: ws
-  port: 443
-  server: 8.210.107.244
-  servername: hk.bkn.asia
-  tls: true
-  type: vless
-  uuid: ce2824eb-9bc1-4369-c574-8a769b203df9
-  ws-opts:
-    headers:
-      Host: hk.bkn.asia
-    path: /bing
-- name: '8,10|⚡️ @vipv2rey(Hysteria) #1'
+      Host: redw.pooriam.ir
+    path: /LwW5jwrnymnOdqki?ed=2560
+- name: '9,11|⚡️ @vipv2rey(Hysteria) #1'
   obfs: salamander
   obfs-password: bd7f765e
   password: 9f73c619627d6a5d
@@ -561,7 +605,7 @@ proxies:
   sni: www.apple.com
   tls: false
   type: hysteria2
-- name: '8,10|@vpnv2rayNGv #5'
+- name: '9,11|@vpnv2rayNGv #5'
   obfs: salamander
   obfs-password: KevinZakarian
   password: KevinZakarian
@@ -571,7 +615,7 @@ proxies:
   sni: www.eliv2ray.net
   tls: false
   type: hysteria2
-- name: '8,10|@vpnv2rayNGv #6'
+- name: '9,11|@vpnv2rayNGv #6'
   password: a278eadd-c35c-403f-a286-7767a74307c1
   port: 8080
   server: 45.140.169.231
@@ -579,7 +623,7 @@ proxies:
   sni: www.eliv2ray.net
   tls: false
   type: hysteria2
-- name: '8,10|⚡️ @vipv2rey(Hysteria1) #1'
+- name: '9,11|⚡️ @vipv2rey(Hysteria1) #1'
   password: dongtaiwang.com
   port: 44550
   server: 51.158.54.46
@@ -587,7 +631,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '8,10|⚡️@vipv2rey (Hysteria) #1'
+- name: '9,11|⚡️@vipv2rey (Hysteria) #1'
   obfs: salamander
   obfs-password: 8c3ce17b
   password: f6e4b19a3110d19d
@@ -597,7 +641,7 @@ proxies:
   sni: www.apple.com
   tls: false
   type: hysteria2
-- name: '8,10|⚡️ @vipv2rey(Hysteria2) #1'
+- name: '9,11|⚡️ @vipv2rey(Hysteria2) #1'
   obfs: salamander
   obfs-password: 2pU!&Brls!0exuP+!4so
   password: y0qochAspE+u-HLfrip-
@@ -607,7 +651,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 9|shokhmiplus
+- name: 10|Moftinet5
   obfs: salamander
   obfs-password: SZJIE6gDorRMWuaxt4BRWLumwIXZR
   password: 0ZUzi2ioWv
@@ -617,7 +661,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '9|shokhmiplus #1'
+- name: 10|shokhmiplus
   obfs: salamander
   obfs-password: SZJIE6gDorRMWuaxt4BRWLumwIXZR
   password: 0ZUzi2ioWv
@@ -627,7 +671,7 @@ proxies:
   sni: www.whatsapp.com
   tls: false
   type: hysteria2
-- name: '9|(@VmessProtocol)    ای  '
+- name: '10|(@VmessProtocol)    ای  '
   password: 0e57e0a8-939e-478d-8513-63b70e961e21
   port: 443
   server: weilai-nl.sanguayun.com
@@ -635,7 +679,7 @@ proxies:
   sni: weilai-nl.sanguayun.com
   tls: false
   type: hysteria2
-- name: 9|@V2rayNG3
+- name: 10|@V2rayNG3
   password: '123456'
   port: 443
   server: 192.3.85.237
@@ -643,14 +687,14 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 9|(@VmessProtocol)برای خرید و ات...
+- name: 10|(@VmessProtocol)برای خرید و ات...
   password: 15261735-2168-42f8-b3ad-91ec82a58b5a
   port: 21050
   server: yiyuankuailian-jp.jiumaojiu.org
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: '9|@V2rayNG3 #1'
+- name: '10|@V2rayNG3 #1'
   password: 15cca331-9e92-449d-93b0-25f82203595f
   port: 20309
   server: gb.gomeow.online
@@ -658,7 +702,7 @@ proxies:
   sni: gb.gomeow.online
   tls: false
   type: hysteria2
-- name: '9|@V2rayNG3 #2'
+- name: '10|@V2rayNG3 #2'
   obfs: salamander
   obfs-password: de8287cd33b05fa3
   password: 22f2c759db51b3d0
@@ -668,7 +712,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 9|@Pashmam_Vpn  ای یت
+- name: 10|@Pashmam_Vpn  ای یت
   password: 2a1a0537-717c-402e-8e4f-7e81369997bd
   port: 48512
   server: jpzl2.stardad.lol
@@ -676,7 +720,7 @@ proxies:
   sni: https://bing.com
   tls: false
   type: hysteria2
-- name: '9|@V2rayNG3 #3'
+- name: '10|@V2rayNG3 #3'
   password: 75577117-ABCD-DCBA-AAAA-CC777775577B
   port: 7777
   server: s15.serv00.com
@@ -684,7 +728,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 9|@GrizzlyVPN
+- name: 10|@GrizzlyVPN
   password: 78e4c7ea92fed6d40792424990b6e793
   port: 4443
   server: a.grizzzlyyyy.ir
@@ -692,14 +736,14 @@ proxies:
   sni: a.grizzzlyyyy.ir
   tls: false
   type: hysteria2
-- name: '9|Channel id: @ShadowProxy66Jp'
+- name: '10|Channel id: @ShadowProxy66Jp'
   password: 87c29139-765a-441e-a82d-fdbb46697695
   port: 10890
   server: 140.238.61.195
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 9|🇩🇪 @VPNHubMaRKeT   @VpnHubMarK...
+- name: 10|🇩🇪 @VPNHubMaRKeT   @VpnHubMarK...
   obfs: salamander
   obfs-password: '@VPNHubMaRKeT'
   password: '@VPNHubMaRKeT'
@@ -709,7 +753,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '9|@V2rayNG3 #4'
+- name: '10|@V2rayNG3 #4'
   obfs: salamander
   obfs-password: '@azadi_az_inja_migzare'
   password: '@azadi_az_inja_migzare'
@@ -719,7 +763,7 @@ proxies:
   sni: all-v4.dgi000.store
   tls: false
   type: hysteria2
-- name: '9|@V2rayNG3 #5'
+- name: '10|@V2rayNG3 #5'
   obfs: salamander
   obfs-password: bipbip
   password: AtTK3tiEA0
@@ -728,7 +772,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '9|@V2rayNG3 #6'
+- name: '10|@V2rayNG3 #6'
   obfs: salamander
   obfs-password: bleepbloop
   password: AtTK3tiEA0
@@ -737,7 +781,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '9|@V2rayNG3 #7'
+- name: '10|@V2rayNG3 #7'
   obfs: salamander
   obfs-password: bluhbluh
   password: AtTK3tiEA0
@@ -746,7 +790,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '9|Channel id: @shokhmiplus 🇩🇪'
+- name: '10|Channel id: @shokhmiplus 🇩🇪'
   obfs: salamander
   obfs-password: hsdirhrrkskdhebdjdj
   password: MICPT1LLn6
@@ -755,14 +799,14 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 9|@fast_2ray سرورهایبیشتر
+- name: 10|@fast_2ray سرورهایبیشتر
   password: ThisIsNotForSale-Free$ervice
   port: 443
   server: api.tg8lnk.tech
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
+- name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
   obfs: salamander
   obfs-password: tel:@VPNHubMaRKeT
   password: VPNHubMaRKeT
@@ -771,7 +815,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 9|@Pashmam_Vpn سرور های بیشتر
+- name: 10|@Pashmam_Vpn سرور های بیشتر
   obfs: salamander
   obfs-password: 64da92df31fc63c1
   password: c76f08e20fb6368b
@@ -781,7 +825,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 9|🇹🇷¹ @VpnHubMarKeT  @VpnHubMarK...
+- name: 10|🇹🇷¹ @VpnHubMarKeT  @VpnHubMarK...
   obfs: salamander
   obfs-password: VpnHubMarKeT
   password: dbe172973c29534833c6fae3d706d9e7
@@ -791,7 +835,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 9|️🇷 _@freeconfig01
+- name: 10|️🇷 _@freeconfig01
   password: dongtaiwang.com
   port: 13861
   server: 195.154.33.70
@@ -799,7 +843,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '9|@V2rayNG3 #8'
+- name: '10|@V2rayNG3 #8'
   password: dongtaiwang.com
   port: 50717
   server: 46.17.41.189
@@ -807,7 +851,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '9|@Pashmam_Vpn سرور های بیشتر #1'
+- name: '10|@Pashmam_Vpn سرور های بیشتر #1'
   password: e1c77eb5-eacd-4afd-8da3-9fd2c1d3b499
   port: 1001
   server: br.1010520.xyz
@@ -815,7 +859,7 @@ proxies:
   sni: br.1010520.xyz
   tls: false
   type: hysteria2
-- name: '9|@V2rayNG3 #9'
+- name: '10|@V2rayNG3 #9'
   obfs: salamander
   obfs-password: dbc688df29e582d3
   password: f8e40931bbb827df
@@ -825,7 +869,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '9|@vpnv2rayNGv #3'
+- name: '10|@vpnv2rayNGv #3'
   obfs: salamander
   obfs-password: V2R@yM@teRS1Q2VEe
   password: rZzZr2Za3B
@@ -835,7 +879,7 @@ proxies:
   sni: ns.cloudflare.com
   tls: false
   type: hysteria2
-- name: 10|Hysteria 🇸🇬 @v2meowcf
+- name: 11|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443
   server: 146.19.100.138
@@ -843,7 +887,21 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 10|Hysteria 🇬🇧 @v2meowcf
+- name: 11|Telegram:@config_proxy 💦
+  password: 633ac2fe-e080-4119-ac96-2abb6c96a5a6
+  port: 55555
+  server: 209.38.134.215
+  skip-cert-verify: true
+  sni: tv.apple.com
+  tls: false
+  type: hysteria2
+- name: '11|Telegram:@config_proxy 💦 #1'
+  password: 815c63a0-7eaf-4733-a46b-718a059864ea
+  port: 443
+  server: aimanman-us.sanguayun.com
+  tls: false
+  type: hysteria2
+- name: 11|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
   server: 178.236.237.84
@@ -851,7 +909,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 10|Hysteria 🇳🇱 @v2meowcf
+- name: 11|Hysteria 🇳🇱 @v2meowcf
   password: WKAPupuylb1Z44WBOtEshyzqREh0bE
   port: 443
   server: 45.135.180.4
@@ -859,7 +917,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 10|香港🇭🇰 HY2
+- name: 11|香港🇭🇰 HY2
   password: e20abb22a245edb0
   port: 8443
   server: fast.yxmm.xyz
@@ -867,7 +925,7 @@ proxies:
   sni: TG频道@zqnb122100
   tls: false
   type: hysteria2
-- name: 10|Hysteria 🇷🇴 @v2meowcf
+- name: 11|Hysteria 🇷🇴 @v2meowcf
   password: eq64TMTbpcsf5LERJoKcMwwSHEzBEm
   port: 443
   server: 194.87.2.3
@@ -875,7 +933,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 10|@ToYoTA_PRoXY
+- name: 11|@ToYoTA_PRoXY
   obfs: salamander
   obfs-password: 8c3ce17b
   password: f6e4b19a3110d19d
@@ -885,14 +943,14 @@ proxies:
   sni: ELiV2RAY.eliv2.top
   tls: false
   type: hysteria2
-- name: 10|🇺🇸美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
+- name: 11|🇺🇸美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
   password: iMqY3uG_5pgEj3hCfyHB-0vB
   port: 443
   server: 143.198.235.49
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 10|@V2meowcf Hysteria 🇺🇲
+- name: 11|@V2meowcf Hysteria 🇺🇲
   password: public.vahshiestmeow3
   port: 443
   server: 104.168.128.173
@@ -900,7 +958,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 10|Hysteria 🇮🇳 @v2meowcf
+- name: 11|Hysteria 🇮🇳 @v2meowcf
   password: v2meowmeowmeow
   port: 443
   server: 103.68.108.25
@@ -908,7 +966,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '10|Hysteria 🇸🇬 @v2meowcf #1'
+- name: '11|Hysteria 🇸🇬 @v2meowcf #1'
   password: wSu8KVl38ul4t9a2eA5foAVaS9MR5U
   port: 443
   server: 103.195.189.54
@@ -917,13 +975,13 @@ proxies:
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
-  name: 11|tg频道:@ripaojiedian
+  name: 12|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
   server: 35.77.94.139
   tfo: false
   type: ss
-- name: 11|🇭🇰 香港|@ripaojiedian
+- name: 12|🇭🇰 香港|@ripaojiedian
   network: ws
   password: a38c9e28-9960-4e31-9f18-ed2495a756aa
   port: 40021
@@ -936,14 +994,14 @@ proxies:
       Host: vt-bana2-cn-11.ghpgwqswodgzv.com
     path: /dl_media
 - cipher: chacha20-ietf-poly1305
-  name: 11|🇭🇰 香港2|@ripaojiedian
+  name: 12|🇭🇰 香港2|@ripaojiedian
   password: 2be0c954-4291-45ea-b47d-ca713180550b
   port: 52611
   server: hk01.x.quickcht3.club
   tfo: false
   type: ss
 - cipher: rc4-md5
-  name: 11|🇭🇰 香港3|@ripaojiedian
+  name: 12|🇭🇰 香港3|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -954,7 +1012,7 @@ proxies:
   tfo: false
   type: ss
 - cipher: rc4-md5
-  name: 11|🇭🇰 香港4|@ripaojiedian
+  name: 12|🇭🇰 香港4|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -965,14 +1023,14 @@ proxies:
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: 11|🇹🇼 台湾|@ripaojiedian
+  name: 12|🇹🇼 台湾|@ripaojiedian
   password: KM16ID6XDW3XRC7K
   port: 21006
   server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: rc4-md5
-  name: 11|🇹🇼 台湾3|@ripaojiedian
+  name: 12|🇹🇼 台湾3|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -983,7 +1041,7 @@ proxies:
   tfo: false
   type: ss
 - cipher: rc4-md5
-  name: 11|🇹🇼 台湾4|@ripaojiedian
+  name: 12|🇹🇼 台湾4|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -994,7 +1052,7 @@ proxies:
   tfo: false
   type: ss
 - cipher: rc4-md5
-  name: 11|🇯🇵 日本|@ripaojiedian
+  name: 12|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -1005,7 +1063,7 @@ proxies:
   tfo: false
   type: ss
 - cipher: rc4-md5
-  name: 11|🇯🇵 日本2|@ripaojiedian
+  name: 12|🇯🇵 日本2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -1016,14 +1074,14 @@ proxies:
   tfo: false
   type: ss
 - cipher: aes-128-gcm
-  name: 11|🇯🇵 日本3|@ripaojiedian
+  name: 12|🇯🇵 日本3|@ripaojiedian
   password: 2c8cfc48-c211-4973-bc95-9d532ac42c35
   port: 12016
   server: mdss-jp.04z3susick.download
   tfo: false
   type: ss
 - cipher: rc4-md5
-  name: 11|🇸🇬 新加坡|@ripaojiedian
+  name: 12|🇸🇬 新加坡|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -1034,7 +1092,7 @@ proxies:
   tfo: false
   type: ss
 - cipher: rc4-md5
-  name: 11|🇸🇬 新加坡2|@ripaojiedian
+  name: 12|🇸🇬 新加坡2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -1045,14 +1103,14 @@ proxies:
   tfo: false
   type: ss
 - cipher: aes-128-gcm
-  name: 11|🇸🇬 新加坡3|@ripaojiedian
+  name: 12|🇸🇬 新加坡3|@ripaojiedian
   password: 2c8cfc48-c211-4973-bc95-9d532ac42c35
   port: 12022
   server: mdss-sg.04z3susick.download
   tfo: false
   type: ss
 - cipher: rc4-md5
-  name: 11|🇺🇸 美国|@ripaojiedian
+  name: 12|🇺🇸 美国|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -1063,7 +1121,7 @@ proxies:
   tfo: false
   type: ss
 - cipher: rc4-md5
-  name: 11|🇺🇸 美国2|@ripaojiedian
+  name: 12|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -1074,34 +1132,34 @@ proxies:
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: 11|🇯🇵 日本特殊|@ripaojiedian
+  name: 12|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 3.34.253.95
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: 11|🇰🇷 韩国特殊|@ripaojiedian
+  name: 12|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 57.180.240.249
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: 11|🇸🇬 狮城特殊|@ripaojiedian
+  name: 12|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 54.169.134.156
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 11|🇬🇧 英国|@ripaojiedian
+  name: 12|🇬🇧 英国|@ripaojiedian
   password: 99eedf8e9170c8a4
   port: 48977
   server: 57.128.190.214
   tfo: false
   type: ss
-- name: 12|香港|@ripaojiedian
+- name: 13|香港|@ripaojiedian
   network: ws
   password: a38c9e28-9960-4e31-9f18-ed2495a756aa
   port: 40021
@@ -1112,7 +1170,7 @@ proxies:
     headers:
       Host: vt-bana2-cn-11.ghpgwqswodgzv.com
     path: '%2Fdl_media'
-- name: 13|CH_speednode_0002
+- name: 14|CH_speednode_0002
   network: ws
   port: 443
   server: 144.24.243.207
@@ -1126,7 +1184,7 @@ proxies:
     headers:
       Host: dd8.transitkala.com
     path: /
-- name: 13|GB_speednode_0009
+- name: 14|GB_speednode_0009
   network: ws
   port: 443
   server: 31.22.116.38
@@ -1140,7 +1198,7 @@ proxies:
     headers:
       Host: usd.kobtty.me
     path: /bing
-- name: 13|NL_speednode_0028
+- name: 14|NL_speednode_0028
   network: ws
   port: 80
   server: 45.149.12.128
@@ -1154,7 +1212,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /?ed=2560
-- name: 13|NL_speednode_0034
+- name: 14|NL_speednode_0034
   network: ws
   port: 80
   server: 45.149.12.232
@@ -1168,7 +1226,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /
-- name: 13|NL_speednode_0036
+- name: 14|NL_speednode_0036
   network: ws
   port: 80
   server: 45.149.12.128
@@ -1182,7 +1240,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 13|NL_speednode_0037
+- name: 14|NL_speednode_0037
   network: ws
   port: 80
   server: 45.149.12.128
@@ -1196,7 +1254,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /
-- name: 13|NL_speednode_0038
+- name: 14|NL_speednode_0038
   network: ws
   port: 80
   server: 45.149.12.206
@@ -1210,7 +1268,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 13|NL_speednode_0039
+- name: 14|NL_speednode_0039
   network: ws
   port: 80
   server: 45.149.12.206
@@ -1224,7 +1282,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /
-- name: 13|NL_speednode_0041
+- name: 14|NL_speednode_0041
   network: ws
   port: 80
   server: 45.149.12.232
@@ -1238,7 +1296,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 13|RU_speednode_0046
+- name: 14|RU_speednode_0046
   network: ws
   port: 80
   server: 185.174.138.194
@@ -1252,7 +1310,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /
-- name: 13|RU_speednode_0047
+- name: 14|RU_speednode_0047
   network: ws
   port: 8080
   server: 185.174.138.197
@@ -1266,7 +1324,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /
-- name: 13|RU_speednode_0048
+- name: 14|RU_speednode_0048
   network: ws
   port: 80
   server: 185.174.138.194
@@ -1280,7 +1338,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 13|SC_speednode_0049
+- name: 14|SC_speednode_0049
   network: ws
   port: 8880
   server: 154.83.2.156
@@ -1294,7 +1352,7 @@ proxies:
     headers:
       Host: redw.pooriam.ir
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- name: 13|SC_speednode_0050
+- name: 14|SC_speednode_0050
   network: ws
   port: 8880
   server: 154.83.2.230
@@ -1308,7 +1366,7 @@ proxies:
     headers:
       Host: redw.pooriam.ir
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- name: 13|SC_speednode_0051
+- name: 14|SC_speednode_0051
   network: ws
   port: 8880
   server: 154.83.2.228
@@ -1322,7 +1380,7 @@ proxies:
     headers:
       Host: redw.pooriam.ir
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- name: 13|US_speednode_0056
+- name: 14|US_speednode_0056
   network: ws
   port: 80
   server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
@@ -1336,7 +1394,7 @@ proxies:
     headers:
       Host: Join--E-L-i-V-2-R-A-Y.net
     path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560
-- name: 13|US_speednode_0064
+- name: 14|US_speednode_0064
   network: ws
   port: 80
   server: 104.26.14.85
@@ -1350,7 +1408,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /?ed=2560
-- name: 13|US_speednode_0065
+- name: 14|US_speednode_0065
   network: ws
   port: 80
   server: 104.26.14.85
@@ -1364,7 +1422,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /@V2ray_Alpha/?ed=2560
-- name: 13|US_speednode_0069
+- name: 14|US_speednode_0069
   network: ws
   port: 80
   server: 172.67.73.163
@@ -1378,7 +1436,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /?ed=2560
-- name: 13|US_speednode_0071
+- name: 14|US_speednode_0071
   network: ws
   port: 80
   server: 172.67.73.163
@@ -1392,7 +1450,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /MTMVPN?ed=2560
-- name: 13|US_speednode_0072
+- name: 14|US_speednode_0072
   network: ws
   port: 80
   server: 104.26.14.85
@@ -1406,7 +1464,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /MTMVPN-MTMVPN-MTMVPN-MTMVPN?ed=2560
-- name: 13|US_speednode_0077
+- name: 14|US_speednode_0077
   network: ws
   port: 80
   server: 104.26.14.85
@@ -1420,7 +1478,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- name: 13|US_speednode_0084
+- name: 14|US_speednode_0084
   network: ws
   port: 80
   server: 66.235.200.58
@@ -1434,7 +1492,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 13|US_speednode_0085
+- name: 14|US_speednode_0085
   network: ws
   port: 80
   server: 172.67.73.163
@@ -1448,7 +1506,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray?ed=2560
-- name: 13|US_speednode_0086
+- name: 14|US_speednode_0086
   network: ws
   port: 80
   server: 66.235.200.5
@@ -1462,7 +1520,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 13|US_speednode_0088
+- name: 14|US_speednode_0088
   network: ws
   port: 80
   server: 66.235.200.149
@@ -1476,7 +1534,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /
-- name: 13|US_speednode_0089
+- name: 14|US_speednode_0089
   network: ws
   port: 80
   server: 66.235.200.30
@@ -1490,7 +1548,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /
-- name: 13|US_speednode_0091
+- name: 14|US_speednode_0091
   network: ws
   port: 80
   server: 66.235.200.5
@@ -1504,7 +1562,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /
-- name: 13|US_speednode_0092
+- name: 14|US_speednode_0092
   network: ws
   port: 80
   server: 66.235.200.149
@@ -1518,7 +1576,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 13|US_speednode_0093
+- name: 14|US_speednode_0093
   network: ws
   port: 80
   server: 66.235.200.222
@@ -1532,7 +1590,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 13|US_speednode_0094
+- name: 14|US_speednode_0094
   network: ws
   port: 80
   server: 66.235.200.30
@@ -1546,7 +1604,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 13|US_speednode_0096
+- name: 14|US_speednode_0096
   network: ws
   port: 80
   server: 66.235.200.191
@@ -1560,7 +1618,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 13|US_speednode_0097
+- name: 14|US_speednode_0097
   network: ws
   port: 80
   server: 172.67.73.163
@@ -1574,7 +1632,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /
-- name: 13|US_speednode_0099
+- name: 14|US_speednode_0099
   network: ws
   port: 2052
   server: www.speedtest.net
@@ -1588,7 +1646,7 @@ proxies:
     headers:
       Host: Yak-Khanda-kUn-eY-gUL.biNG.com.xn--cR8HaaaAaAAAaAaaAaAaAAaAAaaaAAAAAaAaaAaaaAaaaaAAaaAAAaaaaAa.xN--Cr8hAaAaaAaaAAAAAAaaaAAAaAAaaAaAaAAAAAA.TREPAspeEdTEsT.NEtrag.cOm.PX.Com.sh017.IR.XN--Cr8hAaaAaaAaaAaaaAAAaaaAaaAaaaAaAAAaaaA.yek.dDnS-ip.nEt
     path: /?ed=1080
-- name: 13|US_speednode_0100
+- name: 14|US_speednode_0100
   network: ws
   port: 443
   server: 45.62.114.221
