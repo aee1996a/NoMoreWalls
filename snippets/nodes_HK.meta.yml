@@ -1,34 +1,38 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 02 | 1x HK
-  password: 7a973c52-ce58-426d-9505-21fe0f5d0c22
-  port: 31143
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港家宽 03 | 1x HK
-  password: 7a973c52-ce58-426d-9505-21fe0f5d0c22
-  port: 31145
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港 02 | 1x HK
-  password: 94bef836-5610-4536-844a-a35fcac9fb5f
+  name: 0|🇭🇰 香港 02 | 1x HK
+  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 94bef836-5610-4536-844a-a35fcac9fb5f
+  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
+  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
   port: 36145
   server: free.2weradf.xyz
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 1|🇭🇰1 |  2.4MB/s
+  port: 19901
+  server: xg.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: 278428b3-42bf-488f-812d-b997b842a11d
 - client-fingerprint: chrome
-  name: 2|🇭🇰1 |  6.2MB/s
+  name: 1|🇭🇰2 |  5.7MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: hkre1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: hkre1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- client-fingerprint: chrome
+  name: 1|🇭🇰3 |  5.4MB/s
   network: ws
   port: 443
   server: 8.210.107.244
@@ -40,19 +44,7 @@ proxies:
     headers:
       Host: hk.bkn.asia
     path: /bing
-- alterId: 0
-  cipher: auto
-  name: 2|🇭🇰2 |  2.3MB/s
-  network: ws
-  port: 22015
-  server: 45.144.174.90
-  tls: false
-  type: vmess
-  uuid: 1b908e8f-88b4-467c-a535-73e92c4e7038
-  ws-opts:
-    headers: {}
-    path: /
-- name: 11|香港🇭🇰 HY2
+- name: 10|香港🇭🇰 HY2
   password: e20abb22a245edb0
   port: 8443
   server: fast.yxmm.xyz
@@ -61,7 +53,7 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 12|🇭🇰 香港|@ripaojiedian
+  name: 11|🇭🇰 香港|@ripaojiedian
   network: ws
   password: a38c9e28-9960-4e31-9f18-ed2495a756aa
   port: 40021
@@ -75,7 +67,7 @@ proxies:
     path: /dl_media
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 12|🇭🇰 香港2|@ripaojiedian
+  name: 11|🇭🇰 香港2|@ripaojiedian
   password: 2be0c954-4291-45ea-b47d-ca713180550b
   port: 52611
   server: hk01.x.quickcht3.club
@@ -83,7 +75,7 @@ proxies:
   type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇭🇰 香港3|@ripaojiedian
+  name: 11|🇭🇰 香港3|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -95,7 +87,7 @@ proxies:
   type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇭🇰 香港4|@ripaojiedian
+  name: 11|🇭🇰 香港4|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -105,7 +97,7 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- name: 13|香港|@ripaojiedian
+- name: 12|香港|@ripaojiedian
   network: ws
   password: a38c9e28-9960-4e31-9f18-ed2495a756aa
   port: 40021

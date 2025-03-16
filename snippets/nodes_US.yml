@@ -1,64 +1,42 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: 7a973c52-ce58-426d-9505-21fe0f5d0c22
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 7a973c52-ce58-426d-9505-21fe0f5d0c22
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 03 | 1x US Washington
-  password: 7a973c52-ce58-426d-9505-21fe0f5d0c22
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 94bef836-5610-4536-844a-a35fcac9fb5f
+  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
+  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 94bef836-5610-4536-844a-a35fcac9fb5f
+  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 03 | 1x US Washington
-  password: 94bef836-5610-4536-844a-a35fcac9fb5f
+  name: 0|🇺🇸 美国 03 | 1x US Washington
+  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 2|🇺🇸2 |  3.8MB/s
+  name: 1|🇺🇸1 |  2.4MB/s
   password: amazonskr05
   port: 443
-  server: 35.86.111.233
+  server: 34.211.230.161
   type: ss
-  udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 2|🇺🇸8 |  5.1MB/s
+  name: 1|🇺🇸3 |  1.1MB/s
   password: amazonskr05
   port: 443
   server: 54.184.74.88
   type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国|@ripaojiedian
+  name: 11|🇺🇸 美国|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -70,7 +48,7 @@ proxies:
   type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国2|@ripaojiedian
+  name: 11|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:

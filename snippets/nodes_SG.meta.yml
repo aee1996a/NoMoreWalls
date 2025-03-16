@@ -1,48 +1,42 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 01 | 1x SG
-  password: 7a973c52-ce58-426d-9505-21fe0f5d0c22
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 02 | 1x SG
-  password: 7a973c52-ce58-426d-9505-21fe0f5d0c22
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 03 | 1x SG
-  password: 7a973c52-ce58-426d-9505-21fe0f5d0c22
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: 94bef836-5610-4536-844a-a35fcac9fb5f
+  name: 0|🇸🇬 新加坡 01 | 1x SG
+  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: 94bef836-5610-4536-844a-a35fcac9fb5f
+  name: 0|🇸🇬 新加坡 02 | 1x SG
+  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 03 | 1x SG
-  password: 94bef836-5610-4536-844a-a35fcac9fb5f
+  name: 0|🇸🇬 新加坡 03 | 1x SG
+  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
+- alterId: 2
+  cipher: auto
+  name: 1|🇸🇬1 |  1.8MB/s
+  network: ws
+  port: 23617
+  server: 17.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 393af9f9-e083-3f10-be91-fdc2c0aba60f
+  ws-opts:
+    headers:
+      Host: 17.mamamajd.site
+    path: /
 - client-fingerprint: chrome
-  name: 2|🇸🇬1 |  5.6MB/s
+  name: 1|🇸🇬2 |  5.1MB/s
   network: ws
   port: 443
   server: 47.245.101.23
@@ -54,19 +48,40 @@ proxies:
     headers:
       Host: sgb.bkn.asia
     path: /bing
+- client-fingerprint: chrome
+  name: 1|🇸🇬3 |  3.2MB/s
+  network: ws
+  port: 443
+  server: 47.74.20.72
+  servername: sgb.bkn.asia
+  tls: true
+  type: vless
+  uuid: 183ebae2-4d43-4026-c7c4-c336b6cef2a2
+  ws-opts:
+    headers:
+      Host: sgb.bkn.asia
+    path: /bing
 - cipher: aes-256-cfb
-  name: 2|🇸🇬2 |  5.1MB/s
+  client-fingerprint: chrome
+  name: 1|🇸🇬4 |  2.1MB/s
   password: amazonskr05
   port: 443
-  server: 54.169.15.9
+  server: 47.128.224.249
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬3 |  2.4MB/s
-  password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
-  port: 19088
-  server: yy1.vyunyunnode.top
-  type: ss
-- name: 11|Hysteria 🇸🇬 @v2meowcf
+- client-fingerprint: chrome
+  name: 1|🇸🇬5 |  5.3MB/s
+  network: ws
+  port: 443
+  server: 52.230.19.50
+  servername: sgc.bkn.asia
+  tls: true
+  type: vless
+  uuid: 9e264699-eb3f-4131-ba9e-a8d522f83ffd
+  ws-opts:
+    headers:
+      Host: sgc.bkn.asia
+    path: /bing
+- name: 10|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443
   server: 146.19.100.138
@@ -74,7 +89,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '11|Hysteria 🇸🇬 @v2meowcf #1'
+- name: '10|Hysteria 🇸🇬 @v2meowcf #1'
   password: wSu8KVl38ul4t9a2eA5foAVaS9MR5U
   port: 443
   server: 103.195.189.54
@@ -84,7 +99,7 @@ proxies:
   type: hysteria2
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇸🇬 新加坡|@ripaojiedian
+  name: 11|🇸🇬 新加坡|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -96,7 +111,7 @@ proxies:
   type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇸🇬 新加坡2|@ripaojiedian
+  name: 11|🇸🇬 新加坡2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -108,7 +123,7 @@ proxies:
   type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 12|🇸🇬 新加坡3|@ripaojiedian
+  name: 11|🇸🇬 新加坡3|@ripaojiedian
   password: 2c8cfc48-c211-4973-bc95-9d532ac42c35
   port: 12022
   server: mdss-sg.04z3susick.download
@@ -116,7 +131,7 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12|🇸🇬 狮城特殊|@ripaojiedian
+  name: 11|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 54.169.134.156
