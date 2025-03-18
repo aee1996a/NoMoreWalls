@@ -1,37 +1,37 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷 韩国 01 | 1x KR
-  password: 2dde428b-8c36-4ca0-86ec-a9f735808999
+  password: d5d8a326-b56c-416d-b91f-1f1c5b155663
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷 韩国 02 | 1x KR
-  password: 2dde428b-8c36-4ca0-86ec-a9f735808999
+  password: d5d8a326-b56c-416d-b91f-1f1c5b155663
   port: 36313
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 01 | 1x KR
-  password: 59027208-1d66-4604-bcce-eb7308439506
-  port: 31311
-  server: free.2apzhfa.xyz
+- client-fingerprint: chrome
+  name: 2|🇰🇷1 |  2.8MB/s
+  password: 7Rn3apKRaY3ceZYDn3DlKSBNT0aEC08y6zADl84FI9waq8CF2yxO2X9u8jegx5uAODjcE
+  port: 443
+  server: bapus.koreanbbq.link
+  sni: bapus.koreanbbq.link
+  type: trojan
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 2|🇰🇷2 |  1.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.124.101.203
   type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 02 | 1x KR
-  password: 59027208-1d66-4604-bcce-eb7308439506
-  port: 31313
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 18.136.193.92
+  server: 18.141.138.125
   tfo: false
   type: ss
