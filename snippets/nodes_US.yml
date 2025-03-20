@@ -1,38 +1,62 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: fc3c2eb2-18e5-4060-9529-c6827c2323ec
+  password: a4ba3ba9-a8e0-4afe-91a2-a6439746f0af
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: fc3c2eb2-18e5-4060-9529-c6827c2323ec
+  password: a4ba3ba9-a8e0-4afe-91a2-a6439746f0af
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: fc3c2eb2-18e5-4060-9529-c6827c2323ec
+  password: a4ba3ba9-a8e0-4afe-91a2-a6439746f0af
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 1|🇺🇸1 |  5.2MB/s
+  name: 1|🇺🇸1 |  4.4MB/s
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 194.5.215.59
   type: ss
-- cipher: aes-256-cfb
+- grpc-opts:
+    grpc-service-name: i8oL7PsxV002zYFTmiIeg
   ip-version: dual
-  name: 1|🇺🇸2 |  4.5MB/s
-  password: amazonskr05
+  name: 1|🇺🇸2 |  4.0MB/s
+  network: grpc
+  password: 576c81b6-4976-4fe3-b1a9-05a9c302e98e
   port: 443
-  server: 54.184.74.88
-  tls: false
+  server: 192.3.130.103
+  skip-cert-verify: false
+  sni: us10-01zl.huangshang.filegear-sg.me
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸美国 01 | 1x US Los Angeles
+  password: b08356e7-e225-48b6-a0e7-4f077d6b0105
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: b08356e7-e225-48b6-a0e7-4f077d6b0105
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸美国 03 | 1x US Washington
+  password: b08356e7-e225-48b6-a0e7-4f077d6b0105
+  port: 31215
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: rc4-md5
