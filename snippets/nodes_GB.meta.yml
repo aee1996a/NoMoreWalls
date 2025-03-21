@@ -1,55 +1,19 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 01 | 1x HK
-  password: 8df7ba5c-ed86-4d06-a55e-ffb7a7be4b4d
+  name: 1|🇭🇰香港 01 | 1x HK
+  password: 13355112-4353-4809-9eca-8d9782aac18b
   port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: 8df7ba5c-ed86-4d06-a55e-ffb7a7be4b4d
+  name: 1|🇬🇧英国家宽 01 | 1x UK
+  password: 13355112-4353-4809-9eca-8d9782aac18b
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 1|🇬🇧1 |  5.6MB/s
-  password: 0597af27-0972-45de-a32f-d320348cb765
-  port: 44397
-  server: aafrtpfxr.gbl01i9zjfegelp.5xfsur8v62.gosdk.xyz
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1|🇬🇧2 |  5.0MB/s
-  network: ws
-  port: 80
-  server: 151.101.194.165
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 82f013e9-9f2e-45f7-9bcc-7690fc7b4069
-  ws-opts:
-    headers:
-      Host: Zix95.net
-    path: Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰 香港 01 | 1x HK
-  password: 4be0e4fd-f3cf-4708-ad10-e019cd0778b4
-  port: 36141
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 4be0e4fd-f3cf-4708-ad10-e019cd0778b4
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- name: 11|Hysteria 🇬🇧 @v2meowcf
+- name: 10|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
   server: 178.236.237.84
@@ -57,7 +21,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 14|GB_speednode_0009
+- name: 13|GB_speednode_0009
   network: ws
   port: 443
   server: 31.22.116.38

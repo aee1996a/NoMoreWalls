@@ -1,27 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪德国 01 | 1x DE
-  password: 8df7ba5c-ed86-4d06-a55e-ffb7a7be4b4d
+  name: 1|🇩🇪德国 01 | 1x DE
+  password: 13355112-4353-4809-9eca-8d9782aac18b
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 1|🇩🇪3 |  5.6MB/s
-  password: 0597af27-0972-45de-a32f-d320348cb765
-  port: 43583
-  server: aafrtpfxr.del01i9zjfegelp.5xfsur8v62.gosdk.xyz
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪 德国 01 | 1x DE
-  password: 4be0e4fd-f3cf-4708-ad10-e019cd0778b4
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 12|🇩🇪 德国|@ripaojiedian
+  name: 11|🇩🇪 德国|@ripaojiedian
   password: 8cc065a7-fada-4628-9397-b9bd614261a5
   port: 12038
   server: mdss-other.04z3susick.download
