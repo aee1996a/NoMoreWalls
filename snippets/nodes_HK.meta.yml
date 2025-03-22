@@ -1,35 +1,41 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰香港 02 | 1x HK
+  password: b78bd4dd-e0c2-436d-9931-bd897a147233
+  port: 31143
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰香港家宽 03 | 1x HK
+  password: b78bd4dd-e0c2-436d-9931-bd897a147233
+  port: 31145
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰 香港 02 | 1x HK
-  password: 9a53a881-3073-447f-ae3d-a2cbb6299b0d
+  password: 0438e881-4bc5-43a2-abc3-830b8370fb86
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 9a53a881-3073-447f-ae3d-a2cbb6299b0d
+  password: 0438e881-4bc5-43a2-abc3-830b8370fb86
   port: 36145
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 2|🇭🇰1 |  6.0MB/s
-  password: f00f490e-c01c-3fa1-a5b3-831fbe4c2d8c
-  port: 22741
+- name: 2|🇭🇰1 |  6.2MB/s
+  password: 05e82148-0869-3dcb-9d78-df6225c8b372
+  port: 20278
   server: gy.58n.net
   skip-cert-verify: true
-  sni: dufu.hongkongnode.top
+  sni: z278.hongkongnode.top
   type: trojan
   udp: true
-- name: 2|🇭🇰2 |  6.1MB/s
-  password: f00f490e-c01c-3fa1-a5b3-831fbe4c2d8c
-  port: 28678
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z143.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 2|🇭🇰3 |  5.1MB/s
+- name: 2|🇭🇰2 |  6.0MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: hkre1-cdn-route.couldflare-cdn.com
@@ -38,22 +44,6 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 2|🇭🇰4 |  6.0MB/s
-  password: f00f490e-c01c-3fa1-a5b3-831fbe4c2d8c
-  port: 20279
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z279.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 2|🇭🇰5 |  5.1MB/s
-  password: f00f490e-c01c-3fa1-a5b3-831fbe4c2d8c
-  port: 20307
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z307.hongkongnode.top
-  type: trojan
-  udp: true
 - name: 11|香港🇭🇰 HY2
   password: e20abb22a245edb0
   port: 8443
