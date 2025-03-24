@@ -1,31 +1,15 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇨🇦加拿大 01 | 1x CA
-  password: 25cadf19-a372-4b64-9cfb-8104b11e8969
-  port: 31441
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦 加拿大 01 | 1x CA
-  password: 6962a290-398c-45fc-8801-1f369acabb8b
+  name: 0|🇨🇦 加拿大 01 | 1x CA
+  password: bab31764-1661-4220-9ac3-72abdfb3f120
   port: 36441
   server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇨🇦1 |  2.6MB/s
-  network: ws
-  port: 443
-  server: 104.16.144.216
-  servername: nl.ylkszy.eu.org
-  tls: true
-  type: vless
-  udp: false
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: nl.ylkszy.eu.org
-    path: /?ed=2560security=tls
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇨🇦加拿大 01 | 1x CA
+  password: 7f5a252b-c2e9-4a11-9c82-366d179bec4d
+  port: 31441
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true

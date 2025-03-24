@@ -1,52 +1,60 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 01 | 1x JP
-  password: 25cadf19-a372-4b64-9cfb-8104b11e8969
-  port: 31111
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 02 | 1x JP
-  password: 25cadf19-a372-4b64-9cfb-8104b11e8969
-  port: 31113
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 03 | 1x JP
-  password: 25cadf19-a372-4b64-9cfb-8104b11e8969
-  port: 31115
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵 日本 01 | 1x JP
-  password: 6962a290-398c-45fc-8801-1f369acabb8b
+  name: 0|🇯🇵 日本 01 | 1x JP
+  password: bab31764-1661-4220-9ac3-72abdfb3f120
   port: 36111
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵 日本 02 | 1x JP
-  password: 6962a290-398c-45fc-8801-1f369acabb8b
+  name: 0|🇯🇵 日本 02 | 1x JP
+  password: bab31764-1661-4220-9ac3-72abdfb3f120
   port: 36113
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵 日本 03 | 1x JP
-  password: 6962a290-398c-45fc-8801-1f369acabb8b
+  name: 0|🇯🇵 日本 03 | 1x JP
+  password: bab31764-1661-4220-9ac3-72abdfb3f120
   port: 36115
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 2|🇯🇵4 |  4.8MB/s
-  password: amazonskr05
-  port: 443
-  server: 43.207.71.139
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵日本 01 | 1x JP
+  password: 7f5a252b-c2e9-4a11-9c82-366d179bec4d
+  port: 31111
+  server: free.2apzhfa.xyz
   type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵日本 02 | 1x JP
+  password: 7f5a252b-c2e9-4a11-9c82-366d179bec4d
+  port: 31113
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵日本 03 | 1x JP
+  password: 7f5a252b-c2e9-4a11-9c82-366d179bec4d
+  port: 31115
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 2,13|日本6|@ripaojiedian
+  network: tcp
+  password: '!!str 74260705449889500'
+  port: 443
+  server: grown-doberman.shiner427.skin
+  skip-cert-verify: true
+  type: trojan
+- name: 2|🇯🇵5 |  2.3MB/s
+  password: 67ed20d4-e1a4-46bb-97ca-d721f19a4291
+  port: 46307
+  server: wb.kaiqsz.com
+  skip-cert-verify: true
+  sni: mmbiz1.redapricotcloud.com
+  type: trojan
 - name: 2|🇯🇵6 |  6.1MB/s
   password: 67ed20d4-e1a4-46bb-97ca-d721f19a4291
   port: 28713
@@ -54,19 +62,14 @@ proxies:
   skip-cert-verify: true
   sni: mmbiz1.redapricotcloud.com
   type: trojan
-- cipher: aes-256-cfb
-  name: 2|🇯🇵8 |  5.9MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.230.142.42
-  type: ss
-- name: 2|🇯🇵10 |  6.1MB/s
-  password: 67ed20d4-e1a4-46bb-97ca-d721f19a4291
-  port: 46307
-  server: wb.kaiqsz.com
+- name: 2|🇯🇵11 |  6.3MB/s
+  password: c02ccaf7-205e-3323-9766-236a4db26c0f
+  port: 20298
+  server: gy.58n.net
   skip-cert-verify: true
-  sni: mmbiz1.redapricotcloud.com
+  sni: z298.hongkongnode.top
   type: trojan
+  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 12|🇯🇵 日本|@ripaojiedian
@@ -131,12 +134,6 @@ proxies:
   server: 13.229.99.127
   tfo: false
   type: ss
-- name: 13|日本6|@ripaojiedian
-  network: tcp
-  password: '!!str 74260705449889500'
-  port: 443
-  server: grown-doberman.shiner427.skin
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 13|日本A|@ripaojiedian

@@ -1,67 +1,53 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 01 | 1x TW
-  password: 25cadf19-a372-4b64-9cfb-8104b11e8969
-  port: 31241
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 02 | 1x TW
-  password: 25cadf19-a372-4b64-9cfb-8104b11e8969
-  port: 31243
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 03 | 1x TW
-  password: 25cadf19-a372-4b64-9cfb-8104b11e8969
-  port: 31245
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 01 | 1x TW
-  password: 6962a290-398c-45fc-8801-1f369acabb8b
+  name: 0|🇹🇼 台湾 01 | 1x TW
+  password: bab31764-1661-4220-9ac3-72abdfb3f120
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 02 | 1x TW
-  password: 6962a290-398c-45fc-8801-1f369acabb8b
+  name: 0|🇹🇼 台湾 02 | 1x TW
+  password: bab31764-1661-4220-9ac3-72abdfb3f120
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 03 | 1x TW
-  password: 6962a290-398c-45fc-8801-1f369acabb8b
+  name: 0|🇹🇼 台湾 03 | 1x TW
+  password: bab31764-1661-4220-9ac3-72abdfb3f120
   port: 36245
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: 2|🇹🇼1 |  7.0MB/s
-  password: VMhGp5wEIyCDf90T
-  port: 64050
-  server: csuzhou01.1cooldns.com
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 01 | 1x TW
+  password: 7f5a252b-c2e9-4a11-9c82-366d179bec4d
+  port: 31241
+  server: free.2apzhfa.xyz
   type: ss
-- name: 2|🇹🇼4 |  6.2MB/s
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 02 | 1x TW
+  password: 7f5a252b-c2e9-4a11-9c82-366d179bec4d
+  port: 31243
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 03 | 1x TW
+  password: 7f5a252b-c2e9-4a11-9c82-366d179bec4d
+  port: 31245
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 2|🇹🇼5 |  4.0MB/s
   password: 67ed20d4-e1a4-46bb-97ca-d721f19a4291
   port: 42765
   server: nbae7a7.kaiqsz.com
   skip-cert-verify: true
   sni: mmbiz1.redapricotcloud.com
   type: trojan
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 12|🇹🇼 台湾|@ripaojiedian
-  password: 4bccdfb7-f45b-44bb-9cd3-fb6f8fc8072f
-  port: 41705
-  server: zf1.10101251.xyz
-  tfo: false
-  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇹🇼 台湾2|@ripaojiedian
