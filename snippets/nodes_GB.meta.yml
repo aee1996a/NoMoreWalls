@@ -1,14 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰 香港 01 | 1x HK
+  password: e39bd72d-dd14-4740-b2f4-412bdbfaf15b
+  port: 36141
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: bab31764-1661-4220-9ac3-72abdfb3f120
+  password: e39bd72d-dd14-4740-b2f4-412bdbfaf15b
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇬🇧英国家宽 01 | 1x UK
-  password: 7f5a252b-c2e9-4a11-9c82-366d179bec4d
+  password: fbbe816d-f9dc-4679-9d54-d669be8664ea
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
@@ -16,18 +23,34 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇬🇧1 |  1.9MB/s
+  name: 2|🇬🇧1 |  1.8MB/s
   network: ws
   port: 2096
   server: whatismyipaddress.com
-  servername: wwwspeedtestnetwhiteberinsistomd6625996s32.elitemizban.ir
+  servername: wwwspeedtestnetwhiteberinsistomd6625996s31.elitemizban.ir
   tls: true
   type: vless
   udp: false
   uuid: a41c5712-9ee8-4199-bf94-207521f3c304
   ws-opts:
     headers:
-      Host: wwwspeedtestnetwhiteberinsistomd6625996s32.elitemizban.ir
+      Host: wwwspeedtestnetwhiteberinsistomd6625996s31.elitemizban.ir
+    path: ''
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇬🇧2 |  5.9MB/s
+  network: ws
+  port: 2096
+  server: 104.19.222.79
+  servername: wwwspeedtestnetwhiteberinsistomd6625996s31.elitemizban.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: a41c5712-9ee8-4199-bf94-207521f3c304
+  ws-opts:
+    headers:
+      Host: wwwspeedtestnetwhiteberinsistomd6625996s31.elitemizban.ir
     path: ''
 - name: 11|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih

@@ -1,53 +1,32 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港 02 | 1x HK
-  password: bab31764-1661-4220-9ac3-72abdfb3f120
+  password: e39bd72d-dd14-4740-b2f4-412bdbfaf15b
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港住宅IP 03 | 1x HK
-  password: bab31764-1661-4220-9ac3-72abdfb3f120
+  password: e39bd72d-dd14-4740-b2f4-412bdbfaf15b
   port: 36145
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰香港 02 | 1x HK
-  password: 7f5a252b-c2e9-4a11-9c82-366d179bec4d
+  password: fbbe816d-f9dc-4679-9d54-d669be8664ea
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰香港家宽 03 | 1x HK
-  password: 7f5a252b-c2e9-4a11-9c82-366d179bec4d
+  password: fbbe816d-f9dc-4679-9d54-d669be8664ea
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 2|🇭🇰1 |  6.3MB/s
-  password: 67ed20d4-e1a4-46bb-97ca-d721f19a4291
-  port: 12221
-  server: nbae7a7.kaiqsz.com
-  skip-cert-verify: true
-  sni: mmbiz.redapricotcloud.com
-  type: trojan
-- name: 2|🇭🇰7 |  4.1MB/s
-  password: c02ccaf7-205e-3323-9766-236a4db26c0f
-  port: 20309
-  server: gyl.58n.net
-  skip-cert-verify: true
-  sni: z309.hongkongnode.top
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf
-  name: 2|🇭🇰10 |  3.2MB/s
-  password: asd123456
-  port: 8388
-  server: 103.149.183.61
-  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇭🇰 香港|@ripaojiedian
