@@ -1,50 +1,106 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: e39bd72d-dd14-4740-b2f4-412bdbfaf15b
+  password: 10e0aa34-3524-4a0d-aff5-3fbe7790583a
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: e39bd72d-dd14-4740-b2f4-412bdbfaf15b
+  password: 10e0aa34-3524-4a0d-aff5-3fbe7790583a
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: e39bd72d-dd14-4740-b2f4-412bdbfaf15b
+  password: 10e0aa34-3524-4a0d-aff5-3fbe7790583a
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬新加坡 01 | 1x SG
-  password: fbbe816d-f9dc-4679-9d54-d669be8664ea
+  password: e3e1fb45-6329-450a-a548-369f47cc579f
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬新加坡 02 | 1x SG
-  password: fbbe816d-f9dc-4679-9d54-d669be8664ea
+  password: e3e1fb45-6329-450a-a548-369f47cc579f
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬新加坡 03 | 1x SG
-  password: fbbe816d-f9dc-4679-9d54-d669be8664ea
+  password: e3e1fb45-6329-450a-a548-369f47cc579f
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- name: 2|🇸🇬1 |  6.0MB/s
+  password: 02d12d30-3d79-3c88-afe1-688b867d005f
+  port: 20130
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x130.flybar.work
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 2|🇸🇬2 |  6.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 47.128.245.70
+  type: ss
+- cipher: aes-256-cfb
+  name: 2|🇸🇬3 |  3.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 47.129.223.247
+  type: ss
+- cipher: aes-256-cfb
+  name: 2|🇸🇬4 |  6.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.229.216.120
+  type: ss
+- cipher: aes-256-cfb
+  name: 2|🇸🇬5 |  6.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.143.168.50
+  type: ss
+- cipher: aes-256-cfb
+  name: 2|🇸🇬6 |  3.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 47.128.246.5
+  type: ss
+- cipher: aes-256-cfb
+  name: 2|🇸🇬7 |  6.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.169.103.201
+  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇸🇬8 |  6.2MB/s
+  network: tcp
+  port: 56127
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: agaungzhou01.bumbleshrimp.com
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: none
   mode: ''
-  name: 2|🇸🇬1 |  2.3MB/s
+  name: 2|🇸🇬9 |  1.3MB/s
   network: ws
   port: 2096
   server: 141.193.213.20
@@ -57,31 +113,24 @@ proxies:
     headers:
       Host: premium.vkehi.shop
     path: '%2F'
-- allowInsecure: '1'
-  name: 2|🇸🇬2 |  2.2MB/s
-  network: tcp
-  password: 86920f59-7e5e-4272-abec-271bb931121c
+- cipher: aes-256-cfb
+  name: 2|🇸🇬10 |  6.2MB/s
+  password: amazonskr05
   port: 443
-  server: 52.220.175.112
-  skip-cert-verify: true
-  sni: sg.lyyyds.club
-  tls: true
-  type: trojan
-- flow: none
-  mode: ''
-  name: 2|🇸🇬3 |  1.5MB/s
-  network: ws
-  port: 2096
-  server: 141.193.213.21
-  servername: premium.vkehi.shop
+  server: 54.179.97.253
+  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇸🇬11 |  3.2MB/s
+  network: tcp
+  port: 44003
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.nvidia.com
   tls: true
   type: vless
-  udp: false
-  uuid: eb50d091-51ed-4f89-bc4e-8b04320585d7
-  ws-opts:
-    headers:
-      Host: premium.vkehi.shop
-    path: '%2F'
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - name: 11|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443

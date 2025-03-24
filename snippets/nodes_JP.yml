@@ -1,58 +1,78 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 01 | 1x JP
-  password: e39bd72d-dd14-4740-b2f4-412bdbfaf15b
+  password: 10e0aa34-3524-4a0d-aff5-3fbe7790583a
   port: 36111
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 02 | 1x JP
-  password: e39bd72d-dd14-4740-b2f4-412bdbfaf15b
+  password: 10e0aa34-3524-4a0d-aff5-3fbe7790583a
   port: 36113
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 03 | 1x JP
-  password: e39bd72d-dd14-4740-b2f4-412bdbfaf15b
+  password: 10e0aa34-3524-4a0d-aff5-3fbe7790583a
   port: 36115
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇯🇵日本 01 | 1x JP
-  password: fbbe816d-f9dc-4679-9d54-d669be8664ea
+  password: e3e1fb45-6329-450a-a548-369f47cc579f
   port: 31111
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇯🇵日本 02 | 1x JP
-  password: fbbe816d-f9dc-4679-9d54-d669be8664ea
+  password: e3e1fb45-6329-450a-a548-369f47cc579f
   port: 31113
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇯🇵日本 03 | 1x JP
-  password: fbbe816d-f9dc-4679-9d54-d669be8664ea
+  password: e3e1fb45-6329-450a-a548-369f47cc579f
   port: 31115
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 2|🇯🇵4 |  1.9MB/s
-  password: amazonskr05
-  port: 443
-  server: 57.180.35.64
-  type: ss
-- cipher: aes-256-cfb
-  name: 2|🇯🇵5 |  6.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.197.235.237
-  type: ss
+- name: 2|🇯🇵2 |  6.2MB/s
+  password: 02d12d30-3d79-3c88-afe1-688b867d005f
+  port: 20142
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z142.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 2|🇯🇵4 |  5.0MB/s
+  password: 02d12d30-3d79-3c88-afe1-688b867d005f
+  port: 41767
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x114.flybar.work
+  type: trojan
+  udp: true
+- name: 2|🇯🇵10 |  6.3MB/s
+  password: 02d12d30-3d79-3c88-afe1-688b867d005f
+  port: 20140
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z140.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 2|🇯🇵11 |  6.2MB/s
+  password: 02d12d30-3d79-3c88-afe1-688b867d005f
+  port: 20071
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x71.flybar.work
+  type: trojan
+  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 12|🇯🇵 日本|@ripaojiedian
