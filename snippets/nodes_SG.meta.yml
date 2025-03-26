@@ -1,44 +1,26 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: 3e62cfbf-2be1-4bdd-9b9f-9cc14862a960
+  password: 5771399e-0082-43c1-a281-4939691d7395
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: 3e62cfbf-2be1-4bdd-9b9f-9cc14862a960
+  password: 5771399e-0082-43c1-a281-4939691d7395
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: 3e62cfbf-2be1-4bdd-9b9f-9cc14862a960
+  password: 5771399e-0082-43c1-a281-4939691d7395
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 1|🇸🇬1 |  5.5MB/s
-  password: a0f1c422-6546-3b71-aaa8-17c9137c0060
-  port: 20299
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x299.flybar.work
-  tfo: true
-  type: trojan
-  udp: true
-- name: 1|🇸🇬2 |  6.2MB/s
-  password: a0f1c422-6546-3b71-aaa8-17c9137c0060
-  port: 20129
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x129.flybar.work
-  tfo: true
-  type: trojan
-  udp: true
-- name: 1|🇸🇬3 |  6.4MB/s
+- name: 1|🇸🇬1 |  5.9MB/s
   password: myszy28811
   port: 28811
   server: pipi.myddns.me
@@ -47,17 +29,56 @@ proxies:
   username: myszy
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇸🇬4 |  5.8MB/s
+  name: 1|🇸🇬2 |  2.5MB/s
   network: tcp
-  port: 44003
+  port: 56127
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
+  server: agaungzhou01.bumbleshrimp.com
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|🇸🇬3 |  6.1MB/s
+  network: tcp
+  port: 10778
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: test123.zlqhdns.top
   servername: www.nvidia.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 10|Hysteria 🇸🇬 @v2meowcf
+- cipher: aes-256-cfb
+  name: 1|🇸🇬4 |  2.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.169.103.201
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬新加坡 01 | 1x SG
+  password: 88ee5fd6-4da7-4591-bd3e-b2eda1c13da8
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬新加坡 02 | 1x SG
+  password: 88ee5fd6-4da7-4591-bd3e-b2eda1c13da8
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬新加坡 03 | 1x SG
+  password: 88ee5fd6-4da7-4591-bd3e-b2eda1c13da8
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 11|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443
   server: 146.19.100.138
@@ -65,7 +86,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '10|Hysteria 🇸🇬 @v2meowcf #1'
+- name: '11|Hysteria 🇸🇬 @v2meowcf #1'
   password: wSu8KVl38ul4t9a2eA5foAVaS9MR5U
   port: 443
   server: 103.195.189.54
@@ -75,7 +96,7 @@ proxies:
   type: hysteria2
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡2|@ripaojiedian
+  name: 12|🇸🇬 新加坡2|@ripaojiedian
   password: 2a117bd4077d9a53
   port: 19111
   server: 45.8.158.238
@@ -83,7 +104,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡3|@ripaojiedian
+  name: 12|🇸🇬 新加坡3|@ripaojiedian
   password: ee19fceb-cedc-4832-b460-fccf24fdc8be
   port: 11008
   server: 120.232.150.248
@@ -91,30 +112,9 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇸🇬 狮城特殊|@ripaojiedian
+  name: 12|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 57.180.35.64
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬新加坡 01 | 1x SG
-  password: d738f670-67c9-4dfd-8b53-4ca6a5eae578
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬新加坡 02 | 1x SG
-  password: d738f670-67c9-4dfd-8b53-4ca6a5eae578
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬新加坡 03 | 1x SG
-  password: d738f670-67c9-4dfd-8b53-4ca6a5eae578
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true

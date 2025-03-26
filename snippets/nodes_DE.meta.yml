@@ -1,7 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪 德国 01 | 1x DE
-  password: 3e62cfbf-2be1-4bdd-9b9f-9cc14862a960
+  password: 5771399e-0082-43c1-a281-4939691d7395
   port: 36471
   server: free.2weradf.xyz
   type: ss
@@ -9,23 +9,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇩🇪1 |  5.6MB/s
-  network: ws
-  port: 80
-  server: 156.238.18.205
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: Telegram🇨🇳 @WangCai2
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪2 |  5.1MB/s
+  name: 1|🇩🇪1 |  3.8MB/s
   network: ws
   port: 80
   server: polproxy.fastly80.hosting-ip.com
@@ -38,22 +22,62 @@ proxies:
     headers:
       Host: moienam.com
     path: /telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram?ed=2048
+- client-fingerprint: chrome
+  flow: ''
+  grpc-opts:
+    grpc-service-name: fdvsdv
+  mode: ''
+  name: 1|🇩🇪2 |  1.7MB/s
+  network: grpc
+  port: 2097
+  reality-opts:
+    public-key: JNcCRy0bfOEzzyqh1foTuuG9T8IvwiO8ApJu5FhVERs
+    short-id: 2665af94c7b25f90
+  server: 188.245.242.20
+  servername: sourceforge.net
+  tls: true
+  type: vless
+  udp: false
+  uuid: de3e121a-8405-4888-98ec-8914c1850a2d
+- client-fingerprint: randomized
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪3 |  4.7MB/s
+  network: ws
+  port: 8080
+  server: 104.19.54.50
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: b8c59cae-73a8-4f44-88f9-4e40a7b94058
+  ws-opts:
+    headers:
+      Host: VPNCUSTOMIZE.www.webdade.com.www.speedtest.net.irna.ir.ips.ddns-ip.net.
+    path: /Channel----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE?ed=2048
 - alterId: 2
   cipher: auto
-  name: 1|🇩🇪3 |  5.2MB/s
+  name: 1|🇩🇪4 |  4.5MB/s
   network: ws
-  port: 23616
-  server: 16.mamamajd.site
+  port: 23618
+  server: 18.mamamajd.site
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: aa88fdd8-f054-34dc-9bf4-2cbb611794b4
+  uuid: 8801a218-9368-3f6e-beb3-e0277d6970e6
   ws-opts:
     headers:
-      Host: 16.mamamajd.site
+      Host: 18.mamamajd.site
     path: /
-- name: 9|(@VmessProtocol)برای خرید و ات...
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇩🇪德国 01 | 1x DE
+  password: 88ee5fd6-4da7-4591-bd3e-b2eda1c13da8
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 10|(@VmessProtocol)برای خرید و ات...
   password: 867f512f-93d2-4344-853c-50965de9b103
   port: 55215
   server: shy38.zqjc.cloud
@@ -61,7 +85,7 @@ proxies:
   sni: shy38.zqjc.cloud
   tls: false
   type: hysteria2
-- name: '9|(@VmessProtocol)برای خرید و ات... #1'
+- name: '10|(@VmessProtocol)برای خرید و ات... #1'
   password: 867f512f-93d2-4344-853c-50965de9b103
   port: 55215
   server: shy42.zqjc.cloud
@@ -69,7 +93,7 @@ proxies:
   sni: shy42.zqjc.cloud
   tls: false
   type: hysteria2
-- name: 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
+- name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
   obfs: salamander
   obfs-password: tel:@VPNHubMaRKeT
   password: VPNHubMaRKeT
@@ -78,24 +102,17 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '9|(@VmessProtocol)برای خرید و ات... #2'
+- name: '10|(@VmessProtocol)برای خرید و ات... #2'
   password: dfe0a937-2ac5-40d5-b0b1-22ffa818d6fe
   port: 443
   server: youhui-lu.sanguayun.com
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: '9|(@VmessProtocol)برای خرید و ات... #3'
+- name: '10|(@VmessProtocol)برای خرید و ات... #3'
   password: dfe0a937-2ac5-40d5-b0b1-22ffa818d6fe
   port: 443
   server: youhui-nl.sanguayun.com
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇩🇪德国 01 | 1x DE
-  password: d738f670-67c9-4dfd-8b53-4ca6a5eae578
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
