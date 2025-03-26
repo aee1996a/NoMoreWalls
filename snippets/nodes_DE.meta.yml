@@ -1,38 +1,20 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 0|🇩🇪1 |  5.8MB/s
-  network: tcp
-  port: 56635
-  raw:
-    add: 185.231.59.202
-    aid: null
-    alpn: ''
-    fp: ''
-    host: ''
-    id: dd9a594a-0572-4365-84da-e6dc8022c05a
-    net: tcp
-    path: ''
-    port: 56635
-    ps: 🔥Join+Telegram:@FarahVPN🟣
-    scy: auto
-    sni: ''
-    tls: none
-    type: none
-    v: '2'
-  server: 185.231.59.202
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: dd9a594a-0572-4365-84da-e6dc8022c05a
-- client-fingerprint: ''
-  flow: ''
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇩🇪德国 01 | 1x DE
+  password: 7fac219a-fd3b-4a08-aae0-861b04292af3
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  disable-sni: true
   mode: ''
-  name: 0|🇩🇪2 |  2.3MB/s
+  name: 1|🇩🇪1 |  5.7MB/s
   network: ws
-  port: 80
-  server: 156.238.18.51
+  port: 2095
+  server: 156.238.18.60
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vless
   udp: false
@@ -40,14 +22,31 @@ proxies:
   ws-opts:
     headers:
       Host: redw.pooriam.ir
-    path: Telegram🇨🇳 @WangCai2 /?ed=2560
+    path: /Telegram@V2ray_Alpha/?ed=2560
+- client-fingerprint: chrome
+  flow: ''
+  grpc-opts:
+    grpc-service-name: Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs
+  mode: ''
+  name: 1|🇩🇪2 |  5.7MB/s
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: 0JBrLAhqlbIWkAH1VAFno9w-XpAhjGhhWPG4qw7vlQw
+    short-id: d656c301bc0904
+  server: kamyar2.vact.ir
+  servername: www.cdn77.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: 85218cda-33a4-4546-91a7-bfe571aa4fee
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 0|🇩🇪3 |  5.2MB/s
+  name: 1|🇩🇪3 |  5.2MB/s
   network: ws
   port: 8880
-  server: 45.149.12.152
+  server: 185.170.166.242
   servername: ''
   tls: false
   type: vless
@@ -56,24 +55,15 @@ proxies:
   ws-opts:
     headers:
       Host: photographipictureai.ir
-    path: ''
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 0|🇩🇪4 |  2.5MB/s
-  network: ws
-  port: 80
-  server: zmaoz.faculty.ucdavis.edu
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 54cf82ae-7e94-4826-f713-459072381ff6
-  ws-opts:
-    headers:
-      Host: foffmelo.com
-    path: /olem/ws?ed=1024
-- name: 9|ا رر رایان@vmesc
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇩🇪 德国 01 | 1x DE
+  password: 94de0cd0-14f0-4fc6-ba12-eb064ed1cc3d
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- name: 10|ا رر رایان@vmesc
   password: 867f512f-93d2-4344-853c-50965de9b103
   port: 55215
   server: shy38.zqjc.cloud
@@ -81,7 +71,7 @@ proxies:
   sni: shy38.zqjc.cloud
   tls: false
   type: hysteria2
-- name: 9|کانفیگ پرسرعت رایگان🌋@vmesc
+- name: 10|کانفیگ پرسرعت رایگان🌋@vmesc
   password: 867f512f-93d2-4344-853c-50965de9b103
   port: 55215
   server: shy42.zqjc.cloud
@@ -89,7 +79,7 @@ proxies:
   sni: shy42.zqjc.cloud
   tls: false
   type: hysteria2
-- name: 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
+- name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
   obfs: salamander
   obfs-password: tel:@VPNHubMaRKeT
   password: VPNHubMaRKeT
@@ -98,24 +88,17 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '9|(@VmessProtocol)برای خرید و ات... #2'
+- name: '10|(@VmessProtocol)برای خرید و ات... #2'
   password: dfe0a937-2ac5-40d5-b0b1-22ffa818d6fe
   port: 443
   server: youhui-lu.sanguayun.com
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: '9|کانفیگ پرسرعت رایگان🌋@vmesc #1'
+- name: '10|کانفیگ پرسرعت رایگان🌋@vmesc #1'
   password: dfe0a937-2ac5-40d5-b0b1-22ffa818d6fe
   port: 443
   server: youhui-nl.sanguayun.com
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇩🇪德国 01 | 1x DE
-  password: 0b4f844b-d73c-458a-a85a-728d66826f7b
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true

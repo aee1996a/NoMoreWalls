@@ -1,34 +1,15 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 0|🇩🇪1 |  5.8MB/s
-  network: tcp
-  port: 56635
-  raw:
-    add: 185.231.59.202
-    aid: null
-    alpn: ''
-    fp: ''
-    host: ''
-    id: dd9a594a-0572-4365-84da-e6dc8022c05a
-    net: tcp
-    path: ''
-    port: 56635
-    ps: 🔥Join+Telegram:@FarahVPN🟣
-    scy: auto
-    sni: ''
-    tls: none
-    type: none
-    v: '2'
-  server: 185.231.59.202
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: dd9a594a-0572-4365-84da-e6dc8022c05a
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇩🇪德国 01 | 1x DE
-  password: 0b4f844b-d73c-458a-a85a-728d66826f7b
+  name: 0|🇩🇪德国 01 | 1x DE
+  password: 7fac219a-fd3b-4a08-aae0-861b04292af3
   port: 31471
   server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇩🇪 德国 01 | 1x DE
+  password: 94de0cd0-14f0-4fc6-ba12-eb064ed1cc3d
+  port: 36471
+  server: free.2weradf.xyz
   type: ss
   udp: true
