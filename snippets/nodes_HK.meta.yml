@@ -1,57 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港 02 | 1x HK
-  password: 4330ee8e-557f-4133-b66c-cb22cb61826f
+  password: 82a0ed52-ac8e-49d9-b833-4bddad020ba0
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 4330ee8e-557f-4133-b66c-cb22cb61826f
+  password: 82a0ed52-ac8e-49d9-b833-4bddad020ba0
   port: 36145
   server: free.2weradf.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇭🇰1 |  6.1MB/s
-  network: tcp
-  port: 45883
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: gy01.hunheiydd.xyz
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇭🇰2 |  1.7MB/s
-  network: tcp
-  port: 33782
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇭🇰3 |  1.3MB/s
-  network: tcp
-  port: 41279
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇭🇰4 |  5.8MB/s
+  name: 1|🇭🇰1 |  5.8MB/s
   network: tcp
   port: 54220
   reality-opts:
@@ -63,55 +27,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇭🇰5 |  6.2MB/s
-  network: tcp
-  port: 25135
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇭🇰6 |  1.8MB/s
-  network: tcp
-  port: 11555
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: test123.zlqhdns.top
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇭🇰7 |  5.4MB/s
-  network: tcp
-  port: 31800
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: agaungzhou01.bumbleshrimp.com
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇭🇰8 |  4.0MB/s
-  network: tcp
-  port: 23657
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: gy01.hunheiydd.xyz
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇭🇰9 |  6.2MB/s
+  name: 1|🇭🇰2 |  5.6MB/s
   network: tcp
   port: 24318
   reality-opts:
@@ -123,9 +39,54 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇭🇰10 |  2.7MB/s
+  name: 1|🇭🇰3 |  5.9MB/s
   network: tcp
-  port: 46716
+  port: 41279
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|🇭🇰4 |  6.3MB/s
+  network: tcp
+  port: 10860
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: test123.zlqhdns.top
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 1|🇭🇰5 |  6.1MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: hkre1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: hkre1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|🇭🇰6 |  5.0MB/s
+  network: tcp
+  port: 61178
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: test123.zlqhdns.top
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|🇭🇰7 |  1.8MB/s
+  network: tcp
+  port: 31800
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
   server: agaungzhou01.bumbleshrimp.com
@@ -133,37 +94,7 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1|🇭🇰11 |  1.2MB/s
-  network: ws
-  port: 80
-  server: 45.131.4.254
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: Telegram@WangCai2/?ed
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰香港 02 | 1x HK
-  password: 3dfb33e3-798c-49f5-b50e-c8700b2cd110
-  port: 31143
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰香港家宽 03 | 1x HK
-  password: 3dfb33e3-798c-49f5-b50e-c8700b2cd110
-  port: 31145
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- name: 11|香港🇭🇰 HY2
+- name: 10|香港🇭🇰 HY2
   password: e20abb22a245edb0
   port: 8443
   server: fast.yxmm.xyz
@@ -173,7 +104,7 @@ proxies:
   type: hysteria2
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇭🇰 香港|@ripaojiedian
+  name: 11|🇭🇰 香港|@ripaojiedian
   password: UMG49G7UX0FPLALB
   port: 15016
   server: w72tapyb.slashdevslashnetslashtun.net
@@ -181,14 +112,14 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 12|🇭🇰 香港2|@ripaojiedian
+  name: 11|🇭🇰 香港2|@ripaojiedian
   password: ee19fceb-cedc-4832-b460-fccf24fdc8be
   port: 11002
   server: 183.232.229.164
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 12,13|香港3|@ripaojiedian
+  name: 11,12|香港3|@ripaojiedian
   network: tcp
   password: VMhGp5wEIyCDf90T
   port: 42303
@@ -198,7 +129,7 @@ proxies:
   type: trojan
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇭🇰 香港4|@ripaojiedian
+  name: 11|🇭🇰 香港4|@ripaojiedian
   password: UVKL67AXW56ZCNT3
   port: 15004
   server: w72tapyb.slashdevslashnetslashtun.net
@@ -206,7 +137,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|香港A|@ripaojiedian
+  name: 12|香港A|@ripaojiedian
   network: kcp
   port: '26706'
   server: 47.239.242.136
