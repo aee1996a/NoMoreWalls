@@ -1,52 +1,59 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 01 | 1x TW
-  password: ec4644c9-a7c3-49f8-b31c-def37b63a822
-  port: 36241
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 02 | 1x TW
-  password: ec4644c9-a7c3-49f8-b31c-def37b63a822
-  port: 36243
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 03 | 1x TW
-  password: ec4644c9-a7c3-49f8-b31c-def37b63a822
-  port: 36245
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 01 | 1x TW
-  password: 77d7cf84-599a-47cf-a99d-895c9db85adb
+  name: 0|🇹🇼台湾 01 | 1x TW
+  password: 2e1c785f-34a7-4cda-b79a-a45b44c6c0df
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 02 | 1x TW
-  password: 77d7cf84-599a-47cf-a99d-895c9db85adb
+  name: 0|🇹🇼台湾 02 | 1x TW
+  password: 2e1c785f-34a7-4cda-b79a-a45b44c6c0df
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 03 | 1x TW
-  password: 77d7cf84-599a-47cf-a99d-895c9db85adb
+  name: 0|🇹🇼台湾 03 | 1x TW
+  password: 2e1c785f-34a7-4cda-b79a-a45b44c6c0df
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 12,13|台湾|@ripaojiedian
-  network: tcp
-  password: 5120e15f-6a00-41f0-be5e-1032f4bba4fc
-  port: 42765
-  server: wb.kaiqsz.com
-  skip-cert-verify: true
-  sni: mmbiz1.redapricotcloud.com
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 01 | 1x TW
+  password: be9c70bf-0ccc-4253-ab1c-bd3054a231c7
+  port: 36241
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 02 | 1x TW
+  password: be9c70bf-0ccc-4253-ab1c-bd3054a231c7
+  port: 36243
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 03 | 1x TW
+  password: be9c70bf-0ccc-4253-ab1c-bd3054a231c7
+  port: 36245
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 12|🇹🇼 台湾|@ripaojiedian
+  password: DI6JQFY7V7UAUV7P
+  port: 21006
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 12|🇹🇼 台湾2|@ripaojiedian
+  password: 8K5HG3SI30CP72OE
+  port: 21004
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
