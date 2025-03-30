@@ -1,62 +1,32 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 02 | 1x HK
-  password: 2e1c785f-34a7-4cda-b79a-a45b44c6c0df
-  port: 31143
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港家宽 03 | 1x HK
-  password: 2e1c785f-34a7-4cda-b79a-a45b44c6c0df
-  port: 31145
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港 02 | 1x HK
-  password: be9c70bf-0ccc-4253-ab1c-bd3054a231c7
+  name: 0|🇭🇰 香港 02 | 1x HK
+  password: 89e88c29-bd12-4118-b4e6-6fc15a95d6bb
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港住宅IP 03 | 1x HK
-  password: be9c70bf-0ccc-4253-ab1c-bd3054a231c7
+  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
+  password: 89e88c29-bd12-4118-b4e6-6fc15a95d6bb
   port: 36145
   server: free.2weradf.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 2|🇭🇰10 |  4.4MB/s
-  network: ws
-  port: 443
-  raw:
-    add: www.visa.com.tw
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: hk.insbot.filegear-sg.me
-    id: 47eab0de-97f9-49be-f2f3-2e4eb17268e6
-    net: ws
-    path: /aa
-    port: 443
-    ps: CloudFlare
-    scy: ''
-    sni: ''
-    tls: tls
-    type: ''
-    v: '2'
-  server: www.visa.com.tw
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 47eab0de-97f9-49be-f2f3-2e4eb17268e6
-  ws-opts:
-    headers:
-      Host: hk.insbot.filegear-sg.me
-    path: /aa
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰香港 02 | 1x HK
+  password: eb5812ae-8009-463b-9f15-bf16a3f593e5
+  port: 31143
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰香港家宽 03 | 1x HK
+  password: eb5812ae-8009-463b-9f15-bf16a3f593e5
+  port: 31145
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
