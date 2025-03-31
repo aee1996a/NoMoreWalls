@@ -1,5 +1,26 @@
 proxies:
-- name: 0|🇸🇬1 |  1.4MB/s
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬 新加坡 01 | 1x SG
+  password: c1c70532-455e-447a-bcf0-fd25d93601b6
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬 新加坡 02 | 1x SG
+  password: c1c70532-455e-447a-bcf0-fd25d93601b6
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬 新加坡 03 | 1x SG
+  password: c1c70532-455e-447a-bcf0-fd25d93601b6
+  port: 36175
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- name: 1|🇸🇬1 |  3.7MB/s
   network: ws
   port: 80
   server: support.zoom.us
@@ -13,20 +34,41 @@ proxies:
     headers:
       Host: free.pranithsandaruwan.shop
     path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0,14|CN_speednode_0021
-  network: tcp
-  port: 44003
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.nvidia.com
-  skip-cert-verify: true
-  tls: true
+- name: 1,14|US_speednode_0050
+  network: ws
+  port: 80
+  server: 170.114.46.6
+  servername: free.pranithsandaruwan.shop
+  skip-cert-verify: false
+  tls: false
   type: vless
   udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  uuid: d9074e14-c4e4-4e58-8fff-3727e83af868
+  ws-opts:
+    headers:
+      Host: free.pranithsandaruwan.shop
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬新加坡 01 | 1x SG
+  password: 7767b6fa-1fde-46f3-a359-c2c9feddbe8c
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬新加坡 02 | 1x SG
+  password: 7767b6fa-1fde-46f3-a359-c2c9feddbe8c
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬新加坡 03 | 1x SG
+  password: 7767b6fa-1fde-46f3-a359-c2c9feddbe8c
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - name: 11|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443
