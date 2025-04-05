@@ -1,88 +1,47 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港 02 | 1x HK
-  password: 1d14484d-4bdb-4569-b354-a6ab5ce06108
+  password: c69cd041-fffe-4535-8894-72f4f2aeefb4
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港家宽 03 | 1x HK
-  password: 1d14484d-4bdb-4569-b354-a6ab5ce06108
+  password: c69cd041-fffe-4535-8894-72f4f2aeefb4
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰 香港 02 | 1x HK
-  password: d39f3dbd-5b04-4354-ad2a-60d64fbe9936
+  password: 4f043f68-398d-4828-9fbb-0f1351df135a
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰 香港住宅IP 03 | 1x HK
-  password: d39f3dbd-5b04-4354-ad2a-60d64fbe9936
+  password: 4f043f68-398d-4828-9fbb-0f1351df135a
   port: 36145
   server: free.2weradf.xyz
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 2|🇭🇰11 |  1.3MB/s
-  port: 4136
-  server: b3597e57-submo0-suc86w-7yd9.d.volczijie.com
-  tls: false
-  type: vmess
-  uuid: 7f84fa90-9f44-11ef-ae1e-f23c93141fad
-- alterId: 0
-  cipher: auto
-  name: 2|🇭🇰12 |  2.6MB/s
-  port: 4138
-  server: 1e34b97e-submo0-sv7alj-ctxx.c.volczijie.com
-  tls: false
-  type: vmess
-  uuid: 4e84400e-f4bc-11ef-81b7-f23c932f2c32
-- alterId: 0
-  cipher: auto
-  name: 2|🇭🇰15 |  3.2MB/s
-  port: 4138
-  server: 3e5f4230-submo0-su9w3p-4mce.c.volczijie.com
-  tls: false
-  type: vmess
-  uuid: 06c625ea-5902-11ee-9e87-f23c9313b177
-- alterId: 0
-  cipher: auto
-  name: 2|🇭🇰17 |  3.1MB/s
-  port: 4138
-  server: 6bfe8cbd-submo0-sy5h80-37m3.c.volczijie.com
-  tls: false
-  type: vmess
-  uuid: 3804b1c6-0600-11ee-94af-f23c93141fad
-- cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇭🇰 香港|@ripaojiedian
-  password: 2EJ0PUVXQ58KR0VG
-  port: 15012
-  server: 156.245.190.21
+  port: 4136
+  server: 7ea30b67-submo0-t23v18-6wpo.d.volczijie.com
+  skip-cert-verify: false
   tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 12|🇭🇰 香港2|@ripaojiedian
-  password: Sj10bnYDe7w6V29E
-  plugin: obfs
-  plugin-opts:
-    host: 5f981bce46.m.ctrip.com
-    mode: http
-  port: 10001
-  server: south.inmysecretlife.xyz
-  tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: aada003a-bc20-11ee-8ebe-f23c93136cb3
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇭🇰 香港5|@ripaojiedian
+  name: 12|🇭🇰 香港2|@ripaojiedian
   port: 41002
   server: 120.232.153.40
   skip-cert-verify: false
@@ -92,7 +51,17 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 13|香港5|@ripaojiedian
+  name: 13|香港|@ripaojiedian
+  network: tcp
+  port: '4136'
+  server: 7ea30b67-submo0-t23v18-6wpo.d.volczijie.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aada003a-bc20-11ee-8ebe-f23c93136cb3
+- alterId: 0
+  cipher: auto
+  name: 13|香港2|@ripaojiedian
   network: tcp
   port: '41002'
   server: 120.232.153.40
