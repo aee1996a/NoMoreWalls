@@ -1,8 +1,31 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇩🇪德国 01 | 1x DE
+  password: 3dd06512-f31f-48b9-921f-8da7f0cc183b
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪1 |  5.5MB/s
+  network: ws
+  port: 2082
+  server: 104.17.148.22
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 2838c0ba-e31b-4f73-eaf1-e1ee50bef660
+  ws-opts:
+    headers:
+      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
 - client-fingerprint: safari
   flow: xtls-rprx-vision
   mode: ''
-  name: 1|🇩🇪1 |  1.3MB/s
+  name: 1|🇩🇪2 |  3.4MB/s
   network: ''
   port: 443
   server: 204.10.194.78
@@ -14,26 +37,10 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇩🇪2 |  5.8MB/s
+  name: 1|🇩🇪3 |  4.2MB/s
   network: ws
   port: 80
-  server: 45.131.4.233
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: ''
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪3 |  5.7MB/s
-  network: ws
-  port: 80
-  server: 45.131.4.131
+  server: 45.131.5.27
   servername: ''
   tls: false
   type: vless
@@ -43,9 +50,36 @@ proxies:
     headers:
       Host: gozargah.validbv7996.ir
     path: /Telegram🇨🇳@WangCai2
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪4 |  2.0MB/s
+  network: ws
+  port: 80
+  server: 45.131.5.99
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+  ws-opts:
+    headers:
+      Host: gozargah.validbv7996.ir
+    path: Telegram🇨🇳@WangCai2/?ed=2560
+- name: 1|🇩🇪5 |  5.7MB/s
+  network: ws
+  port: 80
+  server: 45.131.4.178
+  tls: false
+  type: vless
+  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+  ws-opts:
+    headers:
+      Host: gozargah.validbv7996.ir
+    path: /Telegram🇨🇳 @MxlShare@WangCai2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇩🇪4 |  4.4MB/s
+  name: 1|🇩🇪6 |  3.5MB/s
   network: tcp
   port: 58031
   reality-opts:
@@ -55,58 +89,7 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪5 |  4.0MB/s
-  network: ws
-  port: 2053
-  server: zula.ir
-  servername: all22.kikforwindows.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: 78905d87-0266-4825-868d-3069e88d1201
-  ws-opts:
-    headers:
-      Host: all22.kikforwindows.com
-    path: /containers/de
-- auth: 18463200c271aa6d
-  client-fingerprint: chrome
-  name: 1|🇩🇪6 |  1.7MB/s
-  obfs: salamander
-  obfs-password: 6c80ade6
-  password: 18463200c271aa6d
-  port: 443
-  server: 45.63.116.113
-  skip-cert-verify: true
-  sni: vkvd127.mycdn.me
-  type: hysteria2
-- client-fingerprint: chrome
-  flow: ''
-  grpc-opts:
-    grpc-service-name: '@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy'
-  mode: ''
-  name: 1|🇩🇪7 |  3.7MB/s
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: Aa3FogZ9ohTiRHsdnoyiMg7TFARWEeZs_m290juxEzs
-    short-id: ''
-  server: 178.63.228.220
-  servername: fauxid.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: c09046b3-0c65-4ffc-9e7a-db134cddc3de
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪 德国 01 | 1x DE
-  password: 0aece2b3-f741-41a0-943d-06e1a2d5d8b8
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
+- name: 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
   obfs: salamander
   obfs-password: tel:@VPNHubMaRKeT
   password: VPNHubMaRKeT
@@ -115,7 +98,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 10|(@VmessProtocol)رای ی  تال ای ...
+- name: 9|(@VmessProtocol)رای ی  تال ای ...
   password: b099dc75-799b-4c23-b241-48a797259359
   port: 443
   server: 146.56.102.76
@@ -123,3 +106,10 @@ proxies:
   sni: kr1.xiaoliyu.cyou
   tls: false
   type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇩🇪 德国 01 | 1x DE
+  password: b2336a9b-f641-4817-aa88-3874046adf25
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
