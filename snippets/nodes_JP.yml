@@ -1,56 +1,56 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 01 | 1x JP
-  password: 991d8642-135b-4ce0-9cc8-465770d2b1f7
+  password: 849a7d03-bb32-428f-912e-fd16e5d79b51
   port: 31111
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 02 | 1x JP
-  password: 991d8642-135b-4ce0-9cc8-465770d2b1f7
+  password: 849a7d03-bb32-428f-912e-fd16e5d79b51
   port: 31113
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 03 | 1x JP
-  password: 991d8642-135b-4ce0-9cc8-465770d2b1f7
+  password: 849a7d03-bb32-428f-912e-fd16e5d79b51
   port: 31115
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 1|🇯🇵2 |  5.0MB/s
-  password: ef23ddd0-14c5-39c2-9880-af55ce892363
-  port: 52907
-  server: t13.qifei.app
-  skip-cert-verify: true
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 1|🇯🇵2 |  2.1MB/s
+  port: 3684
+  server: 637b7bc9-sudhc0-svibx4-1s4a.d.volczijie.com
+  tls: false
+  type: vmess
+  uuid: 337cb930-073d-11ee-8120-f23c93136cb3
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 1,12|tg频道:@ripaojiedian
+  name: 1|🇯🇵8 |  6.0MB/s
   password: amazonskr05
   port: 443
-  server: 18.181.170.89
-  tfo: false
+  server: 3.112.239.136
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 2|🇯🇵 日本 01 | 1x JP
-  password: 93ec36c7-c601-4be7-9971-6c0654c2cd9a
+  password: fc65235e-3741-43e1-8efb-0651a29c995b
   port: 36111
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇯🇵 日本 02 | 1x JP
-  password: 93ec36c7-c601-4be7-9971-6c0654c2cd9a
+  password: fc65235e-3741-43e1-8efb-0651a29c995b
   port: 36113
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇯🇵 日本 03 | 1x JP
-  password: 93ec36c7-c601-4be7-9971-6c0654c2cd9a
+  password: fc65235e-3741-43e1-8efb-0651a29c995b
   port: 36115
   server: free.2weradf.xyz
   type: ss

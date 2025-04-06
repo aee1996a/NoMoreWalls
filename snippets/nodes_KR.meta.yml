@@ -1,62 +1,94 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 01 | 1x KR
-  password: 991d8642-135b-4ce0-9cc8-465770d2b1f7
+  password: 849a7d03-bb32-428f-912e-fd16e5d79b51
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 02 | 1x KR
-  password: 991d8642-135b-4ce0-9cc8-465770d2b1f7
+  password: 849a7d03-bb32-428f-912e-fd16e5d79b51
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 1|🇰🇷1 |  4.4MB/s
-  network: ws
-  port: 443
-  server: 135.84.76.105
-  servername: cb.dong2025.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: cb.dong2025.cfd
-    path: /?ed=2560
-- name: 1|🇰🇷2 |  5.3MB/s
-  network: ws
-  port: 443
-  server: otto.ns.cloudflare.com
-  servername: cb.dong2025.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: cb.dong2025.cfd
-    path: /?ed=2560
-- cipher: aes-256-cfb
-  name: 1|🇰🇷3 |  6.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.36.52.106
-  type: ss
-- cipher: aes-256-cfb
-  name: 1|🇰🇷4 |  5.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.34.142.98
-  type: ss
-- name: 1|🇰🇷5 |  5.7MB/s
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇰🇷1 |  5.0MB/s
   network: ws
   port: 80
-  server: 45.131.5.151
+  server: 104.21.86.113
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: little-fog-5666.netmousavi.workers.dev
+    path: /2qvm12oXHjqFgfZN?ed=2560
+- name: 1|🇰🇷2 |  4.9MB/s
+  network: ws
+  port: 443
+  server: 192.200.160.99
+  servername: cb.dong2025.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cb.dong2025.cfd
+    path: /?ed=2560
+- name: 1|🇰🇷3 |  4.2MB/s
+  network: ws
+  port: 443
+  server: 217.163.76.97
+  servername: cb.dong2025.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cb.dong2025.cfd
+    path: /?ed=2560
+- name: 1|🇰🇷4 |  1.7MB/s
+  network: ws
+  port: 443
+  server: time.is
+  servername: cb.dong2025.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cb.dong2025.cfd
+    path: /?ed=2560
+- name: 1|🇰🇷5 |  2.5MB/s
+  network: ws
+  port: 443
+  server: ashton.ns.cloudflare.com
+  servername: cb.dong2025.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cb.dong2025.cfd
+    path: /?ed=2560
+- name: 1|🇰🇷6 |  2.4MB/s
+  network: ws
+  port: 80
+  server: 45.131.5.194
   servername: gozargah.validbv7996.ir
   tls: false
   type: vless
@@ -64,11 +96,25 @@ proxies:
   ws-opts:
     headers:
       Host: gozargah.validbv7996.ir
-    path: /Telegram🇨🇳 @MxlShare@WangCai2
-- name: 1|🇰🇷6 |  1.2MB/s
+    path: /Telegram🇨🇳 @MxlShare @WangCai2
+- name: 1|🇰🇷7 |  3.9MB/s
   network: ws
   port: 443
-  server: dylan.ns.cloudflare.com
+  server: 212.183.88.162
+  servername: cb.dong2025.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cb.dong2025.cfd
+    path: /?ed=2560
+- name: 1|🇰🇷8 |  1.5MB/s
+  network: ws
+  port: 443
+  server: iplocation.io
   servername: cb.dong2025.cfd
   skip-cert-verify: true
   tls: true
@@ -81,14 +127,14 @@ proxies:
     path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
   name: 2|🇰🇷 韩国 01 | 1x KR
-  password: 93ec36c7-c601-4be7-9971-6c0654c2cd9a
+  password: fc65235e-3741-43e1-8efb-0651a29c995b
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇰🇷 韩国 02 | 1x KR
-  password: 93ec36c7-c601-4be7-9971-6c0654c2cd9a
+  password: fc65235e-3741-43e1-8efb-0651a29c995b
   port: 36313
   server: free.2weradf.xyz
   type: ss

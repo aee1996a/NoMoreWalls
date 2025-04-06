@@ -1,39 +1,58 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
-  password: 991d8642-135b-4ce0-9cc8-465770d2b1f7
+  password: 849a7d03-bb32-428f-912e-fd16e5d79b51
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 02 | 1x SG
-  password: 991d8642-135b-4ce0-9cc8-465770d2b1f7
+  password: 849a7d03-bb32-428f-912e-fd16e5d79b51
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 03 | 1x SG
-  password: 991d8642-135b-4ce0-9cc8-465770d2b1f7
+  password: 849a7d03-bb32-428f-912e-fd16e5d79b51
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 1|🇸🇬1 |  1.2MB/s
-  network: ws
-  port: 443
-  server: time.is
-  servername: cb.dong2025.cfd
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1,14|CN_speednode_0013
+  network: tcp
+  port: 56127
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: agaungzhou01.bumbleshrimp.com
+  servername: www.yahoo.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 1|🇸🇬2 |  2.3MB/s
+  network: ws
+  port: 8443
+  server: 111.119.235.98
+  servername: sgp.cayuo.me
+  tls: true
+  type: vless
+  uuid: a89981b0-8096-4bbc-8d24-da2330650c4b
   ws-opts:
     headers:
-      host: cb.dong2025.cfd
-    path: /?ed=2560
+      Host: sgp.cayuo.me
+    path: /bing
+- cipher: aes-256-cfb
+  delay: 1576
+  name: 1|🇸🇬3 |  1.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.212.199.43
+  type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1,14|CN_speednode_0010
@@ -48,43 +67,23 @@ proxies:
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇸🇬3 |  5.3MB/s
-  network: tcp
-  port: 10778
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: test123.zlqhdns.top
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alterId: '0'
-  cipher: auto
-  name: 1|🇸🇬4 |  1.5MB/s
-  network: tcp
-  port: 35542
-  server: 120.232.153.40
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   name: 2|🇸🇬 新加坡 01 | 1x SG
-  password: 93ec36c7-c601-4be7-9971-6c0654c2cd9a
+  password: fc65235e-3741-43e1-8efb-0651a29c995b
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇸🇬 新加坡 02 | 1x SG
-  password: 93ec36c7-c601-4be7-9971-6c0654c2cd9a
+  password: fc65235e-3741-43e1-8efb-0651a29c995b
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇸🇬 新加坡 03 | 1x SG
-  password: 93ec36c7-c601-4be7-9971-6c0654c2cd9a
+  password: fc65235e-3741-43e1-8efb-0651a29c995b
   port: 36175
   server: free.2weradf.xyz
   type: ss

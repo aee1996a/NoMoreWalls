@@ -1,28 +1,71 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港 02 | 1x HK
-  password: 991d8642-135b-4ce0-9cc8-465770d2b1f7
+  password: 849a7d03-bb32-428f-912e-fd16e5d79b51
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港家宽 03 | 1x HK
-  password: 991d8642-135b-4ce0-9cc8-465770d2b1f7
+  password: 849a7d03-bb32-428f-912e-fd16e5d79b51
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 1|🇭🇰5 |  1.2MB/s
+  network: ws
+  port: 23000
+  raw:
+    add: 103.136.150.2
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: ''
+    id: 391eee01-bdef-4c94-b2de-99d90af8b069
+    net: ws
+    path: /
+    port: '23000'
+    ps: 🇭🇰 --001-1C
+    scy: ''
+    sni: ''
+    tls: ''
+    type: none
+    v: '2'
+  server: 103.136.150.2
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 391eee01-bdef-4c94-b2de-99d90af8b069
+  ws-opts:
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 1|🇭🇰7 |  2.9MB/s
+  network: ws
+  port: 80
+  server: 4ac87188-suk9s0-t7qex7-1supq.hk3.p5pv.com
+  servername: 🇭🇰HK-1.65.208.163-5585 | 5.237MB
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 7af3db60-b2d9-11ef-88ab-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: 4ac87188-suk9s0-t7qex7-1supq.hk3.p5pv.com
+    path: /
 - cipher: chacha20-ietf-poly1305
   name: 2|🇭🇰 香港 02 | 1x HK
-  password: 93ec36c7-c601-4be7-9971-6c0654c2cd9a
+  password: fc65235e-3741-43e1-8efb-0651a29c995b
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 93ec36c7-c601-4be7-9971-6c0654c2cd9a
+  password: fc65235e-3741-43e1-8efb-0651a29c995b
   port: 36145
   server: free.2weradf.xyz
   type: ss
