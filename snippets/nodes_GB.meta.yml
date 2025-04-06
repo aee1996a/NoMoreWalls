@@ -1,36 +1,15 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 01 | 1x HK
-  password: 5aa86245-4c6f-4c38-94d8-e5f8c11cb662
-  port: 31141
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: 5aa86245-4c6f-4c38-94d8-e5f8c11cb662
+  password: 991d8642-135b-4ce0-9cc8-465770d2b1f7
   port: 31271
   server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港 01 | 1x HK
-  password: 54cef310-0e65-48e4-8947-27c34b903404
-  port: 36141
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 54cef310-0e65-48e4-8947-27c34b903404
-  port: 36271
-  server: free.2weradf.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   mode: ''
-  name: 2|🇬🇧1 |  4.0MB/s
+  name: 1|🇬🇧1 |  2.5MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -51,7 +30,19 @@ proxies:
     path: ''
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0023
+  name: 1|🇬🇧2 |  5.2MB/s
+  network: tcp
+  port: 35311
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou02.mysynology.net
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1,14|CN_speednode_0023
   network: tcp
   port: 65053
   reality-opts:
@@ -65,7 +56,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇬🇧3 |  3.7MB/s
+  name: 1|🇬🇧4 |  5.0MB/s
   network: tcp
   port: 14659
   reality-opts:
@@ -75,17 +66,9 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- auth: 6e17fc5e-0da7-44e3-8d65-3a752ea13799
-  name: 2|🇬🇧4 |  4.7MB/s
-  password: 6e17fc5e-0da7-44e3-8d65-3a752ea13799
-  port: 20387
-  server: gb.1e6af9be69cbae59cba.tech
-  skip-cert-verify: false
-  sni: gb.1e6af9be69cbae59cba.tech
-  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇬🇧5 |  1.0MB/s
+  name: 1|🇬🇧5 |  3.3MB/s
   network: tcp
   port: 32055
   reality-opts:
@@ -95,17 +78,20 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 2|🇬🇧6 |  6.2MB/s
-  network: ws
-  port: 80
-  server: 45.131.4.200
-  tls: false
-  type: vless
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /Telegram🇨🇳 @MxlShare@WangCai2/?ed
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰 香港 01 | 1x HK
+  password: 93ec36c7-c601-4be7-9971-6c0654c2cd9a
+  port: 36141
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 93ec36c7-c601-4be7-9971-6c0654c2cd9a
+  port: 36271
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - name: 11|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
