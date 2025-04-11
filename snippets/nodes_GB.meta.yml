@@ -1,49 +1,7 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 01 | 1x HK
-  password: 5b8fcb24-ee4a-49a3-aad2-50be7bc520ae
-  port: 36141
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 5b8fcb24-ee4a-49a3-aad2-50be7bc520ae
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 01 | 1x HK
-  password: cd73ee1b-d83a-48ec-b69b-9f2ba8efe6ec
-  port: 31141
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧英国家宽 01 | 1x UK
-  password: cd73ee1b-d83a-48ec-b69b-9f2ba8efe6ec
-  port: 31271
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0034
-  network: tcp
-  port: 14659
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.nvidia.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇬🇧2 |  5.5MB/s
+  name: 0|🇬🇧1 |  5.0MB/s
   network: tcp
   port: 35311
   reality-opts:
@@ -53,25 +11,17 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: random
-  flow: ''
-  mode: ''
-  name: 2|🇬🇧3 |  1.1MB/s
-  network: ws
-  port: 443
-  server: 104.18.8.74
-  servername: en.kljasdfiaosdf92-asdjlkfhasdf-asdfa.li
-  tls: true
-  type: vless
-  udp: false
-  uuid: b995dc2f-045d-49e4-a02b-07cf968c64f5
-  ws-opts:
-    headers:
-      Host: en.kljasdfiaosdf92-asdjlkfhasdf-asdfa.li
-    path: /admin
+- auth: 597dc9ce-5ce8-4ff5-833b-76cd4e5789e1
+  name: 0|🇬🇧2 |  5.1MB/s
+  password: 597dc9ce-5ce8-4ff5-833b-76cd4e5789e1
+  port: 8443
+  server: yg1.gywanglug.xyz
+  skip-cert-verify: false
+  sni: yg1.gywanglug.xyz
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0039
+  name: 0,13|CN_speednode_0039
   network: tcp
   port: 32055
   reality-opts:
@@ -83,7 +33,14 @@ proxies:
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 11|Hysteria 🇬🇧 @v2meowcf
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇬🇧英国家宽 01 | 1x UK
+  password: 5cb77a62-978c-4a75-983e-b873610b1ce9
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 10|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
   server: 178.236.237.84
@@ -91,7 +48,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 14|GB_speednode_0055
+- name: 13|GB_speednode_0055
   network: ws
   port: 8880
   server: 31.22.116.154
@@ -105,3 +62,17 @@ proxies:
     headers:
       Host: redfree8.pooriashop.ir
     path: /---TM-@AZARBAYJAB1-------TM-@AZARBAYJAB1---------TM-@AZARBAYJAB1---join?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰 香港 01 | 1x HK
+  password: 21b3d799-577e-4b58-b6bc-812b15c00089
+  port: 36141
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 21b3d799-577e-4b58-b6bc-812b15c00089
+  port: 36271
+  server: free.2weradf.xyz
+  type: ss
+  udp: true

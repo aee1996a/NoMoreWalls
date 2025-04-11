@@ -1,30 +1,21 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪 德国 01 | 1x DE
-  password: 5b8fcb24-ee4a-49a3-aad2-50be7bc520ae
-  port: 36471
-  server: free.2weradf.xyz
+- cipher: rc4-md5
+  name: 0|🇩🇪4 |  2.4MB/s
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 193.108.119.230
   type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇩🇪德国 01 | 1x DE
-  password: cd73ee1b-d83a-48ec-b69b-9f2ba8efe6ec
+  password: 5cb77a62-978c-4a75-983e-b873610b1ce9
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 2|🇩🇪7 |  2.4MB/s
-  network: ws
-  port: 32683
-  server: 92.114.54.227
-  servername: digitalcloud.pro.jiahe.buzz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: b4134d6a-945b-4355-b34b-a0899b02701e
-  ws-opts:
-    headers:
-      Host: digitalcloud.pro.jiahe.buzz
-    path: /jh002
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇩🇪 德国 01 | 1x DE
+  password: 21b3d799-577e-4b58-b6bc-812b15c00089
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
