@@ -1,22 +1,39 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 01 | 1x KR
-  password: 5cb77a62-978c-4a75-983e-b873610b1ce9
-  port: 31311
-  server: free.2apzhfa.xyz
+  name: 1|🇰🇷 韩国 01 | 1x KR
+  password: 712ecc6c-f8cd-46a4-96a9-b8d6e2e249d3
+  port: 36311
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 02 | 1x KR
-  password: 5cb77a62-978c-4a75-983e-b873610b1ce9
-  port: 31313
-  server: free.2apzhfa.xyz
+  name: 1|🇰🇷 韩国 02 | 1x KR
+  password: 712ecc6c-f8cd-46a4-96a9-b8d6e2e249d3
+  port: 36313
+  server: free.2weradf.xyz
   type: ss
   udp: true
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2,14|GB_speednode_0056
+  network: ws
+  port: 8880
+  server: 31.22.116.154
+  servername: redfree8.pooriashop.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redfree8.pooriashop.ir
+    path: /Telegram@V2ray_Alpha
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|韩国|@ripaojiedian
+  name: 12,13|韩国|@ripaojiedian
   network: ws
   port: '30828'
   server: v28.heduian.link
@@ -32,7 +49,7 @@ proxies:
     path: /oooo
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇰🇷 韩国2|@ripaojiedian
+  name: 12|🇰🇷 韩国2|@ripaojiedian
   password: '!!str 1234'
   port: 1234
   server: 43.203.237.206
@@ -40,7 +57,7 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇰🇷 韩国3|@ripaojiedian
+  name: 12|🇰🇷 韩国3|@ripaojiedian
   password: 1601e3c29c8db1a88942cf0cad731bf3
   port: 3306
   server: 43.131.255.175
@@ -49,7 +66,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇰🇷 韩国4|@ripaojiedian
+  name: 12|🇰🇷 韩国4|@ripaojiedian
   port: 45245
   server: ye.fxlcn.com
   skip-cert-verify: false
@@ -59,7 +76,7 @@ proxies:
   uuid: 469e0b31-30c3-4dab-800d-711232634ce1
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇰🇷 韩国特殊|@ripaojiedian
+  name: 12|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 13.124.253.164
@@ -67,7 +84,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 12|韩国4|@ripaojiedian
+  name: 13|韩国4|@ripaojiedian
   network: tcp
   port: '45245'
   server: ye.fxlcn.com
@@ -75,7 +92,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 469e0b31-30c3-4dab-800d-711232634ce1
-- name: 13|KR_speednode_0060
+- name: 14|KR_speednode_0060
   network: ws
   port: 12527
   server: 221.144.200.91
@@ -89,7 +106,7 @@ proxies:
     headers:
       Host: edccy.ambercc.filegear-sg.me
     path: /?ed=2560
-- name: 13|KR_speednode_0061
+- name: 14|KR_speednode_0061
   network: ws
   port: 10099
   server: 146.56.136.39
@@ -103,17 +120,3 @@ proxies:
     headers:
       Host: nx.ylka.dpdns.org
     path: /?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷 韩国 01 | 1x KR
-  password: 21b3d799-577e-4b58-b6bc-812b15c00089
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷 韩国 02 | 1x KR
-  password: 21b3d799-577e-4b58-b6bc-812b15c00089
-  port: 36313
-  server: free.2weradf.xyz
-  type: ss
-  udp: true

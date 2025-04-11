@@ -1,8 +1,14 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇨🇦 加拿大 01 | 1x CA
+  password: 712ecc6c-f8cd-46a4-96a9-b8d6e2e249d3
+  port: 36441
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0,13|CA_speednode_0003
-  network: tcp
+  name: 14|CA_speednode_0003
   port: 42557
   reality-opts:
     public-key: LiHpb4jWrgHBSpi1mjKH3I8m2ahpVNexeNDh-sMW3Xo
@@ -14,25 +20,3 @@ proxies:
   type: vless
   udp: true
   uuid: 2429bee3-e0c1-47dd-b420-75e6512b184b
-- auth: 2429bee3-e0c1-47dd-b420-75e6512b184b
-  name: 0|🇨🇦2 |  1.8MB/s
-  password: 2429bee3-e0c1-47dd-b420-75e6512b184b
-  port: 30300
-  server: 155.248.219.28
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦加拿大 01 | 1x CA
-  password: 5cb77a62-978c-4a75-983e-b873610b1ce9
-  port: 31441
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇨🇦 加拿大 01 | 1x CA
-  password: 21b3d799-577e-4b58-b6bc-812b15c00089
-  port: 36441
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
