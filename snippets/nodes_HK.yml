@@ -1,32 +1,73 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 02 | 1x HK
-  password: 60a5c688-c695-4f66-aab6-511b814d88fb
-  port: 31143
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港家宽 03 | 1x HK
-  password: 60a5c688-c695-4f66-aab6-511b814d88fb
-  port: 31145
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰 香港 02 | 1x HK
-  password: 3a27c31b-13a1-4974-b3db-14b7cb2de209
+  name: 0|🇭🇰 香港 02 | 1x HK
+  password: 5cf4312b-6cf9-480f-8e59-d4e144b2315b
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 3a27c31b-13a1-4974-b3db-14b7cb2de209
+  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
+  password: 5cf4312b-6cf9-480f-8e59-d4e144b2315b
   port: 36145
   server: free.2weradf.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰香港 02 | 1x HK
+  password: 04429b38-f442-46c5-a81a-15ab937bcaa2
+  port: 31143
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰香港家宽 03 | 1x HK
+  password: 04429b38-f442-46c5-a81a-15ab937bcaa2
+  port: 31145
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 2|🇭🇰9 |  1.4MB/s
+  network: ws
+  port: 23010
+  raw:
+    add: 212.192.12.154
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: ''
+    id: 0bcdb99f-50eb-48f7-afb3-66992607c652
+    net: ws
+    path: /
+    port: '23010'
+    ps: 🇭🇰 --001-1C
+    scy: ''
+    sni: ''
+    tls: ''
+    type: none
+    v: '2'
+  server: 212.192.12.154
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0bcdb99f-50eb-48f7-afb3-66992607c652
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 2|🇭🇰10 |  2.0MB/s
+  network: tcp
+  port: 34652
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 12|🇭🇰 香港|@ripaojiedian
