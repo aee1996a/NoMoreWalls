@@ -1,21 +1,34 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 01 | 1x KR
-  password: 618e7164-2583-4939-8a20-07c2b847c631
+  name: 1|🇰🇷 韩国 01 | 1x KR
+  password: e92d81c5-8188-4fc2-a6a3-7d9302cbfc4d
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 02 | 1x KR
-  password: 618e7164-2583-4939-8a20-07c2b847c631
+  name: 1|🇰🇷 韩国 02 | 1x KR
+  password: e92d81c5-8188-4fc2-a6a3-7d9302cbfc4d
   port: 36313
   server: free.2weradf.xyz
   type: ss
   udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇰🇷1 |  1.1MB/s
+  network: tcp
+  port: 21082
+  reality-opts:
+    public-key: tf7ZDGaue4C43MM0ECIfjOS-0kk7XMSqfnaSY4Er5Fc
+    short-id: 758719a6080f2767
+  server: tw-ty-line1-2-2.sudatech.store
+  servername: learn.microsoft.com
+  tls: true
+  type: vless
+  uuid: e7adaa99-8363-3ec4-b849-307c99005405
 - country: 🇰🇷KR
   delay: 2987
-  name: 1|🇰🇷1 |  2.7MB/s
+  name: 2|🇰🇷2 |  4.4MB/s
   password: d07ec566-018a-4a80-b3d3-b378fdead52c
   port: 55215
   server: shy23.zqjc.cloud
@@ -23,10 +36,10 @@ proxies:
   sni: shy23.zqjc.cloud
   type: hysteria2
   udp: true
-- name: 1|🇰🇷2 |  5.8MB/s
+- name: 2|🇰🇷3 |  5.1MB/s
   network: ws
   port: 443
-  server: 198.62.62.156
+  server: rustam.ns.cloudflare.com
   servername: vb.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -37,10 +50,24 @@ proxies:
     headers:
       host: vb.ylka.dpdns.org
     path: /?ed=2560
-- name: 1|🇰🇷3 |  1.8MB/s
+- allowInsecure: ''
+  name: 2|🇰🇷4 |  1.2MB/s
+  network: ws
+  password: redfree8
+  port: 443
+  server: 104.17.148.22
+  skip-cert-verify: false
+  sni: redfree8-p1.pooriashop.ir
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: redfree8-p1.pooriashop.ir
+    path: /trJF1XisQEbWZpxEHh?ed=2560
+- name: 2|🇰🇷5 |  4.0MB/s
   network: ws
   port: 443
-  server: wilson.ns.cloudflare.com
+  server: bowen.ns.cloudflare.com
   servername: vb.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -51,10 +78,38 @@ proxies:
     headers:
       host: vb.ylka.dpdns.org
     path: /?ed=2560
-- name: 1|🇰🇷4 |  1.3MB/s
+- name: 2|🇰🇷6 |  2.1MB/s
   network: ws
   port: 443
-  server: 192.200.160.119
+  server: www.pcmag.com
+  servername: vb.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: vb.ylka.dpdns.org
+    path: /?ed=2560
+- name: 2|🇰🇷7 |  5.3MB/s
+  network: ws
+  port: 443
+  server: 160.79.105.76
+  servername: vb.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: vb.ylka.dpdns.org
+    path: /?ed=2560
+- name: 2|🇰🇷8 |  4.1MB/s
+  network: ws
+  port: 443
+  server: 192.0.54.174
   servername: vb.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -67,7 +122,7 @@ proxies:
     path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 1|🇰🇷5 |  1.1MB/s
+  name: 2|🇰🇷9 |  1.4MB/s
   network: tcp
   port: 17232
   server: 693debd4-sum4g0-svlqnl-2c08.cm5.p5pv.com
@@ -78,10 +133,10 @@ proxies:
   ws-headers:
     Host: 693debd4-sum4g0-svlqnl-2c08.cm5.p5pv.com
   ws-path: /
-- name: 1|🇰🇷6 |  1.5MB/s
+- name: 2|🇰🇷10 |  5.4MB/s
   network: ws
   port: 443
-  server: 160.79.104.199
+  server: 185.133.35.112
   servername: vb.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -92,10 +147,23 @@ proxies:
     headers:
       host: vb.ylka.dpdns.org
     path: /?ed=2560
-- name: 1|🇰🇷7 |  5.8MB/s
+- alterId: 0
+  cipher: auto
+  name: 2|🇰🇷11 |  1.3MB/s
+  network: tcp
+  port: 17232
+  server: c92a67a3-sum4g0-t46yf9-e13q.cm5.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 8d888b92-eec8-11ef-bca1-f23c91cfbbc9
+  ws-headers:
+    Host: c92a67a3-sum4g0-t46yf9-e13q.cm5.p5pv.com
+  ws-path: /
+- name: 2|🇰🇷12 |  6.2MB/s
   network: ws
   port: 443
-  server: sullivan.ns.cloudflare.com
+  server: 198.62.62.4
   servername: vb.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -108,7 +176,7 @@ proxies:
     path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇰🇷 韩国|@ripaojiedian
+  name: 12|🇰🇷 韩国|@ripaojiedian
   password: d192a833-b118-4b46-8e54-12cf5025d4cd
   port: 43450
   server: gdlt.aicheetah.lol
@@ -116,7 +184,7 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇰🇷 韩国2|@ripaojiedian
+  name: 12|🇰🇷 韩国2|@ripaojiedian
   password: 1601e3c29c8db1a88942cf0cad731bf3
   port: 3306
   server: 43.131.255.175
@@ -124,23 +192,9 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇰🇷 韩国特殊|@ripaojiedian
+  name: 12|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 13.229.180.165
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷韩国 01 | 1x KR
-  password: 3a76a48c-118a-41f7-ac0d-e14d6750baec
-  port: 31311
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷韩国 02 | 1x KR
-  password: 3a76a48c-118a-41f7-ac0d-e14d6750baec
-  port: 31313
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
