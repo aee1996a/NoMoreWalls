@@ -1,46 +1,22 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇨🇦加拿大 01 | 1x CA
-  password: f3fd9490-c1e0-47a7-9a86-bee573dd659c
+  password: 6ab5ef44-95a0-4272-8ca4-92c0b2822140
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1|🇨🇦1 |  1.2MB/s
-  network: ws
-  port: 2087
-  server: 103.160.204.36
-  servername: vlee.amclubs.nyc.mn
-  tls: true
-  type: vless
-  udp: false
-  uuid: d6b8011a-c725-435a-9fec-bf6d3530392c
-  ws-opts:
-    headers:
-      Host: vlee.amclubs.nyc.mn
-    path: /?ed=2560
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1|🇨🇦2 |  1.4MB/s
-  network: ws
-  port: 443
-  server: 103.160.204.59
-  servername: vlee.amclubs.nyc.mn
-  tls: true
-  type: vless
-  udp: false
-  uuid: d6b8011a-c725-435a-9fec-bf6d3530392c
-  ws-opts:
-    headers:
-      Host: vlee.amclubs.nyc.mn
-    path: /?ed=2560
+- auth: cfe032e4-1bc3-454f-9d09-301b0aea08ff
+  name: 1|🇨🇦1 |  1.1MB/s
+  password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
+  port: 45979
+  server: 132.145.108.102
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
 - cipher: chacha20-ietf-poly1305
   name: 2|🇨🇦 加拿大 01 | 1x CA
-  password: b47435fd-cd6f-4bea-a27a-f65bd5a3da7f
+  password: 63e3e03e-b146-446f-8795-326cd6383e3e
   port: 36441
   server: free.2weradf.xyz
   type: ss
