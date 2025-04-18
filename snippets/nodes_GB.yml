@@ -1,21 +1,54 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港 01 | 1x HK
-  password: df64ff41-2595-4501-bf42-69162d81d9aa
+  password: 68d30ce7-5bd4-4266-bfe1-344373e1764f
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: df64ff41-2595-4501-bf42-69162d81d9aa
+  password: 68d30ce7-5bd4-4266-bfe1-344373e1764f
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 1|🇬🇧3 |  5.2MB/s
+  network: tcp
+  port: 33940
+  raw:
+    add: 37.221.125.159
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: ''
+    id: 353e0787-71bc-442d-9c9d-902f90359eb5
+    net: tcp
+    path: ''
+    port: '33940'
+    ps: 🔥Join+Telegram:@FarahVPN🟣
+    scy: auto
+    sni: ''
+    tls: ''
+    type: none
+    v: '2'
+  server: 37.221.125.159
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 353e0787-71bc-442d-9c9d-902f90359eb5
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰香港 01 | 1x HK
+  password: c06c73a3-5567-46d0-a000-6cb01f625ae3
+  port: 31141
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇬🇧英国家宽 01 | 1x UK
-  password: a9e27912-082b-4928-82d6-b1f3a7a7e93a
+  password: c06c73a3-5567-46d0-a000-6cb01f625ae3
   port: 31271
   server: free.2apzhfa.xyz
   type: ss

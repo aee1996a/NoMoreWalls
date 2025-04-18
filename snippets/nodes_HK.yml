@@ -1,21 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港 02 | 1x HK
-  password: df64ff41-2595-4501-bf42-69162d81d9aa
+  password: 68d30ce7-5bd4-4266-bfe1-344373e1764f
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港住宅IP 03 | 1x HK
-  password: df64ff41-2595-4501-bf42-69162d81d9aa
+  password: 68d30ce7-5bd4-4266-bfe1-344373e1764f
   port: 36145
   server: free.2weradf.xyz
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 1|🇭🇰1 |  2.4MB/s
+  name: 1|🇭🇰7 |  2.9MB/s
   network: tcp
   port: 30251
   raw:
@@ -41,22 +41,23 @@ proxies:
   uuid: 86c9c119-c46d-45a9-82a6-75a886e5e795
 - alterId: 0
   cipher: auto
-  name: 1|🇭🇰5 |  5.4MB/s
+  client-fingerprint: chrome
+  name: 1|🇭🇰8 |  1.7MB/s
   port: 15229
-  server: 789602b4-sux8g0-t8b7ls-qtx6.cm.plebai.net
+  server: 2130c4e3-surog0-szxfsm-v3c2.cm.plebai.net
   tls: false
   type: vmess
-  uuid: b35f5984-a0b4-11ea-82ef-f23c9164ca5d
+  uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
 - cipher: chacha20-ietf-poly1305
   name: 2|🇭🇰香港 02 | 1x HK
-  password: a9e27912-082b-4928-82d6-b1f3a7a7e93a
+  password: c06c73a3-5567-46d0-a000-6cb01f625ae3
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇭🇰香港家宽 03 | 1x HK
-  password: a9e27912-082b-4928-82d6-b1f3a7a7e93a
+  password: c06c73a3-5567-46d0-a000-6cb01f625ae3
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
