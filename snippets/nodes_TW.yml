@@ -1,48 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 01 | 1x TW
-  password: d7c130c3-b592-4afd-b74c-1148f7e1fa25
-  port: 36241
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 02 | 1x TW
-  password: d7c130c3-b592-4afd-b74c-1148f7e1fa25
-  port: 36243
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 03 | 1x TW
-  password: d7c130c3-b592-4afd-b74c-1148f7e1fa25
-  port: 36245
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 1|🇹🇼3 |  1.3MB/s
-  password: VMhGp5wEIyCDf90T
-  port: 33368
-  server: shenzhou05.mysynology.net
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 01 | 1x TW
-  password: 8be1ca1d-0c12-48ba-848a-2000e2f98b04
+  name: 0|🇹🇼台湾 01 | 1x TW
+  password: dddc9495-b65e-46cf-9185-2eba07717214
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 02 | 1x TW
-  password: 8be1ca1d-0c12-48ba-848a-2000e2f98b04
+  name: 0|🇹🇼台湾 02 | 1x TW
+  password: dddc9495-b65e-46cf-9185-2eba07717214
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 03 | 1x TW
-  password: 8be1ca1d-0c12-48ba-848a-2000e2f98b04
+  name: 0|🇹🇼台湾 03 | 1x TW
+  password: dddc9495-b65e-46cf-9185-2eba07717214
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
@@ -50,7 +23,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇹🇼 台湾|@ripaojiedian
+  name: 11|🇹🇼 台湾|@ripaojiedian
   port: 45078
   server: haa.dashuai.cyou
   skip-cert-verify: false
@@ -59,7 +32,7 @@ proxies:
   type: vmess
   uuid: ced0060e-ae26-4f08-a96d-a5edbce6dd16
 - client-fingerprint: chrome
-  name: 12,13|台湾2|@ripaojiedian
+  name: 11,12|台湾2|@ripaojiedian
   network: tcp
   password: d5826953-96a0-4e2e-ad04-638668222256
   port: 27201
@@ -69,7 +42,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 13|台湾|@ripaojiedian
+  name: 12|台湾|@ripaojiedian
   network: tcp
   port: '45078'
   server: haa.dashuai.cyou
@@ -77,3 +50,24 @@ proxies:
   tls: false
   type: vmess
   uuid: ced0060e-ae26-4f08-a96d-a5edbce6dd16
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇹🇼 台湾 01 | 1x TW
+  password: 36d3e030-2fe1-4d52-8ff4-697cd51f8698
+  port: 36241
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇹🇼 台湾 02 | 1x TW
+  password: 36d3e030-2fe1-4d52-8ff4-697cd51f8698
+  port: 36243
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇹🇼 台湾 03 | 1x TW
+  password: 36d3e030-2fe1-4d52-8ff4-697cd51f8698
+  port: 36245
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
