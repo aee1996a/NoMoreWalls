@@ -1,42 +1,21 @@
 proxies:
-- name: 0|🇩🇪2 |  2.2MB/s
-  password: '!!str 3828095943467868160'
-  port: 443
-  server: sharp-bear.dolphin109.quest
-  skip-cert-verify: true
-  sni: sharp-bear.dolphin109.quest
-  type: trojan
-- name: 0|🇩🇪13 |  5.4MB/s
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇩🇪德国 01 | 1x DE
+  password: 51537489-7dd8-4578-9660-d1e33e2e5837
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 1|🇩🇪10 |  3.9MB/s
   password: '!!str 3828095943467868160'
   port: 443
   server: immense-goose.dolphin109.quest
   skip-cert-verify: true
   sni: immense-goose.dolphin109.quest
   type: trojan
-- allowInsecure: ''
-  name: 0|🇩🇪16 |  5.6MB/s
-  network: ws
-  password: redfree8
-  port: 443
-  server: 104.17.147.22
-  skip-cert-verify: false
-  sni: ipsychO.SUEx12.Ir
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ipsycho.suex12.ir
-    path: /trre5IzbZ9IZZMddtw?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪德国 01 | 1x DE
-  password: 6457adfe-fefb-4c38-8fd7-02f50d64ae83
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪 德国 01 | 1x DE
-  password: 6df1d12e-b6c9-41e3-991f-47f63c8cf676
+  name: 14|🇩🇪 德国 01 | 1x DE
+  password: 123c83e7-9b53-4597-942a-b3f3f2969fb4
   port: 36471
   server: free.2weradf.xyz
   type: ss
