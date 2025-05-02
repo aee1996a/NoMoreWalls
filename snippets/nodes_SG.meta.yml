@@ -1,42 +1,42 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
-  password: 429a310e-6647-44b2-9c72-f222b850092a
+  password: 97c0513f-ee90-4147-8ef5-1214d3781c35
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 02 | 1x SG
-  password: 429a310e-6647-44b2-9c72-f222b850092a
+  password: 97c0513f-ee90-4147-8ef5-1214d3781c35
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 03 | 1x SG
-  password: 429a310e-6647-44b2-9c72-f222b850092a
+  password: 97c0513f-ee90-4147-8ef5-1214d3781c35
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: a464d840-fd5f-4c72-b48a-89c6dbbb101a
+  password: 5de86aac-b348-46c0-80bb-651ef0322ca1
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: a464d840-fd5f-4c72-b48a-89c6dbbb101a
+  password: 5de86aac-b348-46c0-80bb-651ef0322ca1
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬 新加坡 03 | 1x SG
-  password: a464d840-fd5f-4c72-b48a-89c6dbbb101a
+  password: 5de86aac-b348-46c0-80bb-651ef0322ca1
   port: 36175
   server: free.2weradf.xyz
   type: ss
@@ -131,18 +131,10 @@ proxies:
     path: /oooo
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 12|🇸🇬 新加坡|@ripaojiedian 2
+  name: 12|🇸🇬 新加坡3|@ripaojiedian
   password: 21e251c3-139c-4b81-b352-3b60734029e9
   port: 35501
   server: gw.liangyuandianwan.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 12|🇸🇬 新加坡2|@ripaojiedian
-  password: 04a3ce12-5889-477f-a0b6-dbdee2ae198b
-  port: 5021
-  server: blog.andnsqd.com
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -150,6 +142,6 @@ proxies:
   name: 12|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 18.141.239.83
+  server: 43.202.0.189
   tfo: false
   type: ss

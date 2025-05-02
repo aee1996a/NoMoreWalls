@@ -1,42 +1,42 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: 429a310e-6647-44b2-9c72-f222b850092a
+  password: 97c0513f-ee90-4147-8ef5-1214d3781c35
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 429a310e-6647-44b2-9c72-f222b850092a
+  password: 97c0513f-ee90-4147-8ef5-1214d3781c35
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 03 | 1x US Washington
-  password: 429a310e-6647-44b2-9c72-f222b850092a
+  password: 97c0513f-ee90-4147-8ef5-1214d3781c35
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸 美国 01 | 1x US Los Angeles
-  password: a464d840-fd5f-4c72-b48a-89c6dbbb101a
+  password: 5de86aac-b348-46c0-80bb-651ef0322ca1
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: a464d840-fd5f-4c72-b48a-89c6dbbb101a
+  password: 5de86aac-b348-46c0-80bb-651ef0322ca1
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸 美国 03 | 1x US Washington
-  password: a464d840-fd5f-4c72-b48a-89c6dbbb101a
+  password: 5de86aac-b348-46c0-80bb-651ef0322ca1
   port: 36215
   server: free.2weradf.xyz
   type: ss
@@ -1213,6 +1213,18 @@ proxies:
     headers:
       Host: zxjp-c.tkong.cc
     path: /
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 12|🇺🇸 美国2|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202505011468829-RVBML1Fkrz.download.microsoft.com
+    mode: http
+  port: 8774
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -1224,18 +1236,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 12|🇺🇸 美国2|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202504301450290-B3cnEnRz1z.download.microsoft.com
-    mode: http
-  port: 8774
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
