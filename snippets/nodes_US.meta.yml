@@ -1,44 +1,44 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: 8369b9c0-f87f-45fd-8eb8-8bcd293580e0
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 8369b9c0-f87f-45fd-8eb8-8bcd293580e0
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 03 | 1x US Washington
-  password: 8369b9c0-f87f-45fd-8eb8-8bcd293580e0
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 428ad397-a0a0-4487-962c-25db9db2435c
+  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 3dbfd612-9a2e-4ddb-b15d-a69988490f0e
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 428ad397-a0a0-4487-962c-25db9db2435c
+  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 3dbfd612-9a2e-4ddb-b15d-a69988490f0e
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 03 | 1x US Washington
-  password: 428ad397-a0a0-4487-962c-25db9db2435c
+  name: 0|🇺🇸 美国 03 | 1x US Washington
+  password: 3dbfd612-9a2e-4ddb-b15d-a69988490f0e
   port: 36215
   server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 01 | 1x US Los Angeles
+  password: 6c33f3d9-0ab2-4dc2-b40c-9404c2eb742c
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 6c33f3d9-0ab2-4dc2-b40c-9404c2eb742c
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 03 | 1x US Washington
+  password: 6c33f3d9-0ab2-4dc2-b40c-9404c2eb742c
+  port: 31215
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - name: 2,10|سرور راگن رر @vmess_ir
