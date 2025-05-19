@@ -1,14 +1,7 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 01 | 1x KR
-  password: 0896e0eb-5070-4a73-97e3-7567f24525d6
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 1,11|🇰🇷 韩国|@ripaojiedian
+  name: 0,11|🇰🇷 韩国|@ripaojiedian
   password: qwerREWQ@@
   port: 15098
   server: 125.141.31.72
@@ -35,3 +28,17 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=149.129.8.215:443&proxyIP=null
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇰🇷韩国 01 | 1x KR
+  password: c9a39d38-8676-4f29-a443-d73264533ae3
+  port: 31311
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇰🇷韩国 02 | 1x KR
+  password: c9a39d38-8676-4f29-a443-d73264533ae3
+  port: 31313
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
