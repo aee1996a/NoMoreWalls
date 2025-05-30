@@ -1661,6 +1661,22 @@ proxies:
         Gecko) Chrome/53.0.2785.143 Safari/537.36
     path: /
   xudp: true
+- name: '9,11|Channel id: @ShadowProxy66🇷🇺'
+  password: dongtaiwang.com
+  port: 12904
+  server: 46.17.41.5
+  skip-cert-verify: true
+  sni: apple.com
+  tls: false
+  type: hysteria2
+- name: '10|@drakvpn🐉 #1'
+  password: cdb63ff9-1767-4a35-97e5-900048e4feb2
+  port: 443
+  server: 104.192.92.99
+  skip-cert-verify: true
+  sni: tms.dingtalk.com
+  tls: false
+  type: hysteria2
 - name: '10,11|⚡️ @vpnserverrr (Hysteria) #1'
   password: nfsn666
   port: 8888
@@ -1729,14 +1745,6 @@ proxies:
   port: 3234
   server: 209.141.47.127
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇷🇺'
-  password: dongtaiwang.com
-  port: 12904
-  server: 46.17.41.5
-  skip-cert-verify: true
-  sni: apple.com
   tls: false
   type: hysteria2
 - name: '11|Channel id: @ShadowProxy66🇨🇴'
