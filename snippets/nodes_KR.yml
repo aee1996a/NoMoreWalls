@@ -6,8 +6,8 @@ proxies:
   server: 125.141.31.72
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 2|16🇰🇷韩国|官网：蓝色海洋.xyz
-  password: c41cbef9-3055-437c-9ff0-c03ffc07182d
+  name: 2|16🇰🇷韩国|官网：abluecloud.xyz
+  password: 129c900c-b832-40e9-9e7e-a7ed2ff9fd63
   port: 36311
   server: freea.glyphara.com
   type: ss
