@@ -1748,6 +1748,13 @@ proxies:
   sni: fr4.eyucdn.xyz
   tls: false
   type: hysteria2
+- name: '9|@Filter_breaker | 🏴‍☠️ NA #2'
+  password: def789-0123-4567-8901-2345abcdef67
+  port: 443
+  server: azadnet.t.me
+  sni: www.speedtest.net
+  tls: false
+  type: hysteria2
 - name: 9|IRAN 9 (@Outline_Vpn)
   password: dongtaiwang.com
   port: 4710
@@ -1756,7 +1763,7 @@ proxies:
   sni: apple.com
   tls: false
   type: hysteria2
-- name: '9|@meli_proxyy #3'
+- name: '9|@meli_proxyy #2'
   obfs: salamander
   obfs-password: qilebcibeMO3IVBnfqal3i
   password: k1sCJ4SJQj
@@ -1765,7 +1772,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '9|@meli_proxyy #4'
+- name: '9|@meli_proxyy #3'
   obfs: salamander
   obfs-password: ywfihi3ohyg9iun3gvu
   password: k1sCJ4SJQj
@@ -1774,7 +1781,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '9|@meli_proxyy #5'
+- name: '9|@meli_proxyy #4'
   obfs: salamander
   obfs-password: 31khbqfou1njilgv2qoih
   password: k1sCJ4SJQj
@@ -1783,7 +1790,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '9|@meli_proxyy #6'
+- name: '9|@meli_proxyy #5'
   obfs: salamander
   obfs-password: Djxsjduwue
   password: k1sCJ4SJQj
@@ -1916,40 +1923,24 @@ proxies:
   type: hysteria2
 - cipher: aes-256-cfb
   name: 11|tg频道:@ripaojiedian
-  password: qawszxc123
+  password: awsps0501
   port: 443
-  server: 47.129.2.253
+  server: 52.193.38.93
   tfo: false
   type: ss
-- alterId: 2
-  cipher: auto
-  name: 11,12|香港|@ripaojiedian
-  network: ws
-  port: '30809'
-  server: v9.heduian.link
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
 - cipher: aes-256-gcm
   name: 11|🇭🇰 香港2|@ripaojiedian
-  password: 0b191076d18f
+  password: 23d03aa704c7
   plugin: v2ray-plugin
   plugin-opts:
-    host: hk6v1.dsjsapp.com
+    host: cmihk3v1.dsjsapp.com
     mode: websocket
     mux: true
-    path: /ugiibpkbca
+    path: /grqhyifio
     skip-cert-verify: false
     tls: true
   port: 636
-  server: 156.251.179.139
+  server: 156.251.179.181
   tfo: false
   type: ss
 - alterId: 0
@@ -1978,56 +1969,18 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- alterId: 2
-  cipher: auto
-  name: 11,12|香港6|@ripaojiedian
-  network: ws
-  port: '80'
-  server: hkt.gotochinatown.net
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 9b604194-17b7-11ef-80b0-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
 - cipher: rc4-md5
   name: 11|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506101686237-pCdX1ZAl7Y.download.microsoft.com
+    host: 202507031938065-8k6EJ6kiGd.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  name: 11|🇯🇵 日本3|@ripaojiedian
-  password: 781bb54c-f089-48df-8102-01288a81eb10
-  port: 44721
-  server: jsyd.piaomiaoxu.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  name: 11|🇯🇵 日本2|@ripaojiedian
-  password: 887bfcf43b52
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: jp6v1.lingjfjkm002.com
-    mode: websocket
-    mux: true
-    path: /svynueogf
-    skip-cert-verify: false
-    tls: true
-  port: 636
-  server: 137.220.142.143
-  tfo: false
-  type: ss
-- name: 11,12|日本4|@ripaojiedian
+- name: 11,12|日本3|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 4445
@@ -2035,26 +1988,41 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 11,12|韩国|@ripaojiedian
+- cipher: aes-256-cfb
+  name: 11|🇰🇷 韩国|@ripaojiedian
+  password: qwerREWQ@@
+  port: 15098
+  server: p222.panda001.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  name: 11|🇯🇵 日本2|@ripaojiedian
+  password: 70a0b8103356
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: jp5v1.lingjfjkm002.com
+    mode: websocket
+    mux: true
+    path: /bezradrqccl
+    skip-cert-verify: false
+    tls: true
+  port: 636
+  server: 137.220.142.139
+  tfo: false
+  type: ss
+- name: 11,12|日本4|@ripaojiedian
   network: tcp
-  password: 85f133142f04dbf6547da33895cfabb3
-  port: 39001
-  server: 203.156.253.12
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 39701
+  server: 36.151.192.60
   skip-cert-verify: true
-  sni: www.yrtok.com
-  type: trojan
-- name: 11|🇯🇵 日本5|@ripaojiedian
-  password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b
-  port: 27233
-  server: 096755a1-sytz40-syu28m-1mmbp.cm5.cnkuaishou.com
-  skip-cert-verify: false
-  sni: 096755a1-sytz40-syu28m-1mmbp.cm5.cnkuaishou.com
+  sni: www.baidu.com
   type: trojan
 - name: 11,12|韩国2|@ripaojiedian
   network: tcp
   password: 1a17b19d-4896-4531-af79-6e91d8ef8228
   port: 6668
-  server: 13.125.64.14
+  server: 15.165.19.79
   skip-cert-verify: true
   sni: baidu.com
   type: trojan
@@ -2077,8 +2045,8 @@ proxies:
 - name: 11,12|韩国4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 13967
-  server: 36.151.192.60
+  port: 20615
+  server: 36.151.192.61
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
@@ -2098,19 +2066,12 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇸🇬 新加坡3|@ripaojiedian
-  password: c376082c-95c3-452e-88e4-6bb6a5daab41
-  port: 49900
-  server: free-relay.t01.themars.top
-  tfo: false
-  type: ss
 - cipher: rc4-md5
   name: 11|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506101686237-pCdX1ZAl7Y.download.microsoft.com
+    host: 202507031938065-8k6EJ6kiGd.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -2124,6 +2085,13 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
+- cipher: aes-256-cfb
+  name: 11|🇻🇳 越南|@ripaojiedian
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 103.163.218.2
+  tfo: false
+  type: ss
 - name: 11,12|美国4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
@@ -2132,13 +2100,6 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- cipher: aes-256-cfb
-  name: 11|🇻🇳 越南|@ripaojiedian
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 103.163.218.2
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 12|香港3|@ripaojiedian
@@ -2169,12 +2130,6 @@ proxies:
   tls: false
   type: vmess
   uuid: fe797d32-6607-4b46-8e39-c4fb1e3c0872
-- name: 12|日本5|@ripaojiedian
-  network: tcp
-  password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b
-  port: 27233
-  server: 096755a1-sytz40-syu28m-1mmbp.cm5.cnkuaishou.com
-  type: trojan
 - name: 13|ES_speednode_0002
   network: ws
   password: trojan
@@ -2191,7 +2146,7 @@ proxies:
 - name: 13|GB_speednode_0004
   network: ws
   port: 8880
-  server: 91.193.58.122
+  server: 91.193.58.242
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2219,7 +2174,7 @@ proxies:
 - name: 13|GB_speednode_0006
   network: ws
   port: 8880
-  server: 91.193.58.234
+  server: 91.193.58.90
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2233,7 +2188,7 @@ proxies:
 - name: 13|GB_speednode_0007
   network: ws
   port: 8880
-  server: 91.193.58.90
+  server: 91.193.58.93
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2247,7 +2202,7 @@ proxies:
 - name: 13|GB_speednode_0008
   network: ws
   port: 8880
-  server: 91.193.58.107
+  server: 91.193.58.250
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2261,7 +2216,7 @@ proxies:
 - name: 13|GB_speednode_0009
   network: ws
   port: 8880
-  server: 91.193.58.219
+  server: 91.193.58.122
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2275,7 +2230,7 @@ proxies:
 - name: 13|GB_speednode_0010
   network: ws
   port: 8880
-  server: 91.193.58.250
+  server: 91.193.58.162
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2289,7 +2244,7 @@ proxies:
 - name: 13|GB_speednode_0011
   network: ws
   port: 8880
-  server: 91.193.58.111
+  server: 91.193.58.219
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2303,7 +2258,7 @@ proxies:
 - name: 13|GB_speednode_0012
   network: ws
   port: 8880
-  server: 91.193.58.153
+  server: 91.193.58.245
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2317,7 +2272,7 @@ proxies:
 - name: 13|GB_speednode_0013
   network: ws
   port: 8880
-  server: 91.193.58.162
+  server: 91.193.58.127
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2331,7 +2286,7 @@ proxies:
 - name: 13|GB_speednode_0014
   network: ws
   port: 8880
-  server: 91.193.58.242
+  server: 91.193.58.210
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2345,7 +2300,7 @@ proxies:
 - name: 13|GB_speednode_0015
   network: ws
   port: 8880
-  server: 91.193.58.93
+  server: 91.193.58.62
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2359,7 +2314,7 @@ proxies:
 - name: 13|GB_speednode_0016
   network: ws
   port: 8880
-  server: 91.193.58.245
+  server: 91.193.58.153
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2373,7 +2328,7 @@ proxies:
 - name: 13|GB_speednode_0017
   network: ws
   port: 8880
-  server: 91.193.58.216
+  server: 91.193.58.158
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2387,7 +2342,7 @@ proxies:
 - name: 13|GB_speednode_0018
   network: ws
   port: 8880
-  server: 91.193.58.182
+  server: 91.193.58.206
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2415,7 +2370,7 @@ proxies:
 - name: 13|GB_speednode_0020
   network: ws
   port: 8880
-  server: 91.193.58.210
+  server: 91.193.58.65
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2429,7 +2384,7 @@ proxies:
 - name: 13|GB_speednode_0021
   network: ws
   port: 8880
-  server: 91.193.58.65
+  server: 91.193.58.246
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2443,7 +2398,7 @@ proxies:
 - name: 13|GB_speednode_0022
   network: ws
   port: 8880
-  server: 91.193.58.246
+  server: 91.193.58.82
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2457,7 +2412,7 @@ proxies:
 - name: 13|GB_speednode_0023
   network: ws
   port: 8880
-  server: 91.193.58.195
+  server: 91.193.58.77
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2471,7 +2426,7 @@ proxies:
 - name: 13|GB_speednode_0024
   network: ws
   port: 8880
-  server: 91.193.58.77
+  server: 91.193.58.64
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2485,7 +2440,7 @@ proxies:
 - name: 13|GB_speednode_0025
   network: ws
   port: 8880
-  server: 91.193.58.253
+  server: 91.193.58.216
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2499,7 +2454,7 @@ proxies:
 - name: 13|GB_speednode_0026
   network: ws
   port: 8880
-  server: 91.193.58.110
+  server: 91.193.58.101
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2513,7 +2468,7 @@ proxies:
 - name: 13|GB_speednode_0027
   network: ws
   port: 8880
-  server: 91.193.58.212
+  server: 91.193.58.148
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2527,7 +2482,7 @@ proxies:
 - name: 13|GB_speednode_0028
   network: ws
   port: 8880
-  server: 91.193.58.79
+  server: 91.193.58.218
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2541,7 +2496,7 @@ proxies:
 - name: 13|GB_speednode_0029
   network: ws
   port: 8880
-  server: 91.193.58.64
+  server: 91.193.58.208
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2555,7 +2510,7 @@ proxies:
 - name: 13|GB_speednode_0030
   network: ws
   port: 8880
-  server: 91.193.58.127
+  server: 91.193.58.212
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2569,7 +2524,7 @@ proxies:
 - name: 13|GB_speednode_0031
   network: ws
   port: 8880
-  server: 91.193.58.200
+  server: 91.193.58.151
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2583,7 +2538,7 @@ proxies:
 - name: 13|GB_speednode_0032
   network: ws
   port: 8880
-  server: 91.193.58.7
+  server: 91.193.58.110
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2597,7 +2552,7 @@ proxies:
 - name: 13|GB_speednode_0033
   network: ws
   port: 8880
-  server: 91.193.58.206
+  server: 91.193.58.111
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2611,7 +2566,7 @@ proxies:
 - name: 13|GB_speednode_0034
   network: ws
   port: 8880
-  server: 91.193.58.130
+  server: 91.193.58.195
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2625,7 +2580,7 @@ proxies:
 - name: 13|GB_speednode_0035
   network: ws
   port: 8880
-  server: 91.193.58.190
+  server: 91.193.58.196
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2639,7 +2594,7 @@ proxies:
 - name: 13|GB_speednode_0036
   network: ws
   port: 8880
-  server: 91.193.58.218
+  server: 91.193.58.7
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2653,7 +2608,7 @@ proxies:
 - name: 13|GB_speednode_0037
   network: ws
   port: 8880
-  server: 91.193.58.158
+  server: 91.193.58.253
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2667,7 +2622,7 @@ proxies:
 - name: 13|GB_speednode_0038
   network: ws
   port: 8880
-  server: 91.193.58.196
+  server: 91.193.58.190
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2681,7 +2636,7 @@ proxies:
 - name: 13|GB_speednode_0039
   network: ws
   port: 8880
-  server: 91.193.58.208
+  server: 91.193.58.22
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2695,7 +2650,7 @@ proxies:
 - name: 13|GB_speednode_0040
   network: ws
   port: 8880
-  server: 91.193.58.101
+  server: 91.193.58.234
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2709,7 +2664,7 @@ proxies:
 - name: 13|GB_speednode_0041
   network: ws
   port: 8880
-  server: 91.193.58.148
+  server: 91.193.58.116
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2723,7 +2678,7 @@ proxies:
 - name: 13|GB_speednode_0042
   network: ws
   port: 8880
-  server: 91.193.58.70
+  server: 91.193.58.228
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2737,7 +2692,7 @@ proxies:
 - name: 13|GB_speednode_0043
   network: ws
   port: 8880
-  server: 91.193.58.116
+  server: 91.193.58.130
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2751,7 +2706,7 @@ proxies:
 - name: 13|GB_speednode_0044
   network: ws
   port: 8880
-  server: 91.193.58.151
+  server: 91.193.58.200
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2765,7 +2720,7 @@ proxies:
 - name: 13|GB_speednode_0045
   network: ws
   port: 8880
-  server: 91.193.58.228
+  server: 91.193.58.117
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2779,7 +2734,7 @@ proxies:
 - name: 13|GB_speednode_0046
   network: ws
   port: 8880
-  server: 91.193.58.22
+  server: 91.193.58.79
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2793,7 +2748,7 @@ proxies:
 - name: 13|GB_speednode_0047
   network: ws
   port: 8880
-  server: 91.193.58.82
+  server: 91.193.58.107
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2807,7 +2762,7 @@ proxies:
 - name: 13|GB_speednode_0048
   network: ws
   port: 8880
-  server: 91.193.58.62
+  server: 91.193.58.70
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2821,7 +2776,7 @@ proxies:
 - name: 13|GB_speednode_0049
   network: ws
   port: 8880
-  server: 91.193.58.117
+  server: 91.193.58.182
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tls: false
@@ -2832,24 +2787,7 @@ proxies:
     headers:
       Host: kjgx.laoyoutiao.link
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- http-opts:
-    headers:
-      Host:
-      - speedtest.net
-    method: GET
-    path:
-    - /ParsCDN.Telegram.ParsCDN
-  name: 13|GB_speednode_0050
-  network: http
-  port: 443
-  server: 1237273737goodfiru.mongral.ir
-  servername: speedtest.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: dee419c5-be44-4033-9274-f6e88af4956e
-- name: 13|GB_speednode_0051
+- name: 13|GB_speednode_0050
   network: ws
   port: 8880
   server: 91.193.58.202
@@ -2863,7 +2801,7 @@ proxies:
     headers:
       Host: kjgx.laoyoutiao.link
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 13|GB_speednode_0052
+- name: 13|GB_speednode_0051
   network: ws
   port: 8880
   server: 91.193.58.239
@@ -2877,7 +2815,7 @@ proxies:
     headers:
       Host: kjgx.laoyoutiao.link
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 13|GB_speednode_0053
+- name: 13|GB_speednode_0052
   network: ws
   port: 8880
   server: 91.193.58.213
@@ -2891,7 +2829,7 @@ proxies:
     headers:
       Host: kjgx.laoyoutiao.link
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 13|GB_speednode_0054
+- name: 13|GB_speednode_0053
   network: ws
   port: 8880
   server: 91.193.58.251
@@ -2905,81 +2843,8 @@ proxies:
     headers:
       Host: kjgx.laoyoutiao.link
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 13|HK_speednode_0056
-  network: ws
-  password: trojan
-  port: 8443
-  server: 45.192.222.112
-  skip-cert-verify: false
-  sni: store.timimi.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: store.timimi.dpdns.org
-    path: /?ed=2560
-- http-opts:
-    headers:
-      Host:
-      - www.speedtest.net
-    method: GET
-    path:
-    - /
-  name: 13|IR_speednode_0057
-  network: http
-  port: 21483
-  server: 2.189.117.62
-  servername: www.speedtest.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 5db3a167-1a04-4f2c-ab9b-771c24b5cf1d
-- name: 13|JP_speednode_0058
-  network: ws
-  port: 10443
-  server: 20.243.85.49
-  servername: edmx.aimercc.filegear-sg.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edmx.aimercc.filegear-sg.me
-    path: /
-- name: 13|JP_speednode_0059
-  network: ws
-  port: 8080
-  server: 82.163.16.69
-  servername: edmx.ambercc.filegear-sg.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edmx.ambercc.filegear-sg.me
-    path: /
 - client-fingerprint: random
-  name: 13|KR_speednode_0060
-  network: ws
-  port: 12097
-  server: 59.14.189.230
-  servername: oty.myto.ip-ddns.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f2146d13-aa93-4210-9500-50fd3fed7bc8
-  ws-opts:
-    headers:
-      Host: oty.myto.ip-ddns.com
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 13|KR_speednode_0061
+  name: 13|KR_speednode_0055
   network: ws
   port: 12097
   server: 59.14.189.230
@@ -2993,22 +2858,20 @@ proxies:
     headers:
       Host: mot.majusti.dpdns.org
     path: /?ed=2560
-- alpn:
-  - h3
-  client-fingerprint: random
-  name: 13|KR_speednode_0062
+- client-fingerprint: random
+  name: 13|KR_speednode_0056
   network: ws
-  port: 50000
-  server: 222.113.39.207
-  servername: edmx.aimercc.filegear-sg.me
+  port: 12097
+  server: 59.14.189.230
+  servername: oty.myto.ip-ddns.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  uuid: f2146d13-aa93-4210-9500-50fd3fed7bc8
   ws-opts:
     headers:
-      Host: edmx.aimercc.filegear-sg.me
+      Host: oty.myto.ip-ddns.com
     path: /?ed=2560
 - http-opts:
     headers:
@@ -3017,7 +2880,7 @@ proxies:
     method: GET
     path:
     - /
-  name: 13|NL_speednode_0064
+  name: 13|NL_speednode_0058
   network: http
   port: 8443
   server: 188.227.84.154
@@ -3027,47 +2890,3 @@ proxies:
   type: vless
   udp: true
   uuid: f7e7a44c-e709-43d6-9210-81a64296823f
-- name: 13|SG_speednode_0065
-  network: ws
-  password: ttfang
-  port: 443
-  server: 138.2.64.229
-  skip-cert-verify: true
-  sni: ttfang.fange.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ttfang.fange.me
-    path: /
-- name: 13|SG_speednode_0066
-  network: ws
-  port: 8443
-  server: 92.243.74.3
-  servername: edmz.aimercc.filegear-sg.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edmz.aimercc.filegear-sg.me
-    path: /
-- http-opts:
-    headers:
-      Host:
-      - speedtest.net
-    method: GET
-    path:
-    - /
-  name: 13|US_speednode_0067
-  network: http
-  port: 8080
-  server: 194.36.209.104
-  servername: speedtest.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: b24657bb-418e-4a23-8d8e-3a699fb71a3d
