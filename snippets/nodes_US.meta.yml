@@ -1329,7 +1329,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 9,10|hibyevpn--IR-13 @HiByeVPNN
+- name: '9|✅@v2ray_configs_pools #2'
   password: dongtaiwang.com
   port: 4710
   server: 108.181.5.130
