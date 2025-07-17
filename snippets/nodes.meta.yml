@@ -1723,7 +1723,7 @@ proxies:
   sni: pichondan.com
   tls: false
   type: hysteria2
-- name: 9,10|آم 🇩🇪 @V2xay
+- name: 9,10|آم  @V2xay
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -1962,241 +1962,10 @@ proxies:
   sni: /V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS
   tls: false
   type: hysteria2
-- name: 10| @game_file2020
-  password: 621187c3-859d-4682-aac1-cd4500f9690e
-  port: 17169
-  server: au.saigonfly.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 10|🇦🇺 @game_file2020
-  password: 621187c3-859d-4682-aac1-cd4500f9690e
-  port: 17275
-  server: au.saigonfly.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '10|🇦🇺 @game_file2020 #1'
-  password: 621187c3-859d-4682-aac1-cd4500f9690e
-  port: 17887
-  server: au.saigonfly.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '10| @game_file2020 #1'
-  password: 621187c3-859d-4682-aac1-cd4500f9690e
-  port: 17383
-  server: br.saigonfly.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 10|🇧🇷 @game_file2020
-  password: 621187c3-859d-4682-aac1-cd4500f9690e
-  port: 17510
-  server: br.saigonfly.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '10|🇧🇷 @game_file2020 #1'
-  password: 621187c3-859d-4682-aac1-cd4500f9690e
-  port: 17598
-  server: br.saigonfly.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '10|🇧🇷 @game_file2020 #2'
-  password: 621187c3-859d-4682-aac1-cd4500f9690e
-  port: 17703
-  server: br.saigonfly.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '10| @game_file2020 #2'
-  password: 621187c3-859d-4682-aac1-cd4500f9690e
-  port: 17027
-  server: de.saigonfly.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 10|🇩🇪 @game_file2020
-  password: 621187c3-859d-4682-aac1-cd4500f9690e
-  port: 17307
-  server: de.saigonfly.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 10|🇪 @game_file2020
-  password: 621187c3-859d-4682-aac1-cd4500f9690e
-  port: 17340
-  server: de.saigonfly.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '10|🇩🇪 @game_file2020 #1'
-  password: 621187c3-859d-4682-aac1-cd4500f9690e
-  port: 17911
-  server: de.saigonfly.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 10|@game_file2020500 GB
-  password: 621187c3-859d-4682-aac1-cd4500f9690e
-  port: 17395
-  server: hk.saigonfly.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 10|🇷 @game_file2020
-  password: 621187c3-859d-4682-aac1-cd4500f9690e
-  port: 17064
-  server: tr.saigonfly.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 10|🇹🇷 @game_file2020
-  password: 621187c3-859d-4682-aac1-cd4500f9690e
-  port: 17192
-  server: tr.saigonfly.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '10|🇷 @game_file2020 #1'
-  password: 621187c3-859d-4682-aac1-cd4500f9690e
-  port: 17515
-  server: tr.saigonfly.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '10|🇹🇷 @game_file2020 #1'
-  password: 621187c3-859d-4682-aac1-cd4500f9690e
-  port: 17882
-  server: tr.saigonfly.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 10|🇧 @game_file2020
-  password: 621187c3-859d-4682-aac1-cd4500f9690e
-  port: 17129
-  server: uk.saigonfly.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '10|🇧 @game_file2020 #1'
-  password: 621187c3-859d-4682-aac1-cd4500f9690e
-  port: 17383
-  server: uk.saigonfly.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '10|🇧 @game_file2020 #2'
-  password: 621187c3-859d-4682-aac1-cd4500f9690e
-  port: 17571
-  server: uk.saigonfly.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '10|🇧 @game_file2020 #3'
-  password: 621187c3-859d-4682-aac1-cd4500f9690e
-  port: 17970
-  server: uk.saigonfly.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '10| @game_file2020 #3'
-  password: 621187c3-859d-4682-aac1-cd4500f9690e
-  port: 17109
-  server: us.saigonfly.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 10|🇸 @game_file2020
-  password: 621187c3-859d-4682-aac1-cd4500f9690e
-  port: 17278
-  server: us.saigonfly.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '10|🇸 @game_file2020 #1'
-  password: 621187c3-859d-4682-aac1-cd4500f9690e
-  port: 17340
-  server: us.saigonfly.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '10|🇸 @game_file2020 #2'
-  password: 621187c3-859d-4682-aac1-cd4500f9690e
-  port: 17627
-  server: us.saigonfly.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 10|🇦 @game_file2020
-  password: 621187c3-859d-4682-aac1-cd4500f9690e
-  port: 17132
-  server: za.saigonfly.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '10|🇦 @game_file2020 #1'
-  password: 621187c3-859d-4682-aac1-cd4500f9690e
-  port: 17297
-  server: za.saigonfly.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '10|🇦 @game_file2020 #2'
-  password: 621187c3-859d-4682-aac1-cd4500f9690e
-  port: 17365
-  server: za.saigonfly.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 10|🇿🇦 @game_file2020
-  password: 621187c3-859d-4682-aac1-cd4500f9690e
-  port: 17412
-  server: za.saigonfly.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 10|v2raybluecrystal2
-  obfs: salamander
-  obfs-password: v2raybluecrystal
-  password: 6E7ZX07Att
-  port: 19338
-  server: v2raybluecrystal.3dfigures.ir
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: 10|v2raybluecrystal
-  obfs: salamander
-  obfs-password: v2raybluecrystal
-  password: 6E7ZX07Att
-  port: 40408
-  server: v2raybluecrystal.3dfigures.ir
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: 10|v2raybluecrystal3
-  obfs: salamander
-  obfs-password: v2raybluecrystal
-  password: 6E7ZX07Att
-  port: 47294
-  server: v2raybluecrystal.3dfigures.ir
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - name: '10|@V2rayNG3 #3'
   password: 75577117-ABCD-DCBA-AAAA-CC777775577B
   port: 7777
   server: s15.serv00.com
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '10|https://t.me/V2ry_Proxy #1'
-  password: 7fae5f8e-7963-4cbe-ae1a-31cd952573a2
-  port: 55000
-  server: 139.185.36.59
   skip-cert-verify: true
   sni: www.bing.com
   tls: false
@@ -2358,14 +2127,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 10|IRAN 4 (@Outline_Vpn)
-  password: dec336f6-e5da-40f4-a4de-986c7b34d587
-  port: 2056
-  server: fr4.eyucdn.xyz
-  skip-cert-verify: true
-  sni: fr4.eyucdn.xyz
-  tls: false
-  type: hysteria2
 - name: 10|hibyevpn--IR-9 @HiByeVPNN
   password: dongtaiwang.com
   port: 4710
@@ -2413,66 +2174,12 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '10|@v2ray313 کانالن '
-  obfs: salamander
-  obfs-password: v2raybluecrystal2
-  password: jvTJxLMlcl
-  port: 20627
-  server: p4.3dfigures.ir
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '10|@v2ray313 کانالمون '
-  obfs: salamander
-  obfs-password: v2raybluecrystal
-  password: jvTJxLMlcl
-  port: 30452
-  server: p4.3dfigures.ir
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: 10|@v2ray313 کانالمون ️
-  obfs: salamander
-  obfs-password: v2raybluecrystal3
-  password: jvTJxLMlcl
-  port: 56116
-  server: p4.3dfigures.ir
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - name: '10|آلمان 🇩🇪 @V2xay #2'
   obfs: salamander
   obfs-password: Djxsjduwue
   password: k1sCJ4SJQj
   port: 501
   server: p1.3dfigures.ir
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '10|v2raybluecrystal2 #1'
-  obfs: salamander
-  obfs-password: v2raybluecrystal
-  password: o753T2a9zD
-  port: 18865
-  server: v2raybluecrystal3.3dfigures.ir
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '10|v2raybluecrystal #1'
-  obfs: salamander
-  obfs-password: v2raybluecrystal
-  password: o753T2a9zD
-  port: 20675
-  server: v2raybluecrystal3.3dfigures.ir
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '10|v2raybluecrystal3 #1'
-  obfs: salamander
-  obfs-password: v2raybluecrystal
-  password: o753T2a9zD
-  port: 50757
-  server: v2raybluecrystal3.3dfigures.ir
   skip-cert-verify: true
   tls: false
   type: hysteria2
@@ -2492,7 +2199,7 @@ proxies:
   sni: hysteria.de.vpnfree.org
   tls: false
   type: hysteria2
-- name: 10|@V2rayePro عضو کانال تلگرام نب...
+- name: '10|Telegram : @Ezaccess1 Server :... #4'
   obfs: salamander
   obfs-password: mkv_SEfr-salamdash
   password: user10.thisismeSUperkl19201

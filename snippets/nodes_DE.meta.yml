@@ -85,20 +85,6 @@ proxies:
   udp: true
   uuid: b8bd42a9-551f-419d-b70d-4aefdd2cb074
   xudp: true
-- name: 10|🇩🇪 @game_file2020
-  password: 621187c3-859d-4682-aac1-cd4500f9690e
-  port: 17307
-  server: de.saigonfly.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '10|🇩🇪 @game_file2020 #1'
-  password: 621187c3-859d-4682-aac1-cd4500f9690e
-  port: 17911
-  server: de.saigonfly.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
 - name: 10|🇩🇪 @VPNHubMaRKeT ♾  @VpnHubMar...
   obfs: salamander
   obfs-password: '@VPNHubMaRKeT'
@@ -107,6 +93,16 @@ proxies:
   server: 202.78.166.190
   skip-cert-verify: true
   sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '10|آلمان 🇩🇪 @V2xay #1'
+  obfs: salamander
+  obfs-password: Telegram-->@Ln2Ray
+  password: Telegram-->@Ln2Ray
+  port: 45000
+  server: gavazn.lnmarketplace.net
+  skip-cert-verify: true
+  sni: gavazn.55994421.xyz
   tls: false
   type: hysteria2
 - name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
@@ -155,6 +151,15 @@ proxies:
   obfs: salamander
   obfs-password: The_Sefr-salamdash
   password: user11.serverTest1234
+  port: 443
+  server: knock.zone1.center
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: '10|آلمان 🇩🇪 @V2xay #3'
+  obfs: salamander
+  obfs-password: The_Sefr-salamdash
+  password: user12.myserverSEFR097
   port: 443
   server: knock.zone1.center
   skip-cert-verify: false
