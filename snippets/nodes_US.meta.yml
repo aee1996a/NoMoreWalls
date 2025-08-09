@@ -784,7 +784,7 @@ proxies:
   type: socks5
 - auth: 5CBqBh6MeDq6GajcilBiDg==
   client-fingerprint: chrome
-  name: 1,9|IraneAzad_Net_549
+  name: '1,9|Channel id: @ShadowProxy66🇸'
   password: 5CBqBh6MeDq6GajcilBiDg==
   port: 61001
   server: 192.227.152.86
@@ -1314,7 +1314,7 @@ proxies:
   sni: f7c80a8d-svc1s0-t28b6o-ef48.los.gotochinatown.net
   tls: true
   type: socks5
-- name: '9|Channel id: @ShadowProxy66🇺🇸 #1'
+- name: '9|Channel id: @ShadowProxy66🇺🇸'
   obfs: salamander
   obfs-password: do6T6UBnoZ9FhY4a
   password: 661c828f-2bd3-4b17-b93e-66441ed620d8
@@ -1324,7 +1324,7 @@ proxies:
   sni: us01.kittycdn.pp.ua
   tls: false
   type: hysteria2
-- name: '9|Channel id: @ShadowProxy66🇺🇸 #2'
+- name: '9|Channel id: @ShadowProxy66🇺🇸 #1'
   password: 7992f244-8c2c-4a1a-923f-2e116e90149b
   port: 443
   server: 198.23.130.211
@@ -1340,7 +1340,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '9|zeshtobad #2'
+- name: '9|Channel id: @ShadowProxy66🇺🇸 #2'
   password: dongtaiwang.com
   port: 63015
   server: 108.181.5.130
@@ -1348,7 +1348,7 @@ proxies:
   sni: apple.com
   tls: false
   type: hysteria2
-- name: 9|🇺🇸美国 加 拉 DIGITALOCEAN-ASN
+- name: 9|🇸美国 加 拉 DIGITALOCEAN-ASN
   password: iMqY3uG_5pgEj3hCfyHB-0vB
   port: 443
   server: 143.198.235.49
