@@ -1,13 +1,5 @@
 proxies:
-- name: '8|Channel id: @ShadowProxy66🇺🇸'
-  password: dongtaiwang.com
-  port: 22222
-  server: 208.87.243.187
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '9|@FreakConfig #1'
+- name: '9|@FreakConfig #2'
   password: miaoge110
   port: 12687
   server: 45.58.38.153
