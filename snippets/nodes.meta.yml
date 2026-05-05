@@ -27,6 +27,16 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- name: 9|@filembad
+  obfs: salamander
+  obfs-password: kish-data-center
+  password: tgut4USqOM
+  port: 443
+  server: srm.kishonline.online
+  skip-cert-verify: false
+  sni: srm.kishonline.online
+  tls: false
+  type: hysteria2
 - alterId: 2
   cipher: auto
   name: 12|香港|@ripaojiedian
