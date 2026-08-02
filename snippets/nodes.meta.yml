@@ -1,5 +1,13 @@
 proxies:
-- name: 7|🇬🇧英国
+- name: 7|🇰🇷KR
+  password: 300f8c21-6341-4503-a5db-c13d331c63c8
+  port: 20801
+  server: hg1.yuanbaojc.site
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  tls: false
+  type: hysteria2
+- name: 7|未命名
   password: 9abff4cd-ac3b-40ce-a3e7-f71f445d670f
   port: 443
   server: 5.183.102.113
@@ -7,7 +15,15 @@ proxies:
   sni: iosapps.itunes.apple.com
   tls: false
   type: hysteria2
-- name: 7|未命名
+- name: 7|🇰
+  password: 9abff4cd-ac3b-40ce-a3e7-f71f445d670f
+  port: 443
+  server: 82.47.32.31
+  skip-cert-verify: true
+  sni: iosapps.itunes.apple.com
+  tls: false
+  type: hysteria2
+- name: '7|未命名 #1'
   password: LzMWgm6LaNWCm11bFTbynDPq2TqQj03t
   port: 443
   server: 5.255.102.165
@@ -23,6 +39,14 @@ proxies:
   server: 181.214.99.162
   skip-cert-verify: false
   sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: 7|US
+  password: c2948c84-748f-47f6-bc7a-b949ef279f85
+  port: 443
+  server: 78.159.240.215
+  skip-cert-verify: true
+  sni: quic.tyr-agentstvo.tech
   tls: false
   type: hysteria2
 - name: 8|@Daily_Configs
@@ -181,6 +205,14 @@ proxies:
   server: hystry.accuratenetworkchecker.ir
   skip-cert-verify: false
   sni: vhd.nth.gelzaro.ir
+  tls: false
+  type: hysteria2
+- name: 8|🇫130308 | ⚡️Telegram = t.me/SO...
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-fr-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-fr-002.fastervpn.world
   tls: false
   type: hysteria2
 - name: 8|Telegram=V2RayyNGvpn⚡🇩🇪
